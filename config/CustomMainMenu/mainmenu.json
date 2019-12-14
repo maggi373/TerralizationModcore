@@ -256,7 +256,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://terralization.net/bugreport.html"
+                "link" : "https://github.com/maggi373/TerralizationModcore/issues"
             }
         }
     },
