@@ -14,6 +14,15 @@
                 "type" : "openLink",
                 "link" : "https://terralization.com"
             }
+        },
+        "Avatar":
+        {
+            "image" : "web:https://minotar.net/armor/body/#username#/50.png",
+            "posX" : -80,
+            "posY" : -30,
+            "width" : 50,
+            "height" : 100,
+            "alignment" : "right_center"
         }
     },
     
@@ -36,7 +45,6 @@
                 "gui" : "singleplayer"
             }
         },
-
         "multiplayer":
         {
             "text" : "",
@@ -54,7 +62,6 @@
                 "gui" : "multiplayer"
             }
         },
-
         "Terralization":
         {
             "text" : "",
@@ -72,7 +79,23 @@
                 "ip" : "modpack.terralization.xyz"
             }
         },
-
+        "Terralization2":
+        {
+            "text" : "",
+            "posX" : -90,
+            "posY" : -35,
+            "width" : 180,
+            "height" : 30,
+            "imageWidth" : 540,
+            "imageHeight" : 90,
+            "alignment" : "bottom_center",
+            "texture" : "web:https://status.minecraftservers.org/sunset/559939.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack.terralization.xyz"
+            }
+        },
         "Discord":
         {
             "text" : "",
@@ -188,7 +211,7 @@
     {
         
         "packName": {
-            "text": "Terralization 2.0.1b",
+            "text": "Terralization 2.0.2",
             "posX": 2,
             "posY": -20,
             "color": -1,
@@ -207,7 +230,7 @@
             "color": -1,
             "alignment": "bottom_left"
         },
-        "time": {
+        "tine": {
             "text": "#time#",
             "posX": -30,
             "posY": 5,
