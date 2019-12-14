@@ -1,4 +1,4 @@
-ignoreUpdate:0
+ignoreUpdate:126
 updateNotification:true
 settingsButton:true
 minimap:true
