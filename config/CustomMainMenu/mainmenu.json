@@ -55,24 +55,6 @@
             }
         },
 
-        "Officialservertitle":
-        {
-            "text" : "",
-            "posX" : 62.7,
-            "posY" : -122,
-            "width" : 97,
-            "height" : 10,
-            "imageWidth" : 538,
-            "imageHeight" : 67,
-            "alignment" : "bottom_left",
-            "texture" : "terralization:textures/gui/official server.png",
-            "action" : 
-            {
-                "type" : "connectToServer",
-                "ip" : "modpack.terralization.xyz"
-            }
-        },
-
         "Officialserver1":
         {
             "text" : "",
@@ -134,7 +116,7 @@
         {
             "text" : "",
             "posX" : 62,
-            "posY" : -105,
+            "posY" : -125,
             "width" : 52,
             "height" : 15,
             "imageWidth" : 248,
@@ -152,7 +134,7 @@
         {
             "text" : "",
             "posX" : 62,
-            "posY" : -85,
+            "posY" : -105,
             "width" : 37,
             "height" : 15,
             "imageWidth" : 178,
@@ -283,7 +265,7 @@
     {
         
         "packName": {
-            "text": "Terralization 2.0.5b",
+            "text": "Terralization 2.0.5c",
             "posX": 2,
             "posY": -20,
             "color": -1,
@@ -296,7 +278,7 @@
             }
         },
         "packAuthor": {
-            "text": "made by Maggi373",
+            "text": "Made by Maggi373",
             "posX": 2,
             "posY": -10,
             "color": -1,
