@@ -1,0 +1,291 @@
+[15:09:27] [main/INFO]: LiteLoader 1.7.10_04 starting up...
+[15:09:27] [main/INFO]: Java reports OS="windows 10"
+[15:09:27] [main/INFO]: Enumerating class path...
+[15:09:27] [main/INFO]: Class path separator=";"
+[15:09:27] [main/INFO]: Class path entries=(
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\bin\modpack.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\typesafe\config\1.2.1\config-1.2.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\lzma\lzma\0.0.1\lzma-0.0.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\google\guava\guava\17.0\guava-17.0.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\mojang\realms\1.2.9\realms-1.2.9.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\java3d\vecmath\1.3.1\vecmath-1.3.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\google\guava\guava\15.0\guava-15.0.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\commons-io\commons-io\2.4\commons-io-2.4.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\commons-codec\commons-codec\1.9\commons-codec-1.9.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\com\mojang\authlib\1.5.13\authlib-1.5.13.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\cache\tv\twitch\twitch\5.16\twitch-5.16.jar
+   classpathEntry=C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\bin\minecraft.jar
+)
+[15:09:27] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[15:09:27] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods]
+[15:09:27] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10]
+[15:09:27] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[15:09:27] [main/INFO]: Discovering tweaks on class path...
+[15:09:27] [main/INFO]: Discovering valid mod files in folder C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods
+[15:09:27] [main/INFO]: Discovering valid mod files in folder C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10
+[15:09:27] [main/INFO]: Searching for tweaks in 'CodeChickenLib-1.7.10-1.1.3.140-universal.jar'
+[15:09:27] [main/WARN]: Error parsing manifest entries in 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\CodeChickenLib-1.7.10-1.1.3.140-universal.jar'
+[15:09:27] [main/INFO]: Searching for tweaks in 'ForgeMultipart-1.7.10-1.2.0.345-universal.jar'
+[15:09:27] [main/WARN]: Error parsing manifest entries in 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\ForgeMultipart-1.7.10-1.2.0.345-universal.jar'
+[15:09:27] [main/INFO]: Searching for tweaks in 'ForgeRelocation-0.0.1.4-universal.jar'
+[15:09:27] [main/WARN]: Error parsing manifest entries in 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\ForgeRelocation-0.0.1.4-universal.jar'
+[15:09:27] [main/INFO]: Searching for tweaks in 'ForgeRelocationFMP-0.0.1.2-universal.jar'
+[15:09:27] [main/WARN]: Error parsing manifest entries in 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\ForgeRelocationFMP-0.0.1.2-universal.jar'
+[15:09:27] [main/INFO]: Searching for tweaks in 'liteloader-1.7.10.jar'
+[15:09:27] [main/WARN]: Error parsing manifest entries in 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\liteloader-1.7.10.jar'
+[15:09:27] [main/INFO]: Considering valid mod file: C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\MAtmos_r28b__1.7.10.litemod
+[15:09:27] [main/INFO]: Searching for tweaks in 'MrTJPCore-1.1.0.33-universal.jar'
+[15:09:27] [main/WARN]: Error parsing manifest entries in 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\MrTJPCore-1.1.0.33-universal.jar'
+[15:09:27] [main/INFO]: Searching for tweaks in '[1.7.10]bspkrsCore-universal-6.16.jar'
+[15:09:27] [main/WARN]: Error parsing manifest entries in 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\[1.7.10]bspkrsCore-universal-6.16.jar'
+[15:09:27] [main/INFO]: Adding newest valid mod file 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\MAtmos_r28b__1.7.10.litemod' at revision 28,0000
+[15:09:27] [main/INFO]: Mod file 'liteloader-1.7.10.jar' provides tweakClass 'com.mumfrey.liteloader.launch.LiteLoaderTweaker', adding to Launch queue with priority 1000
+[15:09:27] [main/INFO]: LiteLoader PREINIT complete
+[15:09:27] [main/INFO]: Injecting onstartupcomplete[x1] in func_71384_a in Minecraft
+[15:09:27] [main/INFO]: Injecting prerenderfbo[x1] in func_71411_J in Minecraft
+[15:09:27] [main/INFO]: Injecting postrenderfbo[x1] in func_71411_J in Minecraft
+[15:09:27] [main/INFO]: Injecting ontimerupdate[x1] in func_71411_J in Minecraft
+[15:09:27] [main/INFO]: Injecting onrender[x1] in func_71411_J in Minecraft
+[15:09:27] [main/INFO]: Injecting ontick[x1] in func_71411_J in Minecraft
+[15:09:27] [main/INFO]: Injecting updateframebuffersize[x1] in func_147119_ah in Minecraft
+[15:09:27] [main/INFO]: Injecting newtick[x1] in func_71407_l in Minecraft
+[15:09:28] [main/INFO]: Applying overlay com.mumfrey.liteloader.client.overlays.MinecraftOverlay to net.minecraft.client.Minecraft
+[15:09:28] [main/INFO]: MinecraftOverlayTransformer found INIT injection point, this is good.
+[15:09:28] [main/INFO]: Injecting onoutboundchat[x1] in func_71165_d in EntityClientPlayerMP
+[15:09:28] [main/INFO]: Injecting onc16packetclientstatus[x1] in func_148833_a in C16PacketClientStatus
+[15:09:28] [main/INFO]: Injecting onrenderchat[x1] in func_73830_a in GuiIngame
+[15:09:28] [main/INFO]: Injecting postrenderchat[x1] in func_73830_a in GuiIngame
+[15:09:28] [main/INFO]: Injecting onc00handshake[x1] in func_148833_a in C00Handshake
+[15:09:28] [main/INFO]: Injecting onc00packetloginstart[x1] in func_148833_a in C00PacketLoginStart
+[15:09:28] [main/INFO]: Injecting ons03packettimeupdate[x1] in func_148833_a in S03PacketTimeUpdate
+[15:09:29] [main/INFO]: Injecting ons34packetmaps[x1] in func_148833_a in S34PacketMaps
+[15:09:30] [Client thread/INFO]: Injecting onc15packetclientsettings[x1] in func_148833_a in C15PacketClientSettings
+[15:09:30] [Client thread/INFO]: Injecting ons23packetblockchange[x1] in func_148833_a in S23PacketBlockChange
+[15:09:31] [Client thread/INFO]: Injecting oncreateintegratedserver[x1] in <init> in IntegratedServer
+[15:09:31] [Client thread/INFO]: Injecting prerendergui[x1] in func_78480_b in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting onrenderhud[x1] in func_78480_b in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting postrenderhud[x1] in func_78480_b in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting onrenderworld[x1] in func_78471_a in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting onsetupcameratransform[x1] in func_78471_a in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting postrenderentities[x1] in func_78471_a in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting postrender[x1] in func_78471_a in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting postrender[x1] in func_78471_a in EntityRenderer
+[15:09:31] [Client thread/INFO]: Injecting ons35packetupdatetileentity[x1] in func_148833_a in S35PacketUpdateTileEntity
+[15:09:32] [Client thread/INFO]: Injecting renderfbo[x1] in func_147615_c in Framebuffer
+[15:09:32] [Client thread/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[15:09:32] [Client thread/INFO]: Successfully generated event handler proxy class with 29 handlers(s) and 29 total invokations
+[15:09:49] [Client thread/INFO]: Injecting ons3fpacketcustompayload[x1] in func_148833_a in S3FPacketCustomPayload
+[15:09:49] [Client thread/INFO]: Injecting onc17packetcustompayload[x1] in func_148833_a in C17PacketCustomPayload
+[15:09:49] [Client thread/INFO]: Injecting ons00packetkeepalive[x1] in func_148833_a in S00PacketKeepAlive
+[15:09:49] [Client thread/INFO]: Injecting ons01packetjoingame[x1] in func_148833_a in S01PacketJoinGame
+[15:09:49] [Client thread/INFO]: Injecting ons02packetchat[x1] in func_148833_a in S02PacketChat
+[15:09:49] [Client thread/INFO]: Injecting ons04packetentityequipment[x1] in func_148833_a in S04PacketEntityEquipment
+[15:09:49] [Client thread/INFO]: Injecting ons05packetspawnposition[x1] in func_148833_a in S05PacketSpawnPosition
+[15:09:49] [Client thread/INFO]: Injecting ons06packetupdatehealth[x1] in func_148833_a in S06PacketUpdateHealth
+[15:09:49] [Client thread/INFO]: Injecting ons07packetrespawn[x1] in func_148833_a in S07PacketRespawn
+[15:09:49] [Client thread/INFO]: Injecting ons08packetplayerposlook[x1] in func_148833_a in S08PacketPlayerPosLook
+[15:09:49] [Client thread/INFO]: Injecting ons09packethelditemchange[x1] in func_148833_a in S09PacketHeldItemChange
+[15:09:49] [Client thread/INFO]: Injecting ons0apacketusebed[x1] in func_148833_a in S0APacketUseBed
+[15:09:49] [Client thread/INFO]: Injecting ons0bpacketanimation[x1] in func_148833_a in S0BPacketAnimation
+[15:09:49] [Client thread/INFO]: Injecting ons0cpacketspawnplayer[x1] in func_148833_a in S0CPacketSpawnPlayer
+[15:09:49] [Client thread/INFO]: Injecting ons0dpacketcollectitem[x1] in func_148833_a in S0DPacketCollectItem
+[15:09:49] [Client thread/INFO]: Injecting ons0epacketspawnobject[x1] in func_148833_a in S0EPacketSpawnObject
+[15:09:49] [Client thread/INFO]: Injecting ons0fpacketspawnmob[x1] in func_148833_a in S0FPacketSpawnMob
+[15:09:49] [Client thread/INFO]: Injecting ons10packetspawnpainting[x1] in func_148833_a in S10PacketSpawnPainting
+[15:09:49] [Client thread/INFO]: Injecting ons11packetspawnexperienceorb[x1] in func_148833_a in S11PacketSpawnExperienceOrb
+[15:09:49] [Client thread/INFO]: Injecting ons12packetentityvelocity[x1] in func_148833_a in S12PacketEntityVelocity
+[15:09:49] [Client thread/INFO]: Injecting ons13packetdestroyentities[x1] in func_148833_a in S13PacketDestroyEntities
+[15:09:49] [Client thread/INFO]: Injecting ons14packetentity[x1] in func_148833_a in S14PacketEntity
+[15:09:49] [Client thread/INFO]: Injecting ons15packetentityrelmove[x1] in func_148833_a in S14PacketEntity$S15PacketEntityRelMove
+[15:09:49] [Client thread/INFO]: Injecting ons16packetentitylook[x1] in func_148833_a in S14PacketEntity$S16PacketEntityLook
+[15:09:49] [Client thread/INFO]: Injecting ons17packetentitylookmove[x1] in func_148833_a in S14PacketEntity$S17PacketEntityLookMove
+[15:09:49] [Client thread/INFO]: Injecting ons18packetentityteleport[x1] in func_148833_a in S18PacketEntityTeleport
+[15:09:49] [Client thread/INFO]: Injecting ons19packetentityheadlook[x1] in func_148833_a in S19PacketEntityHeadLook
+[15:09:49] [Client thread/INFO]: Injecting ons19packetentitystatus[x1] in func_148833_a in S19PacketEntityStatus
+[15:09:49] [Client thread/INFO]: Injecting ons1bpacketentityattach[x1] in func_148833_a in S1BPacketEntityAttach
+[15:09:49] [Client thread/INFO]: Injecting ons1cpacketentitymetadata[x1] in func_148833_a in S1CPacketEntityMetadata
+[15:09:49] [Client thread/INFO]: Injecting ons1dpacketentityeffect[x1] in func_148833_a in S1DPacketEntityEffect
+[15:09:49] [Client thread/INFO]: Injecting ons1epacketremoveentityeffect[x1] in func_148833_a in S1EPacketRemoveEntityEffect
+[15:09:49] [Client thread/INFO]: Injecting ons1fpacketsetexperience[x1] in func_148833_a in S1FPacketSetExperience
+[15:09:49] [Client thread/INFO]: Injecting ons20packetentityproperties[x1] in func_148833_a in S20PacketEntityProperties
+[15:09:49] [Client thread/INFO]: Injecting ons21packetchunkdata[x1] in func_148833_a in S21PacketChunkData
+[15:09:49] [Client thread/INFO]: Injecting ons22packetmultiblockchange[x1] in func_148833_a in S22PacketMultiBlockChange
+[15:09:49] [Client thread/INFO]: Injecting ons24packetblockaction[x1] in func_148833_a in S24PacketBlockAction
+[15:09:49] [Client thread/INFO]: Injecting ons25packetblockbreakanim[x1] in func_148833_a in S25PacketBlockBreakAnim
+[15:09:49] [Client thread/INFO]: Injecting ons26packetmapchunkbulk[x1] in func_148833_a in S26PacketMapChunkBulk
+[15:09:49] [Client thread/INFO]: Injecting ons27packetexplosion[x1] in func_148833_a in S27PacketExplosion
+[15:09:49] [Client thread/INFO]: Injecting ons28packeteffect[x1] in func_148833_a in S28PacketEffect
+[15:09:49] [Client thread/INFO]: Injecting ons29packetsoundeffect[x1] in func_148833_a in S29PacketSoundEffect
+[15:09:49] [Client thread/INFO]: Injecting ons2apacketparticles[x1] in func_148833_a in S2APacketParticles
+[15:09:49] [Client thread/INFO]: Injecting ons2bpacketchangegamestate[x1] in func_148833_a in S2BPacketChangeGameState
+[15:09:49] [Client thread/INFO]: Injecting ons2cpacketspawnglobalentity[x1] in func_148833_a in S2CPacketSpawnGlobalEntity
+[15:09:49] [Client thread/INFO]: Injecting ons2dpacketopenwindow[x1] in func_148833_a in S2DPacketOpenWindow
+[15:09:49] [Client thread/INFO]: Injecting ons2epacketclosewindow[x1] in func_148833_a in S2EPacketCloseWindow
+[15:09:49] [Client thread/INFO]: Injecting ons2fpacketsetslot[x1] in func_148833_a in S2FPacketSetSlot
+[15:09:49] [Client thread/INFO]: Injecting ons30packetwindowitems[x1] in func_148833_a in S30PacketWindowItems
+[15:09:49] [Client thread/INFO]: Injecting ons31packetwindowproperty[x1] in func_148833_a in S31PacketWindowProperty
+[15:09:49] [Client thread/INFO]: Injecting ons32packetconfirmtransaction[x1] in func_148833_a in S32PacketConfirmTransaction
+[15:09:49] [Client thread/INFO]: Injecting ons33packetupdatesign[x1] in func_148833_a in S33PacketUpdateSign
+[15:09:49] [Client thread/INFO]: Injecting ons36packetsigneditoropen[x1] in func_148833_a in S36PacketSignEditorOpen
+[15:09:49] [Client thread/INFO]: Injecting ons37packetstatistics[x1] in func_148833_a in S37PacketStatistics
+[15:09:49] [Client thread/INFO]: Injecting ons38packetplayerlistitem[x1] in func_148833_a in S38PacketPlayerListItem
+[15:09:49] [Client thread/INFO]: Injecting ons39packetplayerabilities[x1] in func_148833_a in S39PacketPlayerAbilities
+[15:09:49] [Client thread/INFO]: Injecting ons3apackettabcomplete[x1] in func_148833_a in S3APacketTabComplete
+[15:09:49] [Client thread/INFO]: Injecting ons3bpacketscoreboardobjective[x1] in func_148833_a in S3BPacketScoreboardObjective
+[15:09:49] [Client thread/INFO]: Injecting ons3cpacketupdatescore[x1] in func_148833_a in S3CPacketUpdateScore
+[15:09:49] [Client thread/INFO]: Injecting ons3dpacketdisplayscoreboard[x1] in func_148833_a in S3DPacketDisplayScoreboard
+[15:09:49] [Client thread/INFO]: Injecting ons3epacketteams[x1] in func_148833_a in S3EPacketTeams
+[15:09:49] [Client thread/INFO]: Injecting ons40packetdisconnect[x1] in func_148833_a in S40PacketDisconnect
+[15:09:49] [Client thread/INFO]: Injecting onc00packetkeepalive[x1] in func_148833_a in C00PacketKeepAlive
+[15:09:49] [Client thread/INFO]: Injecting onc01packetchatmessage[x1] in func_148833_a in C01PacketChatMessage
+[15:09:49] [Client thread/INFO]: Injecting onc02packetuseentity[x1] in func_148833_a in C02PacketUseEntity
+[15:09:49] [Client thread/INFO]: Injecting onc03packetplayer[x1] in func_148833_a in C03PacketPlayer
+[15:09:49] [Client thread/INFO]: Injecting onc04packetplayerposition[x1] in func_148833_a in C03PacketPlayer$C04PacketPlayerPosition
+[15:09:49] [Client thread/INFO]: Injecting onc05packetplayerlook[x1] in func_148833_a in C03PacketPlayer$C05PacketPlayerLook
+[15:09:49] [Client thread/INFO]: Injecting onc06packetplayerposlook[x1] in func_148833_a in C03PacketPlayer$C06PacketPlayerPosLook
+[15:09:49] [Client thread/INFO]: Injecting onc07packetplayerdigging[x1] in func_148833_a in C07PacketPlayerDigging
+[15:09:49] [Client thread/INFO]: Injecting onc08packetplayerblockplacement[x1] in func_148833_a in C08PacketPlayerBlockPlacement
+[15:09:49] [Client thread/INFO]: Injecting onc09packethelditemchange[x1] in func_148833_a in C09PacketHeldItemChange
+[15:09:49] [Client thread/INFO]: Injecting onc0apacketanimation[x1] in func_148833_a in C0APacketAnimation
+[15:09:49] [Client thread/INFO]: Injecting onc0bpacketentityaction[x1] in func_148833_a in C0BPacketEntityAction
+[15:09:49] [Client thread/INFO]: Injecting onc0cpacketinput[x1] in func_148833_a in C0CPacketInput
+[15:09:49] [Client thread/INFO]: Injecting onc0dpacketclosewindow[x1] in func_148833_a in C0DPacketCloseWindow
+[15:09:49] [Client thread/INFO]: Injecting onc0epacketclickwindow[x1] in func_148833_a in C0EPacketClickWindow
+[15:09:49] [Client thread/INFO]: Injecting onc0fpacketconfirmtransaction[x1] in func_148833_a in C0FPacketConfirmTransaction
+[15:09:49] [Client thread/INFO]: Injecting onc10packetcreativeinventoryaction[x1] in func_148833_a in C10PacketCreativeInventoryAction
+[15:09:49] [Client thread/INFO]: Injecting onc11packetenchantitem[x1] in func_148833_a in C11PacketEnchantItem
+[15:09:49] [Client thread/INFO]: Injecting onc12packetupdatesign[x1] in func_148833_a in C12PacketUpdateSign
+[15:09:49] [Client thread/INFO]: Injecting onc13packetplayerabilities[x1] in func_148833_a in C13PacketPlayerAbilities
+[15:09:49] [Client thread/INFO]: Injecting onc14packettabcomplete[x1] in func_148833_a in C14PacketTabComplete
+[15:09:49] [Client thread/INFO]: Injecting ons00packetserverinfo[x1] in func_148833_a in S00PacketServerInfo
+[15:09:49] [Client thread/INFO]: Injecting ons01packetpong[x1] in func_148833_a in S01PacketPong
+[15:09:49] [Client thread/INFO]: Injecting ons00packetdisconnect[x1] in func_148833_a in S00PacketDisconnect
+[15:09:49] [Client thread/INFO]: Injecting ons01packetencryptionrequest[x1] in func_148833_a in S01PacketEncryptionRequest
+[15:09:49] [Client thread/INFO]: Injecting ons02packetloginsuccess[x1] in func_148833_a in S02PacketLoginSuccess
+[15:09:49] [Client thread/INFO]: Injecting onc01packetencryptionresponse[x1] in func_148833_a in C01PacketEncryptionResponse
+[15:10:35] [Client thread/INFO]: JInput Component Registry is initialising...
+[15:10:35] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Mouse controller HID-kompatibel mus on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Mouse controller HID-kompatibel mus on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Mouse controller HID-kompatibel mus on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Unknown controller Gaming Mouse on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Unknown controller Gaming Mouse on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Unknown controller Programmable Hotkeys on Unknown...
+[15:10:35] [Client thread/INFO]: Inspecting Unknown controller Gaming Keyboard G105 on Unknown...
+[15:10:35] [Client thread/INFO]: JInput Component Registry initialised, found 11 controller(s) 552 component(s)
+[15:10:35] [Client thread/INFO]: LiteLoader begin INIT...
+[15:10:35] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[15:10:35] [Client thread/INFO]: Injecting external mods into class path...
+[15:10:35] [Client thread/INFO]: Injecting external mods into class path...
+[15:10:35] [Client thread/INFO]: Successfully injected mod file 'C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\MAtmos_r28b__1.7.10.litemod' into classpath
+[15:10:35] [Client thread/INFO]: Discovering mods on class path...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\bin\modpack.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\ow2\asm\asm-all\5.0.3\asm-all-5.0.3.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\typesafe\config\1.2.1\config-1.2.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\lzma\lzma\0.0.1\lzma-0.0.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\google\guava\guava\17.0\guava-17.0.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\mojang\realms\1.2.9\realms-1.2.9.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\java3d\vecmath\1.3.1\vecmath-1.3.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\net\sf\jopt-simple\jopt-simple\4.5\jopt-simple-4.5.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\io\netty\netty-all\4.0.10.Final\netty-all-4.0.10.Final.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\google\guava\guava\15.0\guava-15.0.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\commons-io\commons-io\2.4\commons-io-2.4.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\commons-codec\commons-codec\1.9\commons-codec-1.9.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\com\mojang\authlib\1.5.13\authlib-1.5.13.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\lwjgl\lwjgl\lwjgl\2.9.1\lwjgl-2.9.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\org\lwjgl\lwjgl\lwjgl_util\2.9.1\lwjgl_util-2.9.1.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\cache\tv\twitch\twitch\5.16\twitch-5.16.jar...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\bin\minecraft.jar...
+[15:10:35] [Client thread/INFO]: Discovering mods in valid mod files...
+[15:10:35] [Client thread/INFO]: Discovering mods in valid mod files...
+[15:10:35] [Client thread/INFO]: Searching C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\MAtmos_r28b__1.7.10.litemod...
+[15:10:35] [Client thread/INFO]: Found 1 potential matches
+[15:10:35] [Client thread/INFO]: Mod class discovery completed
+[15:10:35] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[15:10:35] [Client thread/INFO]: Inhibiting sound handler reload
+[15:10:35] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientEvents for API LiteLoader core API
+[15:10:35] [Client thread/INFO]: Injecting onplayerlogin[x1] in func_72377_c in ServerConfigurationManager
+[15:10:35] [Client thread/INFO]: Injecting onplayerlogout[x1] in func_72367_e in ServerConfigurationManager
+[15:10:35] [Client thread/INFO]: Injecting onspawnplayer[x1] in func_148545_a in ServerConfigurationManager
+[15:10:35] [Client thread/INFO]: Injecting onrespawnplayer[x1] in func_72368_a in ServerConfigurationManager
+[15:10:35] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[15:10:35] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[15:10:35] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[15:10:35] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[15:10:35] [Client thread/INFO]: Discovered 1 total mod(s), injected 0 tweak(s)
+[15:10:35] [Client thread/INFO]: Loading mod from eu.ha3.matmos.game.mod.LiteModMAtmos
+[15:10:36] [Client thread/INFO]: Baking listener list for ModLoadObserver with 0 listeners
+[15:10:36] [Client thread/INFO]: Successfully added mod MAtmos version r28 for 1.7.10
+[15:10:36] [Client thread/INFO]: Adding "C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\MAtmos_r28b__1.7.10.litemod" to active resource pack set
+[15:10:36] [Client thread/INFO]: Setting up "MAtmos_r28b__1.7.10.litemod" as mod resource pack with identifier "MAtmos"
+[15:10:36] [Client thread/INFO]: Successfully added "C:\Users\magna\AppData\Roaming\.technic\modpacks\terralization\mods\1.7.10\MAtmos_r28b__1.7.10.litemod" to active resource pack set
+[15:10:36] [Client thread/INFO]: Initialising mod MAtmos version r28 for 1.7.10
+[15:10:36] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
