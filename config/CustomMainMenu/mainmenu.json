@@ -55,7 +55,7 @@
             }
         },
 
-        "Terralization":
+        "Officialservertitle":
         {
             "text" : "",
             "posX" : 62.7,
@@ -73,22 +73,60 @@
             }
         },
 
-        "Discord":
+        "Officialserver1":
         {
             "text" : "",
-            "posX" : -50,
-            "posY" : -25,
-            "width" : 20,
-            "height" : 23,
-            "imageWidth" : 3907,
-            "imageHeight" : 4465,
+            "posX" : -82,
+            "posY" : -170,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
             "alignment" : "bottom_right",
-            "tooltip" : "Discord",
-            "texture" : "terralization:textures/gui/discord-brands duble.png",
+            "tooltip" : "Official Server #1",
+            "texture" : "terralization:textures/gui/servericonduo1.png",
             "action" : 
             {
-                "type" : "openLink",
-                "link" : "https://discord.gg/snvSHJN"
+                "type" : "connectToServer",
+                "ip" : "modpack.terralization.xyz"
+            }
+        },
+
+        "Officialserver2":
+        {
+            "text" : "",
+            "posX" : -82,
+            "posY" : -125,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Server #2",
+            "texture" : "terralization:textures/gui/servericonduo2.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack2.terralization.xyz"
+            }
+        },
+
+        "Officialserver3":
+        {
+            "text" : "",
+            "posX" : -82,
+            "posY" : -80,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Server #3",
+            "texture" : "terralization:textures/gui/servericonduo3.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack3.terralization.xyz"
             }
         },
         
@@ -132,7 +170,7 @@
         {
             "text" : "",
             "posX" : 62,
-            "posY" : -50,
+            "posY" : -45,
             "width" : 29,
             "height" : 15,
             "imageWidth" : 139,
@@ -148,7 +186,7 @@
         "language":
         {
             "text" : "",
-            "posX" : -75,
+            "posX" : -125,
             "posY" : -20,
             "width" : 20,
             "height" : 10,
@@ -161,6 +199,63 @@
             {
                 "type" : "openGui",
                 "gui" : "languages"
+            }
+        },
+
+        "Youtube":
+        {
+            "text" : "",
+            "posX" : -100,
+            "posY" : -22.5,
+            "width" : 20,
+            "height" : 15,
+            "imageWidth" : 1200,
+            "imageHeight" : 900,
+            "alignment" : "bottom_right",
+            "tooltip" : "Youtube",
+            "texture" : "terralization:textures/gui/youtubelogomc.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.youtube.com/channel/UCeI8o6BGJz3NDaWGKJ_pTnA"
+            }
+        },
+
+        "Twitch":
+        {
+            "text" : "",
+            "posX" : -75,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 20,
+            "imageWidth" : 1000,
+            "imageHeight" : 1000,
+            "alignment" : "bottom_right",
+            "tooltip" : "Twitch",
+            "texture" : "terralization:textures/gui/twitchlogomc.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.twitch.tv/terralization"
+            }
+        },
+
+        "Discord":
+        {
+            "text" : "",
+            "posX" : -50,
+            "posY" : -25,
+            "width" : 20,
+            "height" : 23,
+            "imageWidth" : 3907,
+            "imageHeight" : 4465,
+            "alignment" : "bottom_right",
+            "tooltip" : "Discord",
+            "texture" : "terralization:textures/gui/discord-brands duble.png",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://discord.gg/snvSHJN"
             }
         },
         
@@ -188,7 +283,7 @@
     {
         
         "packName": {
-            "text": "Terralization 2.0.5",
+            "text": "Terralization 2.0.5b",
             "posX": 2,
             "posY": -20,
             "color": -1,
@@ -201,7 +296,7 @@
             }
         },
         "packAuthor": {
-            "text": "By Maggi373",
+            "text": "made by Maggi373",
             "posX": 2,
             "posY": -10,
             "color": -1,
