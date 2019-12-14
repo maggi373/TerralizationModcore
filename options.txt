@@ -39,7 +39,7 @@ chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
-mipmapLevels:0
+mipmapLevels:4
 anisotropicFiltering:1
 streamBytesPerPixel:0.5
 streamMicVolume:1.0
@@ -122,6 +122,7 @@ key_simplyjetpacks.keybind.mode.secondary:0
 key_simplyjetpacks.keybind.openPackGUI:22
 key_Baubles Inventory:48
 key_key.betterchests.openBag:78
+key_key.fart.desc:33
 key_Mekanism Item Mode Switch:83
 key_Mekanism Armor Mode Switch:28
 key_Mekanism Voice:77
