@@ -8,7 +8,7 @@ guiScale:0
 particles:1
 bobView:false
 anaglyph3d:false
-advancedOpengl:true
+advancedOpengl:false
 maxFps:150
 fboEnable:true
 difficulty:2
