@@ -1,9 +1,0 @@
-flansmod:Biplane,1,0,{leftArm_Fire:0b,turret_Health:0,frontRightWheel_Fire:0b,frontLeftWheel_Fire:0b,hips_Fire:0b,backRightWheel_Fire:0b,leftWing_Health:25,tail_Fire:0b,leftArm_Health:0,tailWheel_Health:10,frontWheel_Health:0,rightTrack_Fire:0b,trailer_Fire:0b,rightWing_Fire:0b,bay_Fire:0b,Engine:"rotaryEngine",harvester_Fire:0b,frontLeftWheel_Health:0,core_Fire:0b,rightWingWheel_Fire:0b,skids_Fire:0b,leftWingWheel_Fire:0b,backWheel_Health:0,leftWing_Fire:0b,backLeftWheel_Fire:0b,rightArm_Fire:0b,head_Fire:0b,coreWheel_Fire:0b,tailWheel_Fire:0b,barrel_Health:0,leftTrack_Fire:0b,rightWing_Health:25,core_Health:50,bay_Health:0,rightArm_Health:0,blades_Health:0,tail_Health:50,leftWingWheel_Health:0,topWing_Fire:0b,trailer_Health:0,frontWheel_Fire:0b,turret_Fire:0b,nose_Health:0,barrel_Fire:0b,coreWheel_Health:20,skids_Health:0,frontRightWheel_Health:0,backLeftWheel_Health:0,rightWingWheel_Health:0,blades_Fire:0b,rightTrack_Health:0,backWheel_Fire:0b,nose_Fire:0b,backRightWheel_Health:0,topWing_Health:50,Type:"Biplane",harvester_Health:0,head_Health:0,leftTrack_Health:0,hips_Health:0}
-flansmod:fuelCan,8,0
-CrystalWing:crystalwing.crystalWing,1,0
-minecraft:stone_pickaxe,1,0
-minecraft:stone_shovel,1,0
-minecraft:stone_sword,1,0
-minecraft:stone_axe,1,0
-minecraft:apple,16,0
-minecraft:torch,16,0
