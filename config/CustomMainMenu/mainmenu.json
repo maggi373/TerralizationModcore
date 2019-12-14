@@ -76,7 +76,7 @@
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "terralization.xyz"
+                "ip" : "modpack.terralization.xyz"
             }
         },
         "Terralization2":
@@ -89,11 +89,11 @@
             "imageWidth" : 540,
             "imageHeight" : 90,
             "alignment" : "bottom_center",
-            "texture" : "web:https://status.minecraftservers.org/classic/469737.png",
+            "texture" : "web:https://status.minecraftservers.org/sunset/559939.png",
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "titanstorms.com"
+                "ip" : "modpack.terralization.xyz"
             }
         },
         "Discord":
@@ -211,7 +211,7 @@
     {
         
         "packName": {
-            "text": "Terralization 2.0.0",
+            "text": "Terralization 2.0.1",
             "posX": 2,
             "posY": -20,
             "color": -1,
