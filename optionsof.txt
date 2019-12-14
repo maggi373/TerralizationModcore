@@ -1,7 +1,7 @@
 ofRenderDistanceChunks:12
 ofFogType:3
 ofFogStart:0.8
-ofMipmapType:0
+ofMipmapType:1
 ofLoadFar:true
 ofPreloadedChunks:2
 ofOcclusionFancy:true
@@ -9,7 +9,7 @@ ofSmoothFps:true
 ofSmoothWorld:false
 ofAoLevel:1.0
 ofClouds:0
-ofCloudsHeight:0.0
+ofCloudsHeight:1.0
 ofTrees:0
 ofGrass:0
 ofDroppedItems:0
@@ -33,7 +33,7 @@ ofAnimatedTextures:true
 ofAnimatedItems:true
 ofRainSplash:true
 ofLagometer:false
-ofShowFps:false
+ofShowFps:true
 ofAutoSaveTicks:4000
 ofBetterGrass:3
 ofConnectedTextures:2
@@ -43,7 +43,7 @@ ofStars:true
 ofSunMoon:true
 ofVignette:0
 ofChunkUpdates:1
-ofChunkLoading:0
+ofChunkLoading:2
 ofChunkUpdatesDynamic:true
 ofTime:0
 ofClearWater:true
@@ -58,10 +58,10 @@ ofCustomFonts:true
 ofCustomColors:true
 ofCustomSky:true
 ofShowCapes:true
-ofNaturalTextures:false
+ofNaturalTextures:true
 ofLazyChunkLoading:false
 ofDynamicFov:true
-ofDynamicLights:3
+ofDynamicLights:2
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:true

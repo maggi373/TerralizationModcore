@@ -21,7 +21,7 @@ lockNorth:false
 zoom:4
 mapSize:-1
 entityAmount:1
-chunkGrid:-5
+chunkGrid:-4
 slimeChunks:false
 playersColor:15
 mobsColor:14

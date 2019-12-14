@@ -39,7 +39,7 @@ chatHeightUnfocused:0.44366196
 chatScale:1.0
 chatWidth:1.0
 showInventoryAchievementHint:false
-mipmapLevels:4
+mipmapLevels:0
 anisotropicFiltering:1
 streamBytesPerPixel:0.5
 streamMicVolume:1.0
@@ -122,9 +122,9 @@ key_simplyjetpacks.keybind.mode.secondary:0
 key_simplyjetpacks.keybind.openPackGUI:22
 key_Baubles Inventory:48
 key_key.betterchests.openBag:78
-key_Mekanism Item Mode Switch:50
-key_Mekanism Armor Mode Switch:33
-key_Mekanism Voice:22
+key_Mekanism Item Mode Switch:83
+key_Mekanism Armor Mode Switch:28
+key_Mekanism Voice:77
 key_Open Wiki:45
 key_Wrench:46
 key_waila.keybind.wailaconfig:82
@@ -168,10 +168,10 @@ key_gui.xaero_toggle_grid:0
 key_gui.xaero_toggle_waypoints:40
 key_gui.xaero_toggle_map:35
 key_gui.xaero_enlarge_map:44
-key_gui.xaero_waypoints_key:22
+key_gui.xaero_waypoints_key:73
 key_gui.xaero_zoom_in:23
 key_gui.xaero_zoom_out:24
-key_gui.xaero_new_waypoint:48
+key_gui.xaero_new_waypoint:71
 key_key.cofh.empower:47
 key_key.cofh.multimode:46
 key_key.ShapeGroups:46
@@ -188,7 +188,7 @@ key_key.control:29
 key_key.practicalities.magnet_toggle:50
 key_MAtmos:65
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
