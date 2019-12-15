@@ -1,5 +1,5 @@
-# TerralizationModcore
-Github for TerralizationModcore
+# TerralizationModcore for servers
+Github for TerralizationModcore for servers
 
 
 TerralizationModcore, before actually contained a coremod, nolonger does, today it's serves as a place for config files for the Terralization Modpack on Technic Launcher.
