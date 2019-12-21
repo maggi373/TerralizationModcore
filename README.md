@@ -1,6 +1,8 @@
 # TerralizationModcore for servers
 Github for TerralizationModcore for servers
 
+Version: 2.0.5f
+Check version number in custommainmenu file if these match you have a right build
 
 TerralizationModcore, before actually contained a coremod, nolonger does, today it's serves as a place for config files for the Terralization Modpack on Technic Launcher.
 
