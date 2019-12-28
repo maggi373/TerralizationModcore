@@ -301,7 +301,7 @@
     {        
         "background":
         {
-            "image" : "terralization:textures/gui/background.png",
+            "image" : "terralization:textures/gui/background.jpg",
             "mode" : "fill"
         }
     }
