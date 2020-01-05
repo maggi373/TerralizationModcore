@@ -1,7 +1,7 @@
 # TerralizationModcore
 Github for TerralizationModcore
 
-Check version number in custommainmenu file if these match you have a right build
+Check version number in custommainmenu file
 
 TerralizationModcore, before actually contained a coremod, nolonger does, today it's serves as a place for config files for the Terralization Modpack on Technic Launcher.
 
