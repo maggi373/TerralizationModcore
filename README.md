@@ -20,8 +20,6 @@ Thanks to all the others through the history being staff members, managing the s
 
 Discord: https://discord.gg/5NsUK4d
 
-Technic Solder Server: https://solder.titanstorms.com
-
 Technic Site: https://www.technicpack.net/modpack/terralization.654195
 
 Official Website: https://terralization.com
