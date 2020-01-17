@@ -5,4 +5,4 @@ minecraft:stone_shovel,1,0
 minecraft:stone_sword,1,0
 minecraft:stone_axe,1,0
 minecraft:apple,16,0
-minecraft:torch,16,0
+GalacticraftCore:tile.glowstoneTorch,16,0
