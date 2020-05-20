@@ -29,7 +29,7 @@
             "imageWidth" : 2100,
             "imageHeight" : 213,
             "alignment" : "bottom_left",
-            "texture" : "terralization:textures/gui/singleplayer both st.png",
+            "texture" : "terralization:textures/gui/singleplayer both.png",
             "action" : 
             {
                 "type" : "openGui",
