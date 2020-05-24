@@ -1,3 +1,50 @@
+Terralization has been updated to version 2.2.0a
+Removed
+Pam wee flower
+Pam bonecraft
+Pam temperate plants
+
+
+Terralization has been updated to version 2.1.1a
+Added:
++ Mouse tweaks
++ Modtweaker
++ Realistic Torches
++ Dynamic trees
++ Ender io addons
++ Main menu scaling
++ Atomicstryker's Infernal mobs
++ Better foilage (this mod is disabled by default due to performance issues but some people have the hardware to run it)
+
+Updated Terralization modcore
+See github for detailed changelog
+Fixed torch recipees so you have to use realistic torches or galacticraft's torches and all old recipees for vanilla and tinker's torches can be used to craft realistic torches
+Updated config dump
+
+
+Terralization has been updated to version 2.0.5f
+TerralizationModcore
+- Removed minemenu config file
+- Changed mekanism measurement from Joules to RF
+- Disabled voiceserver for increased performance
+
+
+Terralization has been updated to version 2.0.5e
+TerralizationModcore
+Last version to use the old versioning standard
+
+Fixed Tier 3 rockets that wouldt launch
+Removed junk files
+Now using github
+
+
+Terralization has been updated to version 2.0.5d
+TerralizationModcore
+Nerfed Antimatterbomb
+Disabled forge's version update check
+Disabled Forge's splash screen in the startup to decrease loadtime
+
+
 Terralization has been updated to version 2.0.5c
 Terralization modcore
 New edits to menu
