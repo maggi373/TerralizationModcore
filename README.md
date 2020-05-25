@@ -11,13 +11,13 @@ The ISSUES panel is also used for our servers
 ## REASONS TO JOIN US!
 
 
-### GREAT COMMUNITY
+#### GREAT COMMUNITY
 
-### OFFICIAL SERVERS
+#### OFFICIAL SERVERS
 
-### ACTIVE PACK
+#### ACTIVE PACK
 
-### TECHNIC, VOLTZ AND FLAN COMBINED!
+#### TECHNIC, VOLTZ AND FLAN COMBINED!
 
 
 ## Special thanks to:
