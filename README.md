@@ -30,6 +30,8 @@ Optic_voltaire for helping with optimizing the pack in the 2.0.x era and his ded
 
 Thanks to all the others through the history being staff members, managing the servers and helping maggi373 along the way.
 
+## Links to other relevant sites:
+
 #### Discord: https://discord.gg/5NsUK4d
 
 #### Technic Site: https://www.technicpack.net/modpack/terralization.654195
