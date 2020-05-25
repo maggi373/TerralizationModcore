@@ -1,6 +1,9 @@
 # TerralizationModcore
 Github for TerralizationModcore
 
+![Alt text](https://raw.githubusercontent.com/maggi373/TerralizationModcore/master/resources/terralization/textures/gui/terralization.png)
+
+
 Check version number in custommainmenu file
 
 TerralizationModcore, before actually contained a coremod, nolonger does, today it's serves as a place for config files for the Terralization Modpack on Technic Launcher.
