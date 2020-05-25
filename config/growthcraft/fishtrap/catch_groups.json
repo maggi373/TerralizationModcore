@@ -1,13 +1,13 @@
 {
   "comment": "",
   "data": {
+    "fish": {
+      "comment": "Fishes",
+      "weight": 1
+    },
     "junk": {
       "comment": "Useless Stuff",
       "weight": 3
-    }
-    "fish": {
-      "comment": "Fishes",
-      "weight": 9
-    }
+    },
   }
 }
