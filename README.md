@@ -5,7 +5,9 @@
 ## Information
 
 Current version number is always found in the custommainmenu config file
+
 TerralizationModcore actually contained an coremod for an custom mod we made but is nolonger in use and the name stuck
+
 The ISSUES panel is also used for our servers
 
 ## REASONS TO JOIN US!
