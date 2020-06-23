@@ -4,10 +4,10 @@
         "title":
         {
             "image" : "terralization:textures/gui/terralization.png",
-            "posX" : -150,
+            "posX" : -156,
             "posY" : 10,
-            "width" : 300,
-            "height" : 53,
+            "width" : 312,
+            "height" : 55,
             "alignment" : "top_center",
             "action" : 
             {
@@ -24,12 +24,12 @@
             "text" : "",
             "posX" : 62,
             "posY" : -165,
-            "width" : 81,
-            "height" : 15,
-            "imageWidth" : 387,
-            "imageHeight" : 72,
+            "width" : 84,
+            "height" : 9,
+            "imageWidth" : 2100,
+            "imageHeight" : 213,
             "alignment" : "bottom_left",
-            "texture" : "terralization:textures/gui/singleplayer.png",
+            "texture" : "terralization:textures/gui/singleplayer both.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -42,12 +42,12 @@
             "text" : "",
             "posX" : 62,
             "posY" : -145,
-            "width" : 76,
-            "height" : 15,
-            "imageWidth" : 364,
-            "imageHeight" : 72,
+            "width" : 77,
+            "height" : 8,
+            "imageWidth" : 1921,
+            "imageHeight" : 207,
             "alignment" : "bottom_left",
-            "texture" : "terralization:textures/gui/multiplayer.png",
+            "texture" : "terralization:textures/gui/multiplayer both.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -117,12 +117,12 @@
             "text" : "",
             "posX" : 62,
             "posY" : -125,
-            "width" : 52,
-            "height" : 15,
-            "imageWidth" : 248,
-            "imageHeight" : 72,
+            "width" : 50,
+            "height" : 9,
+            "imageWidth" : 1261,
+            "imageHeight" : 213,
             "alignment" : "bottom_left",
-            "texture" : "terralization:textures/gui/options.png",
+            "texture" : "terralization:textures/gui/options both.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -135,12 +135,12 @@
             "text" : "",
             "posX" : 62,
             "posY" : -105,
-            "width" : 37,
-            "height" : 15,
-            "imageWidth" : 178,
-            "imageHeight" : 72,
+            "width" : 33,
+            "height" : 9,
+            "imageWidth" : 832,
+            "imageHeight" : 213,
             "alignment" : "bottom_left",
-            "texture" : "terralization:textures/gui/mods.png",
+            "texture" : "terralization:textures/gui/mods both.png",
             "action" : 
             {
                 "type" : "openGui",
@@ -153,12 +153,12 @@
             "text" : "",
             "posX" : 62,
             "posY" : -45,
-            "width" : 29,
-            "height" : 15,
-            "imageWidth" : 139,
-            "imageHeight" : 72,
+            "width" : 24,
+            "height" : 8,
+            "imageWidth" : 594,
+            "imageHeight" : 202,
             "alignment" : "bottom_left",
-            "texture" : "terralization:textures/gui/quit.png",
+            "texture" : "terralization:textures/gui/kill both.png",
             "action" : 
             {
                 "type" : "quit"
@@ -237,7 +237,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://discord.gg/snvSHJN"
+                "link" : "https://discord.gg/TnTeKfD"
             }
         },
         
@@ -265,7 +265,7 @@
     {
         
         "packName": {
-            "text": "Terralization 2.1.1a",
+            "text": "Terralization 2.3.0a",
             "posX": 2,
             "posY": -20,
             "color": -1,
@@ -278,7 +278,7 @@
             }
         },
         "packAuthor": {
-            "text": "Made by Maggi373",
+            "text": "Made by maggi373",
             "posX": 2,
             "posY": -10,
             "color": -1,
@@ -298,11 +298,11 @@
     },
 
     "other":
-    {        
+    { 
         "background":
         {
             "image" : "terralization:textures/gui/background.jpg",
-            "mode" : "fill"
+            "mode" : "stretch"
         }
     }
 }

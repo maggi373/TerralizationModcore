@@ -1,35 +1,54 @@
+<<<<<<< HEAD
 # TerralizationModcore for servers
 Github for TerralizationModcore for servers
+=======
+# TerralizationModcore
+>>>>>>> origin/master
 
-Check version number in custommainmenu file
+![Alt text](https://raw.githubusercontent.com/maggi373/TerralizationModcore/master/resources/terralization/textures/gui/terralization.png)
 
-TerralizationModcore, before actually contained a coremod, nolonger does, today it's serves as a place for config files for the Terralization Modpack on Technic Launcher.
+## Information
 
-NOTICE: Our ISSUE panel is also used for our server and the whole modpack itself
+Current version number is always found in the custommainmenu config file
 
-After many years we finally moved to github, and i regret that we didn't earlier. We've been using Technic Solder for a while and using it for version control and i see now that github is waaay supererior than solder. I uploaded the entire solder repo to github were each release as it's own commit, and i also uploaded partly the changelog for the modpack. the last update v2.0.5d i had the chance to do it the github way since the update came out right before i made the github repo. But hopefully next update will be using github.
+TerralizationModcore actually contained an coremod for an custom mod we made but is nolonger in use and the name stuck
 
-Special thanks to:
+The ISSUES panel is also used for our servers
+
+## REASONS TO JOIN US!
+
+
+#### GREAT COMMUNITY
+
+#### OFFICIAL SERVERS
+
+#### ACTIVE PACK
+
+#### TECHNIC, VOLTZ AND FLAN COMBINED!
+
+
+## Special thanks to:
 
 Maggi373 for making the pack and all this possible
 
-Stealthalgorithm for hosting the early modpack servers, solder server and modpack3 server. Wouldt be possible without him, he also helps to run our linux servers, the website and optimizing the pack
+Stealthalgorithm for in the early years to host solder and our modpack servers
 
 Optic_voltaire for helping with optimizing the pack in the 2.0.x era and his dedication and loyalty towards the modpack and it's servers.
 
 Thanks to all the others through the history being staff members, managing the servers and helping maggi373 along the way.
 
-Discord: https://discord.gg/5NsUK4d
+## Links to other relevant sites:
 
-Technic Site: https://www.technicpack.net/modpack/terralization.654195
+#### Discord: https://discord.gg/5NsUK4d
 
-Official Website: https://terralization.com
+#### Technic Site: https://www.technicpack.net/modpack/terralization.654195
 
-Github: https://github.com/maggi373/TerralizationModcore
+#### Official Website: https://terralization.com
 
+#### Github: https://github.com/maggi373/TerralizationModcore
 
-Youtube:
+#### Youtube:
 
-Twitch:
+#### Twitch:
 
-Mixer:
+#### Mixer:
