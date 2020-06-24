@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# TerralizationModcore for servers
-Github for TerralizationModcore for servers
-=======
-# TerralizationModcore
->>>>>>> origin/master
+# TerralizationModcore Server
 
 ![Alt text](https://raw.githubusercontent.com/maggi373/TerralizationModcore/master/resources/terralization/textures/gui/terralization.png)
 
