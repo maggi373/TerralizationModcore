@@ -1,3 +1,65 @@
+Added
++ Better Invalid Session
++ BetterFPS
+
+
+Updated
++ Nuclearcontrol
++ Nuclearcraft
++ Pneumaticcraft
++ Opencomputers
++ Openmodslib
++ Modularpowersuit
++ Extraplanets
++ Mekanism
+
+
+Switched
++ Extracells2 to Extracells2 Patched
+
+
+Downgraded because of twitch
+- Industrialcraft
+- Ender Storage
+- Redstone Arsenal
+- Magical Crops
+- Practicalities
+
+
+Mods twitch launcher forced us to remove
+- WR-CBE because of the version on there is buggy
+- Titanstorms, its doin an comeback
+- BCCOLLE
+
+
+Removed
+- Advanced Generators
+- Better foilage
+- bspkrs core
+- Buildcraft Additions
+- Magic bees
+- Pressure Pipes
+- StartingInventory
+- Translocator
+- Treecapitor
+- Dynamic Trees
+
+
+TerralizationModcore
++ Made new menu with new art and buttons
++ Fixed a rendering bug
++ Fixed an crash bug
++ Fistrap nolonger spawn high value items
++ Fixed other bugs
++ Made mekanism windmills one tier more expensive, decreasing their energy output will only lagg the server
++ Fixed that sheep, bats, horses and squids not dropping food
++ Removed Japanese maple bush ability to spread
++ Simplified Server names
++ Removed replicators (mob)
++ Made flux capacitors more energy expensive
++ Removed Alternative crafting recipes for the normal torch and added them for the realistic torch
++ Fixed discord buttion on main menu
+
 Terralization has been updated to version 2.2.0a
 Removed
 Pam wee flower
