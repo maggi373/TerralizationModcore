@@ -29,3 +29,5 @@ Worldedit, tis buggy
 Aromabackup
 
 Mousetweaks
+
+Inventory Tweaks, if you dont remove this there will be alot of dupe bugs on your server
