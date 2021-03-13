@@ -16,7 +16,7 @@ git clone https://github.com/Thorfusion/TerralizationServer .
 
 For cloning and using tags/versions, in this case using version 2.4.1a
 
-git clone https://github.com/Thorfusion/TerralizationServer branch 2.4.1a
+git clone https://github.com/Thorfusion/TerralizationServer --branch 2.4.1a
 
 ## Information
 
