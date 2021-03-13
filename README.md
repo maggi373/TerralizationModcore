@@ -6,7 +6,7 @@
 
 ### Cloning
 
-For cloning; Note: you will get an folder named TerralizationServer if not specified
+For cloning; Note: you will get it in an folder named TerralizationServer if not specified
 
 git clone https://github.com/Thorfusion/TerralizationServer
 
