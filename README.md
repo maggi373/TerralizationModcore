@@ -2,6 +2,8 @@
 
 ![Alt text](https://raw.githubusercontent.com/maggi373/TerralizationModcore/master/resources/terralization/textures/gui/terralization.png)
 
+## This is the full version of terralization server with everything you need, simply clone this project and youre done
+
 ## Information
 
 Current version number is always found in the custommainmenu config file
