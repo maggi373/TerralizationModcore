@@ -33,6 +33,6 @@ The ISSUES panel is also used for our servers
 
 #### Technic Site: https://www.technicpack.net/modpack/terralization.654195
 
-#### Official Website: https://terralization.com
+#### Official Website: https://thorfusion.xyz/
 
 #### Github: https://github.com/maggi373/TerralizationModcore
