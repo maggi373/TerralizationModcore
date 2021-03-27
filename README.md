@@ -38,7 +38,7 @@ Thanks to all the others through the history being staff members, managing the s
 
 #### Technic Site: https://www.technicpack.net/modpack/terralization.654195
 
-#### Official Website: https://terralization.com
+#### Official Website: https://thorfusion.xyz/
 
 #### Github: https://github.com/maggi373/TerralizationModcore
 
