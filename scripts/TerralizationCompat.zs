@@ -27,6 +27,9 @@ recipes.addShapeless(<NuclearCraft:boiledEgg>, [<FoodExpansion:ItemFriedEgg>]);
 furnace.remove(<FoodExpansion:ItemFriedEgg>);
 furnace.addRecipe(<NuclearCraft:boiledEgg>, <ore:listAllegg>);
 
+// Torches
+recipes.addShaped(<minecraft:torch> * 4, [[<MineFactoryReloaded:rubber.raw>], [<ore:rodStone>]]);
+recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 
 
 
