@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:false
 ao:0
 clouds:false
-resourcePacks:["Main Theme.zip"]
+resourcePacks:["Main Theme Music","Main Theme Textures"]
 lastServer:
 lang:en_US
 chatVisibility:0
