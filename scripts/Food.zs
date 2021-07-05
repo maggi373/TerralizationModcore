@@ -76,11 +76,8 @@
 //Meat Oredict
 
 //Veggie Oredict
-<ore:listAllveggie>.add(<etfuturum:beetroot>);
 
 //Singular Oredict additions
-<ore:cropCoffee>.add(<IC2:item.itemCoffeeBeans>);
-<ore:cropBeet>.add(<etfuturum:beetroot>);
 <ore:cropPapaya>.add(<ExtraTrees:food:40>);
 <ore:cropCoconut>.add(<ExtraTrees:food:50>);
 <ore:cropAvocado>.add(<ExtraTrees:food:52>);
@@ -88,7 +85,6 @@
 <ore:cropChilipepper>.add(<ExtraTrees:food:55>);
 <ore:croplistAllpepper>.add(<ExtraTrees:food:55>);
 <ore:cropMango>.add(<ExtraTrees:food:57>);
-<ore:cropCranberry>.add(<BiomesOPlenty:food>);
 <ore:cropRaspberry>.add(<ExtraTrees:food:44>);
 <ore:cropRaspberry>.add(<ExtraTrees:food:49>);
 <ore:cropBlueberry>.add(<ExtraTrees:food:45>);
