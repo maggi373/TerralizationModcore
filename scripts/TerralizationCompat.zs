@@ -32,4 +32,54 @@ recipes.addShaped(<minecraft:torch> * 4, [[<MineFactoryReloaded:rubber.raw>], [<
 recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 
 
+// General Oredict Fixes
+<ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
+<ore:diamondNugget>.mirror(<ore:nuggetDiamond>);
+<ore:itemSilicon>.addAll(<ore:silicon>);
+<ore:silicon>.mirror(<ore:itemSilicon>);
+<ore:pulpWood>.addAll(<ore:dustWood>);
+<ore:dustWood>.mirror(<ore:pulpWood>);
+<ore:foodSalt>.addAll(<ore:dustSalt>);
+
+/* logWood */
+/* <ore:logWood>.add(<ForbiddenMagic:TaintLog>); */
+<ore:logWood>.add(<MineFactoryReloaded:rubberwood.log>);
+<ore:logWood>.add(<IC2:rubberWood>);
+
+
+// Recipes
+recipes.addShaped(<Translocator:diamondNugget>, [[<enhancedportals:nuggetDiamond>]]);
+recipes.addShapeless(<BinnieCore:containerBucket:65>, [<BiomesOPlenty:bopBucket>.withTag({Fluid: {FluidName: "poison", Amount: 1000}})]);
+recipes.addShaped(<IC2:item.itemBarrel>,  [[<ore:plankWood>], [<ore:logWood>], [<ore:plankWood>]]);
+
+// Furnace
+furnace.remove(<ProjRed|Core:projectred.core.part>);
+furnace.addRecipe(<ProjRed|Core:projectred.core.part> * 8, <uptodate:smooth_stone>, 0.5);
+furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
+furnace.addRecipe(<ExtraUtilities:decorativeBlock1:2>, <uptodate:smooth_quartz>, 0.5);
+
+// Grass
+recipes.addShapeless(<minecraft:grass> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
+
+// Clay
+recipes.addShapeless(<minecraft:clay_ball> * 16, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:dirt>, <minecraft:dirt>, <minecraft:sand:*>, <minecraft:sand:*>, <minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]);
+recipes.addShapeless(<minecraft:clay_ball> * 4, [<minecraft:clay>]);
+
+// Bleached clay
+recipes.addShapeless(<minecraft:hardened_clay> * 8, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>, <minecraft:stained_hardened_clay:*>]);
+
+// Gray
+recipes.addShapeless(<minecraft:dye:8>, [<ore:dyeBlack>, <ore:dyeWhite>]);
+
+// Unify Diamond Nuggets
+
+val diamondNugget = <ore:nuggetDiamond>;
+val shard1 = <ExtraBees:misc:1>;
+val shard4 = <Translocator:diamondNugget>;
+
+diamondNugget.add(shard1);
+
+// Add Ore Dictionary Recipe to craft Diamonds using Diamond Nuggets.
+
+recipes.addShapeless(<minecraft:diamond>, [diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget]);
 
