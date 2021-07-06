@@ -44,7 +44,7 @@ recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 /* logWood */
 /* <ore:logWood>.add(<ForbiddenMagic:TaintLog>); */
 <ore:logWood>.add(<MineFactoryReloaded:rubberwood.log>);
-<ore:logWood>.add(<IC2:woodRubber>);
+// <ore:logWood>.add(<IC2:woodRubber>);
 
 // Furnace
 furnace.remove(<ProjRed|Core:projectred.core.part>);
