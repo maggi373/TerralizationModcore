@@ -44,19 +44,11 @@ recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 /* logWood */
 /* <ore:logWood>.add(<ForbiddenMagic:TaintLog>); */
 <ore:logWood>.add(<MineFactoryReloaded:rubberwood.log>);
-<ore:logWood>.add(<IC2:rubberWood>);
-
-
-// Recipes
-recipes.addShaped(<Translocator:diamondNugget>, [[<enhancedportals:nuggetDiamond>]]);
-recipes.addShapeless(<BinnieCore:containerBucket:65>, [<BiomesOPlenty:bopBucket>.withTag({Fluid: {FluidName: "poison", Amount: 1000}})]);
-recipes.addShaped(<IC2:item.itemBarrel>,  [[<ore:plankWood>], [<ore:logWood>], [<ore:plankWood>]]);
+<ore:logWood>.add(<IC2:woodRubber>);
 
 // Furnace
 furnace.remove(<ProjRed|Core:projectred.core.part>);
-furnace.addRecipe(<ProjRed|Core:projectred.core.part> * 8, <uptodate:smooth_stone>, 0.5);
 furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
-furnace.addRecipe(<ExtraUtilities:decorativeBlock1:2>, <uptodate:smooth_quartz>, 0.5);
 
 // Grass
 recipes.addShapeless(<minecraft:grass> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
@@ -75,7 +67,7 @@ recipes.addShapeless(<minecraft:dye:8>, [<ore:dyeBlack>, <ore:dyeWhite>]);
 
 val diamondNugget = <ore:nuggetDiamond>;
 val shard1 = <ExtraBees:misc:1>;
-val shard4 = <Translocator:diamondNugget>;
+/* val shard4 = <Translocator:diamondNugget>; */
 
 diamondNugget.add(shard1);
 
