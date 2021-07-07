@@ -44,7 +44,7 @@ recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 /* logWood */
 /* <ore:logWood>.add(<ForbiddenMagic:TaintLog>); */
 <ore:logWood>.add(<MineFactoryReloaded:rubberwood.log>);
-// <ore:logWood>.add(<IC2:woodRubber>);
+/* <ore:logWood>.add(<IC2:woodRubber>); */
 
 // Furnace
 furnace.remove(<ProjRed|Core:projectred.core.part>);
@@ -62,16 +62,3 @@ recipes.addShapeless(<minecraft:hardened_clay> * 8, [<minecraft:water_bucket>.tr
 
 // Gray
 recipes.addShapeless(<minecraft:dye:8>, [<ore:dyeBlack>, <ore:dyeWhite>]);
-
-// Unify Diamond Nuggets
-
-val diamondNugget = <ore:nuggetDiamond>;
-val shard1 = <ExtraBees:misc:1>;
-/* val shard4 = <Translocator:diamondNugget>; */
-
-diamondNugget.add(shard1);
-
-// Add Ore Dictionary Recipe to craft Diamonds using Diamond Nuggets.
-
-recipes.addShapeless(<minecraft:diamond>, [diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget, diamondNugget]);
-
