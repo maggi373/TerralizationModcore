@@ -2,6 +2,7 @@
     "osmium": {
         "template": "uniform",
         "block": "Mekanism:OreBlock",
+        "material": "minecraft:stone",
         "clusterSize": 5,
         "numClusters": 7,
         "minHeight": 17,
