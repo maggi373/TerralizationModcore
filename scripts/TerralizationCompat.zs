@@ -32,11 +32,8 @@ recipes.addShaped(<minecraft:torch> * 4, [[<MineFactoryReloaded:rubber.raw>], [<
 recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 
 // General Oredict Fixes
-<ore:itemSilicon>.addAll(<ore:silicon>);
-<ore:silicon>.mirror(<ore:itemSilicon>);
-<ore:pulpWood>.addAll(<ore:dustWood>);
-<ore:dustWood>.mirror(<ore:pulpWood>);
 <ore:foodSalt>.addAll(<ore:dustSalt>);
+<ore:dustSalt>.mirror(<ore:foodSalt>);
 
 // Grass
 recipes.addShapeless(<minecraft:grass> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
