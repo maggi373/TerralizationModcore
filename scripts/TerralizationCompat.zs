@@ -31,24 +31,12 @@ furnace.addRecipe(<NuclearCraft:boiledEgg>, <ore:listAllegg>);
 recipes.addShaped(<minecraft:torch> * 4, [[<MineFactoryReloaded:rubber.raw>], [<ore:rodStone>]]);
 recipes.addShaped(<minecraft:torch> * 8, [[<ore:fuelCoke>], [<ore:stickWood>]]);
 
-
 // General Oredict Fixes
-<ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
-<ore:diamondNugget>.mirror(<ore:nuggetDiamond>);
 <ore:itemSilicon>.addAll(<ore:silicon>);
 <ore:silicon>.mirror(<ore:itemSilicon>);
 <ore:pulpWood>.addAll(<ore:dustWood>);
 <ore:dustWood>.mirror(<ore:pulpWood>);
 <ore:foodSalt>.addAll(<ore:dustSalt>);
-
-/* logWood */
-/* <ore:logWood>.add(<ForbiddenMagic:TaintLog>); */
-<ore:logWood>.add(<MineFactoryReloaded:rubberwood.log>);
-/* <ore:logWood>.add(<IC2:woodRubber>); */
-
-// Furnace
-furnace.remove(<ProjRed|Core:projectred.core.part>);
-furnace.remove(<ExtraUtilities:decorativeBlock1:2>);
 
 // Grass
 recipes.addShapeless(<minecraft:grass> * 4, [<minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>, <minecraft:tallgrass:1>]);
