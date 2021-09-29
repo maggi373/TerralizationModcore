@@ -28,9 +28,7 @@ Install or readd git when there is files in the directory do
 ```
 git init
 git remote add origin https://github.com/Thorfusion/TerralizationServer
-git fetch
-git reset origin/Server
-git checkout -t origin/Server
+git pull origin Server
 ```
 
 
