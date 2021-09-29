@@ -1,0 +1,64 @@
+{
+    "bluradien": {
+        "template": "uniform",
+        "block": [
+            "thorfusion:Bluradien",
+            "minecraft:diamond_ore"
+        ],
+        "metadata":[
+            0,
+            0
+        ],
+        "weight":[
+            20,
+            80
+        ],
+        "material":"minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 12,
+        "maxHeight": 28,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0,
+            6
+        ]
+    },
+    "bluradiennether": {
+        "template": "uniform",
+        "block": "thorfusion:Bluradiennether",
+        "metadata":0,
+        "material":"minecraft:netherrack",
+        "clusterSize": 2,
+        "numClusters": 2,
+        "minHeight": 105,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+			-1
+        ]
+    },
+    "bluradienend": {
+        "template": "uniform",
+        "block": "thorfusion:Bluradienend",
+        "metadata":0,
+        "material":"minecraft:end_stone",
+        "clusterSize": 5,
+        "numClusters": 12,
+        "minHeight": 0,
+        "maxHeight": 200,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    }
+}
