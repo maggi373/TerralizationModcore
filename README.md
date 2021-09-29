@@ -18,6 +18,16 @@ For cloning and using tags/versions, in this case using version 2.4.1a
 
 `git clone https://github.com/Thorfusion/TerralizationServer --branch 2.4.1a`
 
+Install or readd git when there is files in the directory do
+```
+git init
+git remote add origin https://github.com/Thorfusion/TerralizationServer
+git fetch
+git reset origin/Server
+git checkout -t origin/Server
+```
+
+
 
 
 ## Information
