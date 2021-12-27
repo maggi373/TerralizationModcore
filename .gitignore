@@ -1,0 +1,20 @@
+*.*
+!/.github
+!/config
+!/resourcepacks/Main Theme Textures
+!/resources
+!/scripts
+!.gitignore
+!betterfps.txt
+!CHANGELOG.md
+!CODE_OF_CONDUCT.md
+!CONTRIBUTING.md
+!CREDIT.md
+!flansmod.cfg
+!knownkeys.txt
+!LICENSE.md
+!README.md
+!Rules.pdf
+!servers.dat
+/bin
+/resourcepacks
