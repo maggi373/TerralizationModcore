@@ -32,6 +32,10 @@ git pull origin Server
 ```
 
 
+To update the server do
+
+`git pull`
+
 
 
 ## Information
