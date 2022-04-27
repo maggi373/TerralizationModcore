@@ -11,6 +11,7 @@ var NuclearClusterMissile = <DefenseTech:missile:27>;
 recipes.remove(<DefenseTech:explosives:15>);
 recipes.remove(NuclearMissile);
 recipes.remove(NuclearClusterMissile);
+recipes.remove(AntimatterBomb);
 
 // Add nuke missile
 recipes.addShapedMirrored(NuclearMissile, [[NuclearMissile, null], [null, Nuke]]);
