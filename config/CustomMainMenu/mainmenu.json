@@ -3,11 +3,11 @@
     {
         "title":
         {
-            "image" : "terralization:textures/gui/terralization.png",
+            "image" : "terralization:textures/gui/terralizationnew2.png",
             "posX" : -156,
-            "posY" : 10,
+            "posY" : 20,
             "width" : 312,
-            "height" : 55,
+            "height" : 48,
             "alignment" : "top_center",
             "action" : 
             {
@@ -52,63 +52,6 @@
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
-            }
-        },
-
-        "Officialserver1":
-        {
-            "text" : "",
-            "posX" : -82,
-            "posY" : -170,
-            "width" : 44,
-            "height" : 42,
-            "imageWidth" : 1100,
-            "imageHeight" : 1050,
-            "alignment" : "bottom_right",
-            "tooltip" : "Official Server #1",
-            "texture" : "terralization:textures/gui/servericonduo1.png",
-            "action" : 
-            {
-                "type" : "connectToServer",
-                "ip" : "modpack.terralization.xyz"
-            }
-        },
-
-        "Officialserver2":
-        {
-            "text" : "",
-            "posX" : -82,
-            "posY" : -125,
-            "width" : 44,
-            "height" : 42,
-            "imageWidth" : 1100,
-            "imageHeight" : 1050,
-            "alignment" : "bottom_right",
-            "tooltip" : "Official Server #2",
-            "texture" : "terralization:textures/gui/servericonduo2.png",
-            "action" : 
-            {
-                "type" : "connectToServer",
-                "ip" : "modpack2.terralization.xyz"
-            }
-        },
-
-        "Officialserver3":
-        {
-            "text" : "",
-            "posX" : -82,
-            "posY" : -80,
-            "width" : 44,
-            "height" : 42,
-            "imageWidth" : 1100,
-            "imageHeight" : 1050,
-            "alignment" : "bottom_right",
-            "tooltip" : "Official Server #3",
-            "texture" : "terralization:textures/gui/servericonduo3.png",
-            "action" : 
-            {
-                "type" : "connectToServer",
-                "ip" : "modpack3.terralization.xyz"
             }
         },
         
@@ -168,7 +111,7 @@
         "language":
         {
             "text" : "",
-            "posX" : -125,
+            "posX" : -85,
             "posY" : -20,
             "width" : 20,
             "height" : 10,
@@ -184,48 +127,10 @@
             }
         },
 
-        "Youtube":
-        {
-            "text" : "",
-            "posX" : -100,
-            "posY" : -22.5,
-            "width" : 20,
-            "height" : 15,
-            "imageWidth" : 1200,
-            "imageHeight" : 900,
-            "alignment" : "bottom_right",
-            "tooltip" : "Youtube",
-            "texture" : "terralization:textures/gui/youtubelogomc.png",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://www.youtube.com/channel/UCeI8o6BGJz3NDaWGKJ_pTnA"
-            }
-        },
-
-        "Twitch":
-        {
-            "text" : "",
-            "posX" : -75,
-            "posY" : -25,
-            "width" : 20,
-            "height" : 20,
-            "imageWidth" : 1000,
-            "imageHeight" : 1000,
-            "alignment" : "bottom_right",
-            "tooltip" : "Twitch",
-            "texture" : "terralization:textures/gui/twitchlogomc.png",
-            "action" : 
-            {
-                "type" : "openLink",
-                "link" : "https://www.twitch.tv/terralization"
-            }
-        },
-
         "Discord":
         {
             "text" : "",
-            "posX" : -50,
+            "posX" : -55,
             "posY" : -25,
             "width" : 20,
             "height" : 23,
@@ -274,7 +179,7 @@
             "action" : 
             {
                 "type" : "openLink",
-                "link" : "https://www.technicpack.net/modpack/terralization.654195/changelog"
+                "link" : "https://thorfusion.com/minecraft/terralization/changelog"
             }
         },
         "packAuthor": {
