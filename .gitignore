@@ -1,9 +1,9 @@
 *.*
-!/.github
-!/config
-!/resourcepacks/Main Theme Textures
-!/resources
-!/scripts
+!/.github/
+!/config/
+!/resourcepacks/Main Theme Textures/
+!/resources/
+!/scripts/
 !.gitignore
 !betterfps.txt
 !CHANGELOG.md
@@ -17,5 +17,5 @@
 !Rules.pdf
 !servers.dat
 !*.zs
-/bin
-/resourcepacks
+/bin/
+/resourcepacks/
