@@ -18,10 +18,12 @@
 - Industrialcraft
 - Ender storage
 
-# Version 2.8.2a
+# Version 2.8.2a - Currently under development
 
 ### Added
 + TerralizationCompat
+  + Adds oredict for dustquartz for enriching to quartz
+  + Adds oredict for gemdiamond for enriching to compresseddiamond
 
 ### Switched to Thorfusion Fork
 + Immersive Engineering
@@ -64,6 +66,8 @@
 + Added chunkloaderrecipes (servers only)
   + Removed recipes for:
     + All chunkloaders 
++ TerralizationCompat.zs
+  + Added eln diamond to oredict
 + Main Menu:
   + removed current official server buttons
   + made a new temporary server button
