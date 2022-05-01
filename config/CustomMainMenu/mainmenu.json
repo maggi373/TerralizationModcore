@@ -54,6 +54,25 @@
                 "gui" : "multiplayer"
             }
         },
+
+        "Officialserver":
+        {
+            "text" : "",
+            "posX" : -82,
+            "posY" : -125,
+            "width" : 44,
+            "height" : 42,
+            "imageWidth" : 1100,
+            "imageHeight" : 1050,
+            "alignment" : "bottom_right",
+            "tooltip" : "Official Servers",
+            "texture" : "terralization:textures/gui/server.png",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "modpack.terralization.xyz"
+            }
+        },
         
         "options":
         {
