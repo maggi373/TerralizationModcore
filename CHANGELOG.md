@@ -1,5 +1,6 @@
-# Version 2.8.2a - Currently under development
-### Updated
+# Version 2.8.3a - Currently under development
+
+### Updated GTNH Fork
 + HEE
 + ae2
 + EnderIO
@@ -7,22 +8,76 @@
 + AppliedEnergistics
 + Extracells
 + ae2stuff
-+ Xaeros minimap
-+ Xaeros worldmap
-+ ElectricalAge
 + Galacticcraft
 + Railcraft
 + Opencomputers
 + Crafttweaker
-+ Foamfix
 + Infernal mobs
-+ IvToolkit
-+ RecurrentComplex
+
+### Downgraded for curse compability
+- Industrialcraft
+- Ender storage
+
+# Version 2.8.2a
+
+### Added
++ TerralizationCompat
+  + Adds oredict for dustquartz for enriching to quartz
+  + Adds oredict for gemdiamond for enriching to compresseddiamond
+
+### Switched to Thorfusion Fork
++ Immersive Engineering
+
+### Updated Thorfusion Fork
 + Titanpower
 + Mekanism
 + NuclearControl
 
+### Recompiled Thorfusion Fork
++ IvToolkit
++ RecurrentComplex
+
+### Updated
++ Buildcraft to 7.1.24
++ Buildcraft compat to 7.1.8
++ Crafttweaker to 3.1.0
++ Extra planets to 2.1.4
++ Lumy skin patch to 1.0.10
++ Foamfix to beta3
++ ElectricalAge to 1.18.3
++ Xaeros minimap to 21.10.22
++ Xaeros worldmap to 1.14.1.16
++ Netherlicious to 3.2.0
++ Campfire backport to 1.9.2
+
 ### TerralizationModcore
++ Fixed an short freeze when starting the game
++ Disabled buildcraft update checker
++ Removed the books that you get (you can still make em)
++ Galacticcraft:
+  + Galacticcraft now uses rf when measuring
+  + Moved oxygentanks gui to the bottom right side
+  + Made galacticcraft harder
+  + Adjusted galacticcraft bosses health
+  + Removed edgeseal check on servers
++ Updated defencetechrecipes
+  + Changed recipes for:
+    + Nuclear Explosives
+    + Nuclear Missile
+    + Nuclear Cluster Missile
+    + Antimatterbomb (also removed the recipe using flames)
++ Added chunkloaderrecipes (servers only)
+  + Removed recipes for:
+    + All chunkloaders 
++ TerralizationCompat.zs
+  + Added eln diamond to oredict
++ Main Menu:
+  + removed current official server buttons
+  + made a new temporary server button
+  + removed twitch and youtube buttons
+  + changed main title image
+  + updated changelog link
+  + deleted server.dat
 
 # Version 2.8.1a
 ### Added
