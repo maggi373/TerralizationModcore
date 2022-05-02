@@ -22,6 +22,9 @@ recipes.addShapeless(<aobd:nuggetOsmium> * 9, [<Mekanism:Ingot:1>]);
 <ore:dustNetherQuartz>.addAll(<ore:dustQuartz>);
 <ore:dustQuartz>.mirror(<ore:dustNetherQuartz>);
 
+// Add eln diamond to oredict
+<ore:gemDiamond>.add(<Eln:Eln.sharedItem:4420>);
+
 // Eggfixer
 recipes.addShapeless(<NuclearCraft:boiledEgg>, [<FoodExpansion:ItemFriedEgg>]);
 furnace.remove(<FoodExpansion:ItemFriedEgg>);
