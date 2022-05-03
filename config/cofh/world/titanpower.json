@@ -2,7 +2,7 @@
     "bluradien": {
         "template": "uniform",
         "block": [
-            "thorfusion:Bluradien",
+            "thorfusion:bluradien",
             "minecraft:diamond_ore"
         ],
         "metadata":[
@@ -29,7 +29,7 @@
     },
     "bluradiennether": {
         "template": "uniform",
-        "block": "thorfusion:Bluradiennether",
+        "block": "thorfusion:bluradiennether",
         "metadata":0,
         "material":"minecraft:netherrack",
         "clusterSize": 2,
@@ -46,7 +46,7 @@
     },
     "bluradienend": {
         "template": "uniform",
-        "block": "thorfusion:Bluradienend",
+        "block": "thorfusion:bluradienend",
         "metadata":0,
         "material":"minecraft:end_stone",
         "clusterSize": 5,
