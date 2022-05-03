@@ -1,0 +1,104 @@
+{
+    "Uranium": {
+        "template": "uniform",
+        "block": "NuclearCraft:blockOre:4",
+        "metadata":0,
+        "material":"minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 36,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Thorium": {
+        "template": "uniform",
+        "block": "NuclearCraft:blockOre:5",
+        "metadata":0,
+        "material":"minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 7,
+        "minHeight": 0,
+        "maxHeight": 36,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Plutonium": {
+        "template": "uniform",
+        "block": "NuclearCraft:blockOre:6",
+        "metadata":0,
+        "material":"minecraft:stone",
+        "clusterSize": 17,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 255,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Lithium": {
+        "template": "uniform",
+        "block": "NuclearCraft:blockOre:7",
+        "metadata":0,
+        "material":"minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 7,
+        "minHeight": 0,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Boron": {
+        "template": "uniform",
+        "block": "NuclearCraft:blockOre:8",
+        "metadata":0,
+        "material":"minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 7,
+        "minHeight": 0,
+        "maxHeight": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+    "Magnesium": {
+        "template": "uniform",
+        "block": "NuclearCraft:blockOre:9",
+        "metadata":0,
+        "material":"minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 7,
+        "minHeight": 0,
+        "maxHeight": 24,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    }
+}

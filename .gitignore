@@ -21,3 +21,4 @@
 /resourcepacks/
 !*.png
 !*.cfg
+!*.json
