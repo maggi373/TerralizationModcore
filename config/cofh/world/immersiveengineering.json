@@ -1,0 +1,18 @@
+{
+  "Bauxite": {
+    "template": "uniform",
+    "block": "ImmersiveEngineering:ore:1",
+    "material": "minecraft:stone",
+    "clusterSize": 4,
+    "numClusters": 8,
+    "minHeight": 40,
+    "maxHeight": 85,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  }
+}
