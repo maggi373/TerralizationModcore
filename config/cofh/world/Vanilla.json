@@ -145,9 +145,7 @@
         "maxHeight": 118,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": "NETHER"}
-        ],
+        "biomes": [],
         "dimensionRestriction": "none",
         "dimensions": []
     }
