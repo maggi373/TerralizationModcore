@@ -1,0 +1,34 @@
+{
+  "Tungsten": {
+    "template": "uniform",
+    "block": "Eln:Eln.ore:5",
+    "material": "minecraft:stone",
+    "clusterSize": 6,
+    "numClusters": 6,
+    "minHeight": 0,
+    "maxHeight": 32,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "Cinnabar": {
+    "template": "uniform",
+    "block": "Eln:Eln.ore:6",
+    "material": "minecraft:stone",
+    "clusterSize": 3,
+    "numClusters": 6,
+    "minHeight": 0,
+    "maxHeight": 32,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  }
+}
