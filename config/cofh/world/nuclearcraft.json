@@ -1,8 +1,8 @@
 {
     "Uranium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre:4",
-        "metadata":0,
+        "block": "NuclearCraft:blockOre",
+        "metadata":4,
         "material":"minecraft:stone",
         "clusterSize": 10,
         "numClusters": 3,
@@ -18,8 +18,8 @@
     },
     "Thorium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre:5",
-        "metadata":0,
+        "block": "NuclearCraft:blockOre",
+        "metadata":5,
         "material":"minecraft:stone",
         "clusterSize": 10,
         "numClusters": 7,
@@ -35,8 +35,8 @@
     },
     "Plutonium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre:6",
-        "metadata":0,
+        "block": "NuclearCraft:blockOre",
+        "metadata":6,
         "material":"minecraft:stone",
         "clusterSize": 17,
         "numClusters": 1,
@@ -52,8 +52,8 @@
     },
     "Lithium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre:7",
-        "metadata":0,
+        "block": "NuclearCraft:blockOre",
+        "metadata":7,
         "material":"minecraft:stone",
         "clusterSize": 7,
         "numClusters": 7,
@@ -69,8 +69,8 @@
     },
     "Boron": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre:8",
-        "metadata":0,
+        "block": "NuclearCraft:blockOre",
+        "metadata":8,
         "material":"minecraft:stone",
         "clusterSize": 7,
         "numClusters": 7,
@@ -86,8 +86,8 @@
     },
     "Magnesium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre:9",
-        "metadata":0,
+        "block": "NuclearCraft:blockOre",
+        "metadata":9,
         "material":"minecraft:stone",
         "clusterSize": 7,
         "numClusters": 7,

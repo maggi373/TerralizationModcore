@@ -1,7 +1,8 @@
 {
   "Bauxite": {
     "template": "uniform",
-    "block": "ImmersiveEngineering:ore:1",
+    "block": "ImmersiveEngineering:ore",
+    "metadata":1,
     "material": "minecraft:stone",
     "clusterSize": 4,
     "numClusters": 8,

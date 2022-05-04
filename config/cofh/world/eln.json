@@ -1,7 +1,8 @@
 {
   "Tungsten": {
     "template": "uniform",
-    "block": "Eln:Eln.ore:5",
+    "block": "Eln:Eln.ore",
+    "metadata":5,
     "material": "minecraft:stone",
     "clusterSize": 6,
     "numClusters": 6,
@@ -17,7 +18,8 @@
   },
   "Cinnabar": {
     "template": "uniform",
-    "block": "Eln:Eln.ore:6",
+    "block": "Eln:Eln.ore",
+    "metadata":6,
     "material": "minecraft:stone",
     "clusterSize": 3,
     "numClusters": 6,
