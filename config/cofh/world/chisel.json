@@ -68,5 +68,53 @@
     "dimensions": [
       0
     ]
+  },
+  "Granite": {
+    "template": "normal",
+    "block": "chisel:limestone",
+    "material": "minecraft:graite",
+    "clusterSize": 12,
+    "numClusters": 2,
+    "meanHeight": 52,
+    "maxVariance": 10,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "Andesite": {
+    "template": "normal",
+    "block": "chisel:andesite",
+    "material": "minecraft:stone",
+    "clusterSize": 24,
+    "numClusters": 2,
+    "meanHeight": 80,
+    "maxVariance": 15,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  },
+  "Diorite": {
+    "template": "normal",
+    "block": "chisel:diorite",
+    "material": "minecraft:stone",
+    "clusterSize": 24,
+    "numClusters": 2,
+    "meanHeight": 80,
+    "maxVariance": 15,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
   }
 }
