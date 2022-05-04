@@ -1,0 +1,35 @@
+{
+  "Abyssal Stone": {
+    "template": "normal",
+    "block": "Railcraft:cube:6",
+    "material": "minecraft:stone",
+    "clusterSize": 12,
+    "numClusters": 3,
+    "meanHeight": 10,
+    "maxVariance": 12,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+      1,
+      -1
+    ]
+  },
+  "Quarried Stone": {
+    "template": "normal",
+    "block": "Railcraft:cube:7",
+    "material": "minecraft:stone",
+    "clusterSize": 12,
+    "numClusters": 2,
+    "meanHeight": 64,
+    "maxVariance": 10,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+      0
+    ]
+  }
+}
