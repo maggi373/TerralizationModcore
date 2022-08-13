@@ -2,9 +2,9 @@
     "Alumiunium": {
         "template": "uniform",
         "block": "GalacticraftCore:tile.gcBlockCore",
-        "metadata":7,
+        "metadata": 7,
         "material": "minecraft:stone",
-        "clusterSize": 18,
+        "cluster-size": 18,
         "numClusters": 7,
         "minHeight": 0,
         "maxHeight": 45,
@@ -19,9 +19,9 @@
     "Silicon": {
         "template": "uniform",
         "block": "GalacticraftCore:tile.gcBlockCore",
-        "metadata":8,
+        "metadata": 8,
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "cluster-size": 7,
         "numClusters": 3,
         "minHeight": 0,
         "maxHeight": 25,
