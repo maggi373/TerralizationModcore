@@ -1,25 +1,24 @@
 {
     "dirt": {
         "template": "uniform",
-        "block": "dirt",
+        "block": "minecraft:dirt",
         "material": "minecraft:stone",
         "clusterSize": 32,
-        "numClusters": 10,
+        "numClusters": 4,
         "minHeight": 40,
         "maxHeight": 128,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
     "gravel": {
         "template": "uniform",
-        "block": "gravel",
-        "material": "stone",
+        "block": "minecraft:gravel",
+        "material": "minecraft:stone",
         "clusterSize": 32,
         "numClusters": 5,
         "minHeight": 30,
@@ -28,8 +27,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -45,8 +43,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -63,8 +60,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -74,14 +70,13 @@
         "material": "minecraft:stone",
         "clusterSize": 8,
         "numClusters": 20,
-        "meanHeight": 35,
+        "meanHeight": 45,
         "maxVariance": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -97,8 +92,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -114,8 +108,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -131,8 +124,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -148,8 +140,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -166,5 +157,33 @@
         "biomes": [],
         "dimensionRestriction": "none",
         "dimensions": []
+    },
+    "clay": {
+        "template": "uniform",
+        "block": "minecraft:clay",
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 4,
+        "minHeight": 50,
+        "maxHeight": 82,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "hard clay": {
+        "template": "uniform",
+        "block": "minecraft:hardened_clay",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 20,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
     }
 }
