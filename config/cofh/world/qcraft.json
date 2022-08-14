@@ -1,0 +1,20 @@
+{
+    "Quantum": {
+      "template": "normal",
+      "block": "qCraft:quantumore",
+      "material": "minecraft:stone",
+      "clusterSize": 4,
+      "numClusters": 4,
+      "meanHeight": 16,
+      "maxVariance": 4,
+      "retrogen": "true",
+      "biomeRestriction": "none",
+      "biomes": [
+        "All"
+      ],
+      "dimensionRestriction": "whitelist",
+      "dimensions": [
+        0
+      ]
+    }
+  }
