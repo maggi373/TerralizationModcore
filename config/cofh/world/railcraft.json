@@ -4,7 +4,7 @@
         "block": {"name": "Railcraft:cube", "metadata": 6},
         "material": "minecraft:stone",
         "clusterSize": 42,
-        "numClusters": 3,
+        "numClusters": 5,
         "meanHeight": 10,
         "maxVariance": 12,
         "retrogen": "true",
@@ -18,7 +18,7 @@
     "QuarriedStone": {
         "template": "normal",
         "block": {"name": "Railcraft:cube", "metadata": 7},
-        "material": "minecraft:stone",
+        "material": "minecraft:dirt",
         "clusterSize": 42,
         "numClusters": 2,
         "meanHeight": 64,

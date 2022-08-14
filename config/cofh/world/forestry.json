@@ -4,7 +4,7 @@
         "block": "Forestry:resources",
         "material": "minecraft:stone",
         "clusterSize": 20,
-        "numClusters": 5,
+        "numClusters": 4,
         "minHeight": 70,
         "maxHeight": 256,
         "retrogen": "true",

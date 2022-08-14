@@ -5,7 +5,7 @@
             {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight": 90},
             {"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 10}
         ],
-        "clusterSize": 16,
+        "clusterSize": 12,
         "numClusters": 2,
         "meanHeight": 35,
         "maxVariance": 12,
