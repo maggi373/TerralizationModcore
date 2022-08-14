@@ -1,10 +1,9 @@
 {
-    "Abyssal Stone": {
+    "AbyssalStone": {
         "template": "normal",
-        "block": "Railcraft:cube",
-        "metadata": 6,
+        "block": {"name": "Railcraft:cube", "metadata": 6},
         "material": "minecraft:stone",
-        "cluster-size": 42,
+        "clusterSize": 42,
         "numClusters": 3,
         "meanHeight": 10,
         "maxVariance": 12,
@@ -16,12 +15,11 @@
             1, -1
         ]
     },
-    "Quarried Stone": {
+    "QuarriedStone": {
         "template": "normal",
-        "block": "Railcraft:cube",
-        "metadata": 7,
+        "block": {"name": "Railcraft:cube", "metadata": 7},
         "material": "minecraft:stone",
-        "cluster-size": 42,
+        "clusterSize": 42,
         "numClusters": 2,
         "meanHeight": 64,
         "maxVariance": 10,

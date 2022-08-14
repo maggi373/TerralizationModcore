@@ -1,8 +1,7 @@
 {
     "Uranium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre",
-        "metadata": 4,
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 4},
         "material":"minecraft:stone",
         "clusterSize": 10,
         "numClusters": 3,
@@ -13,13 +12,12 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            1
+            0
         ]
     },
     "Thorium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre",
-        "metadata": 5,
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 5},
         "material":"minecraft:stone",
         "clusterSize": 10,
         "numClusters": 7,
@@ -30,13 +28,12 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            1
+            0
         ]
     },
     "Plutonium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre",
-        "metadata": 6,
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 6},
         "material":"minecraft:stone",
         "clusterSize": 17,
         "numClusters": 1,
@@ -47,13 +44,12 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            1
+            0
         ]
     },
     "Lithium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre",
-        "metadata": 7,
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 7},
         "material":"minecraft:stone",
         "clusterSize": 7,
         "numClusters": 7,
@@ -64,13 +60,12 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            1
+            0
         ]
     },
     "Boron": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre",
-        "metadata": 8,
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 8},
         "material":"minecraft:stone",
         "clusterSize": 7,
         "numClusters": 7,
@@ -81,13 +76,12 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            1
+            0
         ]
     },
     "Magnesium": {
         "template": "uniform",
-        "block": "NuclearCraft:blockOre",
-        "metadata": 9,
+        "block": {"name": "NuclearCraft:blockOre", "metadata": 9},
         "material":"minecraft:stone",
         "clusterSize": 7,
         "numClusters": 7,
@@ -98,7 +92,7 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            1
+            0
         ]
     }
 }

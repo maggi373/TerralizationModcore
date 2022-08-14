@@ -1,12 +1,9 @@
 {
     "Tungsten": {
         "template": "uniform",
-        "block": {
-            "name": "Eln:Eln.Ore",
-            "metadata": 5
-        },
+        "block": {"name": "Eln:Eln.Ore", "metadata": 5},
         "material": "minecraft:stone",
-        "cluster-size": 6,
+        "clusterSize": 6,
         "numClusters": 6,
         "minHeight": 0,
         "maxHeight": 32,
@@ -20,12 +17,9 @@
     },
     "Cinnabar": {
         "template": "uniform",
-        "block": {
-            "name": "Eln:Eln.Ore",
-            "metadata": 6
-        },
+        "block": {"name": "Eln:Eln.Ore", "metadata": 6},
         "material": "minecraft:stone",
-        "cluster-size": 3,
+        "clusterSize": 3,
         "numClusters": 6,
         "minHeight": 0,
         "maxHeight": 32,
