@@ -1,5 +1,5 @@
 {
-    "lead": {
+    "Certus": {
         "template": "normal",
         "block": [
             {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight": 90},
