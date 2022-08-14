@@ -4,7 +4,7 @@
       "block": "qCraft:quantumore",
       "material": "minecraft:stone",
       "clusterSize": 4,
-      "numClusters": 4,
+      "numClusters": 2,
       "meanHeight": 16,
       "maxVariance": 4,
       "retrogen": "true",
