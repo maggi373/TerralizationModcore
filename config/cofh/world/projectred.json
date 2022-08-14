@@ -1,0 +1,72 @@
+{
+    "Electrotine": {
+        "template": "uniform",
+        "block": "ProjRed|Exploration:projectred.exploration.ore",
+        "metadata":6,
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 3,
+        "minHeight": 8,
+        "maxHeight": 30,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "Ruby": {
+        "template": "uniform",
+        "block": "ProjRed|Exploration:projectred.exploration.ore",
+        "metadata":0,
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1,
+            1
+        ]
+    },
+    "Sapphire": {
+        "template": "uniform",
+        "block": "ProjRed|Exploration:projectred.exploration.ore",
+        "metadata":1,
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1,
+            1
+        ]
+    },
+    "Peridot": {
+        "template": "uniform",
+        "block": "ProjRed|Exploration:projectred.exploration.ore",
+        "metadata":2,
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1,
+            1
+        ]
+    }
+}
