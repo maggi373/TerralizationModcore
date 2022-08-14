@@ -1,0 +1,23 @@
+{
+    "lead": {
+        "template": "normal",
+        "block": [
+            {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight": 90},
+            {"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 10}
+        ],
+        "clusterSize": 16,
+        "numClusters": 4,
+        "meanHeight": 30,
+        "maxVariance": 12,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
