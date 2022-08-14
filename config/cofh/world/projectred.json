@@ -2,7 +2,7 @@
     "Electrotine": {
         "template": "uniform",
         "block": "ProjRed|Exploration:projectred.exploration.ore",
-        "metadata":6,
+        "metadata": 6,
         "material": "minecraft:stone",
         "clusterSize": 10,
         "numClusters": 3,
@@ -21,7 +21,7 @@
     "Ruby": {
         "template": "uniform",
         "block": "ProjRed|Exploration:projectred.exploration.ore",
-        "metadata":0,
+        "metadata": 0,
         "material": "minecraft:stone",
         "clusterSize": 7,
         "numClusters": 1,
@@ -38,7 +38,7 @@
     "Sapphire": {
         "template": "uniform",
         "block": "ProjRed|Exploration:projectred.exploration.ore",
-        "metadata":1,
+        "metadata": 1,
         "material": "minecraft:stone",
         "clusterSize": 7,
         "numClusters": 1,
@@ -55,7 +55,7 @@
     "Peridot": {
         "template": "uniform",
         "block": "ProjRed|Exploration:projectred.exploration.ore",
-        "metadata":2,
+        "metadata": 2,
         "material": "minecraft:stone",
         "clusterSize": 7,
         "numClusters": 1,
