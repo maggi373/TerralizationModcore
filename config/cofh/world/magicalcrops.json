@@ -1,5 +1,5 @@
 {
-    "lead": {
+    "MinicioOre": {
         "template": "uniform",
         "block": "magicalcrops:magicalcrops_MinicioOre",
         "clusterSize": 4,
