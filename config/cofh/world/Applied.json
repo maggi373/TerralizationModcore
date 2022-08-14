@@ -6,8 +6,8 @@
             {"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 10}
         ],
         "clusterSize": 16,
-        "numClusters": 4,
-        "meanHeight": 30,
+        "numClusters": 2,
+        "meanHeight": 35,
         "maxVariance": 12,
         "retrogen": "true",
         "biomeRestriction": "none",
