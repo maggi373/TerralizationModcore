@@ -48,6 +48,23 @@
         ]
     },
 
+    "coalHIGH": {
+        "template": "normal",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 6,
+        "meanHeight": 120,
+        "maxVariance": 50,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1,
+            1
+        ]
+    },
+
     "high": {
         "template": "uniform",
         "block": "coal_ore",
@@ -55,7 +72,7 @@
         "clusterSize": 16,
         "numClusters": 14,
         "minHeight": 70,
-        "maxHeight": 128,
+        "maxHeight": 240,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

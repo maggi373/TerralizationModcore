@@ -122,8 +122,8 @@
         "block": "ThermalFoundation:Ore",
         "clusterSize": 8,
         "numClusters": 11,
-        "minHeight": 48,
-        "maxHeight": 96,
+        "minHeight": 60,
+        "maxHeight": 200,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
