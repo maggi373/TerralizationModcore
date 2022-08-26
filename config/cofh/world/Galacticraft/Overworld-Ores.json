@@ -4,7 +4,7 @@
         "block": {"name": "GalacticraftCore:tile.gcBlockCore", "metadata": 7},
         "material": "minecraft:stone",
         "clusterSize": 18,
-        "numClusters": 4,
+        "numClusters": 3,
         "minHeight": 40,
         "maxHeight": 140,
         "retrogen": "true",
