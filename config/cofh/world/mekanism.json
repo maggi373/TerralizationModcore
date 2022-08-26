@@ -4,7 +4,7 @@
         "block": "Mekanism:OreBlock",
         "material": "minecraft:stone",
         "clusterSize": 7,
-        "numClusters": 5,
+        "numClusters": 7,
         "minHeight": 15,
         "maxHeight": 38,
         "retrogen": "true",
