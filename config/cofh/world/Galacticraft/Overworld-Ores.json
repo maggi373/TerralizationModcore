@@ -3,7 +3,7 @@
         "template": "uniform",
         "block": {"name": "GalacticraftCore:tile.gcBlockCore", "metadata": 7},
         "material": "minecraft:stone",
-        "clusterSize": 18,
+        "clusterSize": 16,
         "numClusters": 3,
         "minHeight": 40,
         "maxHeight": 140,
