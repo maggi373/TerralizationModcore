@@ -4,7 +4,7 @@
         "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 6},
         "material": "minecraft:stone",
         "clusterSize": 10,
-        "numClusters": 3,
+        "numClusters": 2,
         "minHeight": 8,
         "maxHeight": 30,
         "retrogen": "true",
