@@ -2,8 +2,8 @@
     "Certus": {
         "template": "normal",
         "block": [
-            {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight": 90},
-            {"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 10}
+            {"name": "appliedenergistics2:tile.OreQuartz", "metadata": 0, "weight": 75},
+            {"name": "appliedenergistics2:tile.OreQuartzCharged", "metadata": 0, "weight": 25}
         ],
         "clusterSize": 10,
         "numClusters": 1,
