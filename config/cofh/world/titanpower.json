@@ -1,6 +1,7 @@
 {
     "bluradien": {
         "template": "uniform",
+        "generator": "sparse-cluster",
         "block": [
             "thorfusion:bluradien",
             "minecraft:diamond_ore"
@@ -15,7 +16,7 @@
         ],
         "material":"minecraft:stone",
         "clusterSize": 4,
-        "numClusters": 1,
+        "numClusters": 2,
         "minHeight": 12,
         "maxHeight": 28,
         "retrogen": "true",

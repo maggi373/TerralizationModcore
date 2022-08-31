@@ -1,10 +1,13 @@
 {
     "Uranium": {
         "template": "uniform",
-        "block": {"name": "NuclearCraft:blockOre", "metadata": 4},
+        "block": [
+            {"name": "NuclearCraft:blockOre", "metadata": 4, "weight": 85},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 15}
+        ],
         "material":"minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 2,
+        "clusterSize": 7,
+        "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 36,
         "retrogen": "true",
@@ -35,7 +38,7 @@
         "template": "uniform",
         "block": {"name": "NuclearCraft:blockOre", "metadata": 6},
         "material":"minecraft:stone",
-        "clusterSize": 5,
+        "clusterSize": 2,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 25,
@@ -69,8 +72,8 @@
         "material":"minecraft:stone",
         "clusterSize": 7,
         "numClusters": 6,
-        "minHeight": 70,
-        "maxHeight": 160,
+        "minHeight": 90,
+        "maxHeight": 180,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

@@ -3,7 +3,7 @@
         "template": "uniform",
         "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 6},
         "material": "minecraft:stone",
-        "clusterSize": 10,
+        "clusterSize": 8,
         "numClusters": 2,
         "minHeight": 8,
         "maxHeight": 30,
@@ -21,48 +21,48 @@
         "template": "uniform",
         "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 0},
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 5,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [-1,
-            1
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
         ]
     },
     "Sapphire": {
         "template": "uniform",
         "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 1},
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 5,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [-1,
-            1
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
         ]
     },
     "Peridot": {
         "template": "uniform",
         "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 2},
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 5,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [-1,
-            1
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
         ]
     }
 }

@@ -50,10 +50,9 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "lead": {
@@ -71,10 +70,9 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "nickel": {
@@ -89,10 +87,9 @@
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     },
     "platinum": {
@@ -103,7 +100,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
         ],
         "clusterSize": 4,
-        "numClusters": 3,
+        "numClusters": 2,
         "minHeight": 5,
         "maxHeight": 30,
         "retrogen": "true",
@@ -122,17 +119,16 @@
         "block": "ThermalFoundation:Ore",
         "clusterSize": 8,
         "numClusters": 11,
-        "minHeight":  67,
+        "minHeight":  80,
         "maxHeight": 200,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
             "all"
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -1,
-            1
+            0
         ]
     }
 }

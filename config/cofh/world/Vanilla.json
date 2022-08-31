@@ -102,7 +102,7 @@
         "block": "iron_ore",
         "material": "minecraft:stone",
         "clusterSize": 8,
-        "numClusters": 9,
+        "numClusters": 11,
         "meanHeight": 150,
         "maxVariance": 60,
         "retrogen": "true",

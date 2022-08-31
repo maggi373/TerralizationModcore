@@ -1,6 +1,12 @@
 {
     "AbyssalStone": {
-        "template": "normal",
+        "template": {"type": "normal", "generator": "geode",
+            "crust": [{"name": "Railcraft:cube", "metadata": 6}],
+            "hollow": "true",
+            "filler": [
+                {"name": "Railcraft:cube", "metadata": 6}
+             ]
+        },
         "block": {"name": "Railcraft:cube", "metadata": 6},
         "material": "minecraft:stone",
         "clusterSize": 42,

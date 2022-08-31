@@ -5,15 +5,15 @@
         "material": "minecraft:stone",
         "clusterSize": 7,
         "numClusters": 9,
-        "minHeight": 15,
+        "minHeight": 17,
         "maxHeight": 38,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "whitelist",
+        "dimensionRestriction": "blacklist",
         "dimensions": [
-            0,
-            6
+            1,
+            -1
         ]
     }
 }
