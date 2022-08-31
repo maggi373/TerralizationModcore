@@ -1,0 +1,25 @@
+{
+"OreIron": {
+    "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+    "block": [
+    {"name": "minecraft:iron_ore", "weight": 75 },
+    {"name": "minecraft:iron_ore", "weight": 25 }
+    ],
+    "material": "minecraft:stone",
+    "clusterSize": 50,
+    "numClusters": 120,
+    "chunkChance": 40,
+    "minHeight": 44,
+    "veinHeight": 16,
+    "veinDiameter": 64,
+    "verticalDensity": 4,
+    "horizontalDensity": 4,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "whitelist",
+    "dimensions": [
+    0
+    ]
+    }
+}
