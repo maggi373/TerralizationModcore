@@ -1,25 +1,40 @@
 {
-"OreIron": {
-    "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
-    "block": [
-    {"name": "minecraft:iron_ore", "weight": 75 },
-    {"name": "minecraft:iron_ore", "weight": 25 }
-    ],
-    "material": "minecraft:stone",
-    "clusterSize": 50,
-    "numClusters": 120,
-    "chunkChance": 40,
-    "minHeight": 44,
-    "veinHeight": 16,
-    "veinDiameter": 64,
-    "verticalDensity": 4,
-    "horizontalDensity": 4,
-    "retrogen": "true",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "whitelist",
-    "dimensions": [
-    0
-    ]
+    "OreIron": {
+        "template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 10
+            },
+            {
+                "name": "minecraft:iron_ore",
+                "metadata": 0,
+                "weight": 55
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 7,
+                "weight": 35
+            }
+        ],
+        "clusterSize": 20,
+        "numClusters": 3,
+        "chunkChance": 3,
+        "minHeight": 15,
+        "veinHeight": 45,
+        "veinDiameter": 45,
+        "verticalDensity": 20,
+        "horizontalDensity": 20,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
     }
-}
+    }
