@@ -81,22 +81,6 @@
             1
         ]
     },
-    "iron": {
-        "template": "normal",
-        "block": "iron_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 9,
-        "meanHeight": 45,
-        "maxVariance": 16,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [-1,
-            1
-        ]
-    },
     "ironhigh": {
         "template": "normal",
         "block": "iron_ore",
