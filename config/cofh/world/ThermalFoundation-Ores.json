@@ -1,7 +1,18 @@
 {
     "copper": {
         "template": "normal",
-        "block": "ThermalFoundation:Ore",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata":0,
+                "weight": 70
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 9,
+                "weight": 30
+            }
+        ],
         "clusterSize": 8,
         "numClusters": 9,
         "meanHeight": 45,
@@ -19,7 +30,18 @@
     },
     "tin": {
         "template": "uniform",
-        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata":1,
+                "weight": 80
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 10,
+                "weight": 20
+            }
+        ],
         "clusterSize": 6,
         "numClusters": 8,
         "minHeight": 20,
@@ -58,8 +80,9 @@
     "lead": {
         "template": "normal",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 60},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10},
+            {"name": "Railcraft:ore", "metadata": 11, "weight": 30}
         ],
         "clusterSize": 8,
         "numClusters": 5,
@@ -116,7 +139,18 @@
     },
     "copperHigh": {
         "template": "uniform",
-        "block": "ThermalFoundation:Ore",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata":0,
+                "weight": 70
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 9,
+                "weight": 30
+            }
+        ],
         "clusterSize": 8,
         "numClusters": 11,
         "minHeight":  80,

@@ -99,7 +99,18 @@
     },
     "gold": {
         "template": "normal",
-        "block": "gold_ore",
+        "block": [
+            {
+                "name": "gold_ore",
+                "metadata":0,
+                "weight": 60
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 8,
+                "weight": 40
+            }
+        ],
         "material": "minecraft:stone",
         "clusterSize": 4,
         "numClusters": 2,
