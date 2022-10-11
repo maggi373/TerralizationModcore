@@ -112,7 +112,7 @@
             }
         ],
         "material": "minecraft:stone",
-        "clusterSize": 4,
+        "clusterSize": 5,
         "numClusters": 2,
         "meanHeight": 25,
         "maxVariance": 5,

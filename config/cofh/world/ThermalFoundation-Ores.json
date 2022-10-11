@@ -13,7 +13,7 @@
                 "weight": 30
             }
         ],
-        "clusterSize": 8,
+        "clusterSize": 9,
         "numClusters": 9,
         "meanHeight": 45,
         "maxVariance": 16,
@@ -42,7 +42,7 @@
                 "weight": 20
             }
         ],
-        "clusterSize": 6,
+        "clusterSize": 7,
         "numClusters": 8,
         "minHeight": 20,
         "maxHeight": 55,
@@ -84,7 +84,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10},
             {"name": "Railcraft:ore", "metadata": 11, "weight": 30}
         ],
-        "clusterSize": 8,
+        "clusterSize": 9,
         "numClusters": 5,
         "meanHeight": 30,
         "maxVariance": 12,
@@ -151,7 +151,7 @@
                 "weight": 30
             }
         ],
-        "clusterSize": 8,
+        "clusterSize": 9,
         "numClusters": 11,
         "minHeight":  80,
         "maxHeight": 200,
