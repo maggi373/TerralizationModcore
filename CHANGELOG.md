@@ -1,22 +1,131 @@
-# Version 2.8.3a - Currently under development
+# Future release
+### TerralizationCoreConfig
++ CoFH oregen now handles:
+  + Metalurgy
+  + AM2
 
-### Updated GTNH Fork
-+ HEE
-+ ae2
+# Version 2.9.1a
+
+### Added
++ CoreTweaks
+
+### Updated
++ BugTorch
++ NEI gtnh
++ Mekanism Community Edition
+
+### TerralizationCoreConfig
++ Allowed mekanism windmill in certain dimensions
++ Update mekanism config files to the new config structure in mekanism ce 9.10.18
++ Roguelike dungeons spawn more frequently now
+
+# Version 2.9.0c
+
+### TerralizationCoreConfig
++ disabled falsepatternlib automatic library downloader
++ disabled the range limit for ticking entities
+
+# Version 2.9.0b
+
+### TerralizationCoreConfig
++ disabled falsepatternlib update checker
++ enabled better regional difficulty
++ removed some spamm in the log files
++ entity's will now only be ticked within 64 blocks
++ less quarried stone will generate in the soil
++ added copper poor ores to the copper gen 30%
++ added tin poor ores to the tin gen 20%
++ added lead poor ores to the lead gen 30%
++ added gold poor ores to the gold gen 50%
++ large ironveins now spawns in mountains alongside normal iron generation for mountains
++ reduced ironveins in normal heights
++ reduced coal generation.
++ increased certus quartz oregen
+
+# Version 2.9.0a Worldgen update
+
+### Added
++ UniDict
++ Default World Generator
++ Realistic Terrain Generation
++ BugTorch
++ ArchaicFix
++ GasStation
++ Neodymium
++ FalsePatternLib
+
+### Removed
+- Immersive Engineering (removed from all previous terralization versions aswell)
+- Immersive Integration (removed from all previous terralization versions aswell)
+- Pam's Clay Spawn (now handled by custom cofh oregen)
+- TerralizationCompat (it was merged into mekanism community edition)
+
+### Updated
++ Mekanism Community Edition
++ Xaero's Minimap
++ Xaero's Worldmap
++ NEI GTNH
++ OpenComputers
+
+### Downgraded
+- Netherlicious to 3.1.0 due to maggi373/TerralizationModcore#48
+
+### Switched to DrParadox7 fork
++ ArsMagica2
+
+### Swithed to original version:
++ Nuclear Control 2
+  + This is because the original version got an update that fixes the cape issues from me :)
+
+### Switched to Thorfusion fork
++ InvTweaks (fixes bugs)
+
+### Switched to gtnewhorizion fork
++ Extra Cells 2 from kmecpp fork
++ Applied Energistics
++ NotEnoughEnergistics
 + EnderIO
-+ Binniemods
-+ AppliedEnergistics
-+ Extracells
-+ ae2stuff
-+ Galacticcraft
++ TinkersConstruct
 + Railcraft
-+ Opencomputers
-+ Crafttweaker
-+ Infernal mobs
++ CodeChickenCore
++ CodeChickenLib
 
-### Downgraded for curse compability
-- Industrialcraft
-- Ender storage
+NOTE: I will change more to gtnh forks but this is enough for now
+
+### TerralizationCoreConfig
++ fixed titanpower oregen
++ antimatter explosive is now more expensive to make
++ going to bed nolonger stops the rain
++ applied energistics now uses rf
++ added tungsten to dictionary
++ disabled some update notifications and other connecting to web stuff
++ disabled mekanisms salt ore generation
++ changed default world generator
++ disabled dryad spawning
++ added projectred silicon to oredict
++ deepiron now only spawns in the deep
++ titled mob death nolonger shows in chat
++ tons of changes on the new mods added aswell
++ defaultkeys for firstinstall
++ disabled invtweaks loaded notification
++ COFH oregen now handles ores from
+  + forestry
+  + vanilla
+  + galacticraft
+  + harvestcraft
+  + chisel
+  + nuclearcraft
+  + railcraft
+  + mekanism
+  + electrical age
+  + applied energistic
+  + qcraft
+  + projectred
+  + magical crops
+  + most ores have now different oregen
+    + Like copper spawning around level x
+    + or abyssalstone spawning around level 10
+    + check github for accurate details
 
 # Version 2.8.2a
 

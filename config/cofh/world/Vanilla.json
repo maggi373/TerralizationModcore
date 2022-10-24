@@ -1,86 +1,126 @@
 {
     "dirt": {
         "template": "uniform",
-        "block": "dirt",
+        "block": "minecraft:dirt",
         "material": "minecraft:stone",
         "clusterSize": 32,
-        "numClusters": 20,
-        "minHeight": 0,
+        "numClusters": 4,
+        "minHeight": 40,
         "maxHeight": 128,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
     "gravel": {
         "template": "uniform",
-        "block": "gravel",
-        "material": "stone",
+        "block": "minecraft:gravel",
+        "material": "minecraft:stone",
         "clusterSize": 32,
-        "numClusters": 10,
-        "minHeight": 0,
+        "numClusters": 5,
+        "minHeight": 30,
         "maxHeight": 128,
         "retrogen": "false",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
     "coal": {
-        "template": "uniform",
+        "template": "normal",
         "block": "coal_ore",
         "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 20,
-        "minHeight": 0,
-        "maxHeight": 128,
+        "clusterSize": 12,
+        "numClusters": 4,
+        "meanHeight": 55,
+        "maxVariance": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
-    "iron": {
-        "template": "uniform",
-        "block": "iron_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 20,
-        "minHeight": 0,
-        "maxHeight": 64,
+
+    "coalHIGH": {
+        "template": "normal",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 12,
+        "numClusters": 5,
+        "meanHeight": 130,
+        "maxVariance": 50,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
+            1
+        ]
+    },
+
+    "high": {
+        "template": "uniform",
+        "block": "coal_ore",
+        "material": "stone",
+        "clusterSize": 7,
+        "numClusters": 12,
+        "minHeight": 70,
+        "maxHeight": 240,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1,
+            1
+        ]
+    },
+    "ironhigh": {
+        "template": "normal",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 11,
+        "meanHeight": 150,
+        "maxVariance": 60,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [-1,
             1
         ]
     },
     "gold": {
-        "template": "uniform",
-        "block": "gold_ore",
+        "template": "normal",
+        "block": [
+            {
+                "name": "gold_ore",
+                "metadata":0,
+                "weight": 60
+            },
+            {
+                "name": "Railcraft:ore",
+                "metadata": 8,
+                "weight": 40
+            }
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 8,
+        "clusterSize": 5,
         "numClusters": 2,
-        "minHeight": 0,
-        "maxHeight": 32,
+        "meanHeight": 25,
+        "maxVariance": 5,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -96,8 +136,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -105,7 +144,7 @@
         "template": "uniform",
         "block": "diamond_ore",
         "material": "minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 5,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 16,
@@ -113,8 +152,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -130,8 +168,7 @@
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
+        "dimensions": [-1,
             1
         ]
     },
@@ -145,10 +182,36 @@
         "maxHeight": 118,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
-        "biomes": [
-            {"type": "dictionary", "entry": "NETHER"}
-        ],
+        "biomes": [],
         "dimensionRestriction": "none",
         "dimensions": []
+    },
+    "clay": {
+        "template": "uniform",
+        "block": "minecraft:clay",
+        "material": "minecraft:stone",
+        "clusterSize": 24,
+        "numClusters": 8,
+        "minHeight": 40,
+        "maxHeight": 82,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": ["River"],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "hard clay": {
+        "template": "uniform",
+        "block": "minecraft:hardened_clay",
+        "material": "minecraft:stone",
+        "clusterSize": 30,
+        "numClusters": 4,
+        "minHeight": 20,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": ["Ocean"],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
     }
 }
