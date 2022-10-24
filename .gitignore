@@ -24,7 +24,7 @@
 !*.json
 !*.disabled
 !*.cfg
-!/mods
+!/mods/*
 !/Flan
 !/libraries
 !server-icon.png
