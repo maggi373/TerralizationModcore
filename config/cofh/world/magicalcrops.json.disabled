@@ -1,0 +1,20 @@
+{
+    "MinicioOre": {
+        "template": "uniform",
+        "block": "magicalcrops:magicalcrops_MinicioOre",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "maxHeight": 45,
+        "minHeight": 12,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
