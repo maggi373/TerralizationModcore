@@ -1,14 +1,23 @@
-# Version 2.9.1a
-## Currently under development
-
-## Todo:
-### Updated
-+ bugtorch
-
+# Future release
 ### TerralizationCoreConfig
 + CoFH oregen now handles:
   + Metalurgy
   + AM2
+
+# Version 2.9.1a
+
+### Added
++ CoreTweaks
+
+### Updated
++ BugTorch
++ NEI gtnh
++ Mekanism Community Edition
+
+### TerralizationCoreConfig
++ Allowed mekanism windmill in certain dimensions
++ Update mekanism config files to the new config structure in mekanism ce 9.10.18
++ Roguelike dungeons spawn more frequently now
 
 # Version 2.9.0c
 
