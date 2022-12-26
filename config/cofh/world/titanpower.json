@@ -1,9 +1,8 @@
 {
     "bluradien": {
         "template": "uniform",
-        "generator": "sparse-cluster",
         "block": [
-            "thorfusion:bluradien",
+            "thorfusion:Bluradien",
             "minecraft:diamond_ore"
         ],
         "metadata":[
@@ -16,7 +15,7 @@
         ],
         "material":"minecraft:stone",
         "clusterSize": 4,
-        "numClusters": 2,
+        "numClusters": 1,
         "minHeight": 12,
         "maxHeight": 28,
         "retrogen": "true",
@@ -30,7 +29,7 @@
     },
     "bluradiennether": {
         "template": "uniform",
-        "block": "thorfusion:bluradiennether",
+        "block": "thorfusion:Bluradiennether",
         "metadata":0,
         "material":"minecraft:netherrack",
         "clusterSize": 2,
@@ -47,7 +46,7 @@
     },
     "bluradienend": {
         "template": "uniform",
-        "block": "thorfusion:bluradienend",
+        "block": "thorfusion:Bluradienend",
         "metadata":0,
         "material":"minecraft:end_stone",
         "clusterSize": 5,
