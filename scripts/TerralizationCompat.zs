@@ -2,7 +2,6 @@
    Tweaks and Alterations */
    
 // Silicon Unification -- Project Red; Galacticraft; EnderIO
-<ore:silicon>.add(<ProjRed|Core:projectred.core.part:12>);
 <ore:itemSilicon>.addAll(<ore:silicon>);
 <ore:silicon>.mirror(<ore:itemSilicon>);
 
