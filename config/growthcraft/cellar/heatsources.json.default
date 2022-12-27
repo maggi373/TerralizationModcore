@@ -2,14 +2,6 @@
   "comment": "",
   "data": [
     {
-      "comment": "This is Nitor.",
-      "mod_id": "Thaumcraft",
-      "block_name": "blockAiry",
-      "states": {
-        "1": 1.0
-      }
-    },
-    {
       "comment": "Fire!",
       "mod_id": "minecraft",
       "block_name": "fire",
