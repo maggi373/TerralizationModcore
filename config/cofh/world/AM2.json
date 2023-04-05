@@ -1,0 +1,58 @@
+{
+    "vinteum": {
+        "template": "uniform",
+        "block": "arsmagica2:vinteumOre",
+        "material": "minecraft:stone",
+        "clusterSize": 4,
+        "numClusters": 6,
+        "minHeight": 10,
+        "maxHeight": 45,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "chimerite": {
+        "template": "uniform",
+        "block": {"name": "arsmagica2:vinteumOre", "metadata": 1},
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 8,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "bluetopaz": {
+        "template": "uniform",
+        "block": {"name": "arsmagica2:vinteumOre", "metadata": 2},
+        "material": "minecraft:stone",
+        "clusterSize": 6,
+        "numClusters": 8,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
+    },
+    "sunstone": {
+        "template": "uniform",
+        "block": {"name": "arsmagica2:vinteumOre", "metadata": 4},
+        "material": "minecraft:netherrack",
+        "clusterSize": 3,
+        "numClusters": 20,
+        "minHeight": 5,
+        "maxHeight": 120,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [-1]
+    }
+}

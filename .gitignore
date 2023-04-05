@@ -20,7 +20,7 @@
 /bin/
 /resourcepacks/
 !*.cfg
-!/mods/*
+!/mods
 !/Flan
 !/libraries
 /bin
