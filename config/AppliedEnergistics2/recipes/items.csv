@@ -250,11 +250,11 @@ minecraft:log2:0, Acacia Wood
 minecraft:log2:1, Dark Oak Wood
 minecraft:acacia_stairs, Acacia Wood Stairs
 minecraft:dark_oak_stairs, Dark Oak Wood Stairs
-IC2:ironScaffold, Iron Scaffold
-IC2:blockBarrel, tile.null.name
-IC2:crop, Crop
-IC2:luminator, Luminator
-IC2:scaffold, Scaffold
+IC2:blockOreCopper, ic2.blockOreCopper.name
+IC2:blockOreTin, ic2.blockOreTin.name
+IC2:blockOreUran, ic2.blockOreUran.name
+IC2:blockOreLead, ic2.blockOreLead.name
+IC2:blockRubWood, ic2.blockRubWood.name
 minecraft:hay_block, Hay Bale
 minecraft:carpet:0, Carpet
 minecraft:carpet:1, Orange Carpet
@@ -281,102 +281,137 @@ minecraft:double_plant:2, Double Tallgrass
 minecraft:double_plant:3, Large Fern
 minecraft:double_plant:4, Rose Bush
 minecraft:double_plant:5, Peony
-IC2:constructionFoamWall, tile.blockWall.name
-IC2:constructionFoam, Construction Foam
-IC2:blockMachine2:0, Teleporter
-IC2:blockMachine2:1, Tesla Coil
-IC2:blockMachine2:2, Crop-Matron
-IC2:blockMachine2:3, Singularity Compressor
-IC2:blockMachine2:4, Centrifugal Extractor
-IC2:blockMachine2:5, Rotary Macerator
-IC2:blockMachine2:6, Charged Electrolyzer
-IC2:blockMachine2:7, Vacuum Canner
-IC2:blockMachine2:8, Compacting Recycler
-IC2:blockMachine2:9, Electric Enchanter
-IC2:blockMachine2:10, Ore Scanner
-IC2:blockMachine2:11, Crop Scanner
-IC2:blockMachine2:12, Reactor Planner
-IC2:blockMachine2:13, Sound Beacon
-IC2:blockMachine2:14, Uranium Enricher
-IC2:blockMachine2:15, Crop Harvester
-IC2:blockMetal:0, Copper Block
-IC2:blockMetal:1, Tin Block
-IC2:blockMetal:2, Bronze Block
-IC2:blockMetal:3, Uranium Block
-IC2:miningPipe, Mining Pipe
-IC2:LuminatorMultipartBlock, Luminator (Multi Part)
-IC2:blockElectric:0, BatBox
-IC2:blockElectric:1, MFE
-IC2:blockElectric:2, MFSU
-IC2:blockElectric:3, LV-Transformer
-IC2:blockElectric:4, MV-Transformer
-IC2:blockElectric:5, HV-Transformer
-IC2:blockElectric:6, EV-Transformer
-IC2:blockElectric:7, Battery Box
-IC2:blockElectric:8, Adjustable-Transformer
-IC2:blockElectric:9, Creative EnergyStorage
-IC2:cableBlock, tile.null.name
-IC2:reinforcedDoorBlock, tile.blockDoorAlloy.name
-IC2:reinforcedGlass, Reinforced Glass
-IC2:reinforcedStone, Reinforced Stone
-IC2:ironFence, Iron Fence
-IC2:reactorChamber:0, Reactor Chamber
-IC2:reactorChamber:1, Steam Reactor Chamber
-IC2:rubberTrampoline, Rubber Sheet
-IC2:dynamiteStickWithRemote, tile.blockDynamiteRemote.name
-IC2:dynamiteStick, tile.blockDynamite.name
-IC2:nuke, Nuke
-IC2:industrialTNT, Industrial TNT
-IC2:resinBlock, Resin Sheet
-IC2:rubberSapling, Rubber Tree Sapling
-IC2:rubberLeaves, Leaves
-IC2:rubberWood, Rubber Wood
-IC2:miningPipeTip, Mining Pipe
-IC2:blockPersonal:0, Personal Safe
-IC2:blockPersonal:1, Trade-O-Mat
-IC2:blockPersonal:2, Energy-O-Mat
-IC2:blockPersonal:3, Fluid-O-Mat
-IC2:blockGenerator:0, Generator
-IC2:blockGenerator:1, Geothermal Generator
-IC2:blockGenerator:2, Water Mill
-IC2:blockGenerator:3, Solar Panel
-IC2:blockGenerator:4, Wind Mill
-IC2:blockGenerator:5, Nuclear Reactor
-IC2:blockGenerator:6, Steam Reactor
-IC2:blockGenerator:7, Low Voltage Solar Panel
-IC2:blockGenerator:8, Medium Voltage Solar Panel
-IC2:blockGenerator:9, High Voltage Solar Panel
-IC2:blockGenerator:10, Low Voltage Water Mill
-IC2:blockGenerator:11, Medium Voltage Water Mill
-IC2:blockGenerator:12, High Voltage Water Mill
-IC2:blockMachine:0, Machine Block
-IC2:blockMachine:1, Iron Furnace
-IC2:blockMachine:2, Electric Furnace
-IC2:blockMachine:3, Macerator
-IC2:blockMachine:4, Extractor
-IC2:blockMachine:5, Compressor
-IC2:blockMachine:6, Canning Machine
-IC2:blockMachine:7, Miner
-IC2:blockMachine:8, Pump
-IC2:blockMachine:9, Magnetizer
-IC2:blockMachine:10, Electrolyzer
-IC2:blockMachine:11, Recycler
-IC2:blockMachine:12, Advanced Machine Block
-IC2:blockMachine:13, Induction Furnace
-IC2:blockMachine:14, Mass Fabricator
-IC2:blockMachine:15, Terraformer
-IC2:Converter:0, Small Electric Flux Generator
-IC2:Converter:1, Medium Electric Flux Generator
-IC2:Converter:2, Big Electric Flux Generator
-IC2:Converter:3, Small Flux Generator
-IC2:Converter:4, Medium Flux Generator
-IC2:Converter:5, Big Flux Generator
-IC2:Converter:6, Basic Steam Turbine
-IC2:ChargePad-Classic:0, Static Charge Pad
-IC2:ChargePad-Classic:1, Crystalizor Charge Pad
-IC2:ChargePad-Classic:2, Lapotronic Charge Pad
-IC2:ChargePad-Classic:3, Fission Charge Pad
-IC2:constructionFoamWallTextured, tile.blockWallTextured.name
+IC2:blockRubLeaves, ic2.blockRubLeaves.name
+IC2:blockRubSapling, ic2.blockRubSapling.name
+IC2:blockHarz, ic2.blockHarz.name
+IC2:blockRubber, ic2.blockRubber.name
+IC2:blockFenceIron, ic2.blockFenceIron.name
+IC2:blockAlloy, ic2.blockAlloy.name
+IC2:blockBasalt, ic2.blockBasalt.name
+IC2:blockAlloyGlass, ic2.blockAlloyGlass.name
+IC2:blockDoorAlloy, tile.blockDoorAlloy.name
+IC2:blockReinforcedFoam, ic2.blockReinforcedFoam.name
+IC2:blockFoam, ic2.blockFoam.name
+IC2:blockWall, ic2.blockWall.name
+IC2:blockScaffold, ic2.blockScaffold.name
+IC2:blockIronScaffold, ic2.blockIronScaffold.name
+IC2:blockMetal:0, ic2.blockMetalCopper
+IC2:blockMetal:1, ic2.blockMetalTin
+IC2:blockMetal:2, ic2.blockMetalBronze
+IC2:blockMetal:3, ic2.blockMetalUranium
+IC2:blockMetal:4, ic2.blockMetalLead
+IC2:blockMetal:5, ic2.blockMetalAdvIron
+IC2:blockCable, ic2.blockCable.name
+IC2:blockKineticGenerator:0, ic2.blockWindKineticGenerator
+IC2:blockKineticGenerator:1, ic2.blockSteamKineticGenerator
+IC2:blockKineticGenerator:2, ic2.blockElectricKineticGenerator
+IC2:blockKineticGenerator:3, ic2.blockManualKineticGenerator
+IC2:blockKineticGenerator:4, ic2.blockWaterKineticGenerator
+IC2:blockKineticGenerator:5, ic2.blockStirlingKineticGenerator
+IC2:blockHeatGenerator:0, ic2.blockSolidHeatGenerator
+IC2:blockHeatGenerator:1, ic2.blockFluidHeatGenerator
+IC2:blockHeatGenerator:2, ic2.blockRTHeatGenerator
+IC2:blockHeatGenerator:3, ic2.blockElectricHeatGenerator
+IC2:blockGenerator:0, ic2.blockGenerator
+IC2:blockGenerator:1, ic2.blockGeoGenerator
+IC2:blockGenerator:2, ic2.blockWaterGenerator
+IC2:blockGenerator:3, ic2.blockSolarGenerator
+IC2:blockGenerator:4, ic2.blockWindGenerator
+IC2:blockGenerator:5, ic2.blockNuclearReactor
+IC2:blockGenerator:6, ic2.blockRTGenerator
+IC2:blockGenerator:7, ic2.blockSemifluidGenerator
+IC2:blockGenerator:8, ic2.blockStirlingGenerator
+IC2:blockGenerator:9, ic2.blockKineticGenerator
+IC2:blockReactorChamber, ic2.blockReactorChamber.name
+IC2:blockReactorFluidPort, ic2.blockReactorFluidPort.name
+IC2:blockReactorAccessHatch, ic2.blockReactorAccessHatch.name
+IC2:blockReactorRedstonePort, ic2.blockReactorRedstonePort.name
+IC2:blockreactorvessel, ic2.blockreactorvessel.name
+IC2:blockElectric:3, ic2.blockTransformerLV
+IC2:blockElectric:4, ic2.blockTransformerMV
+IC2:blockElectric:5, ic2.blockTransformerHV
+IC2:blockElectric:6, ic2.blockTransformerEV
+IC2:blockElectric:0, ic2.blockBatBox
+IC2:blockElectric:7, ic2.blockCESU
+IC2:blockElectric:1, ic2.blockMFE
+IC2:blockElectric:2, ic2.blockMFSU
+IC2:blockElectric:0, ic2.blockBatBox
+IC2:blockElectric:7, ic2.blockCESU
+IC2:blockElectric:1, ic2.blockMFE
+IC2:blockElectric:2, ic2.blockMFSU
+IC2:blockChargepad:0, ic2.blockChargepadBatBox
+IC2:blockChargepad:1, ic2.blockChargepadCESU
+IC2:blockChargepad:2, ic2.blockChargepadMFE
+IC2:blockChargepad:3, ic2.blockChargepadMFSU
+IC2:blockChargepad:0, ic2.blockChargepadBatBox
+IC2:blockChargepad:1, ic2.blockChargepadCESU
+IC2:blockChargepad:2, ic2.blockChargepadMFE
+IC2:blockChargepad:3, ic2.blockChargepadMFSU
+IC2:blockMachine:0, ic2.blockMachine
+IC2:blockMachine:1, ic2.blockIronFurnace
+IC2:blockMachine:2, ic2.blockElecFurnace
+IC2:blockMachine:3, ic2.blockMacerator
+IC2:blockMachine:4, ic2.blockExtractor
+IC2:blockMachine:5, ic2.blockCompressor
+IC2:blockMachine:6, ic2.blockCanner
+IC2:blockMachine:7, ic2.blockMiner
+IC2:blockMachine:8, ic2.blockPump
+IC2:blockMachine:9, ic2.blockMagnetizer
+IC2:blockMachine:10, ic2.blockElectrolyzer
+IC2:blockMachine:11, ic2.blockRecycler
+IC2:blockMachine:12, ic2.blockAdvMachine
+IC2:blockMachine:13, ic2.blockInduction
+IC2:blockMachine:14, ic2.blockMatter
+IC2:blockMachine:15, ic2.blockTerra
+IC2:blockMachine2:0, ic2.blockTeleporter
+IC2:blockMachine2:1, ic2.blockTesla
+IC2:blockMachine2:2, ic2.blockCropmatron
+IC2:blockMachine2:3, ic2.blockCentrifuge
+IC2:blockMachine2:4, ic2.blockMetalFormer
+IC2:blockMachine2:5, ic2.blockOreWashingPlant
+IC2:blockMachine2:6, ic2.blockPatternStorage
+IC2:blockMachine2:7, ic2.blockScanner
+IC2:blockMachine2:8, ic2.blockReplicator
+IC2:blockMachine2:9, ic2.blockSolidCanner
+IC2:blockMachine2:10, ic2.blockFluidBottler
+IC2:blockMachine2:11, ic2.blockAdvMiner
+IC2:blockMachine2:12, ic2.blockLiquidHeatExchanger
+IC2:blockMachine2:13, ic2.blockFermenter
+IC2:blockMachine2:14, ic2.blockFluidRegulator
+IC2:blockMachine2:15, ic2.blockCondenser
+IC2:blockMachine3:0, ic2.blockSteamGenerator
+IC2:blockMachine3:1, ic2.blockBlastFurnace
+IC2:blockMachine3:2, ic2.blockBlockCutter
+IC2:blockMachine3:3, ic2.blockSolarDestiller
+IC2:blockMachine3:4, ic2.blockFluidDistributor
+IC2:blockMachine3:5, ic2.blockSortingMachine
+IC2:blockMachine3:6, ic2.blockItemBuffer
+IC2:blockMachine3:7, ic2.blockCropHavester
+IC2:blockMachine3:8, ic2.blockLathe
+IC2:blockLuminatorDark, ic2.blockLuminatorDark.name
+IC2:blockLuminator, ic2.blockLuminator.name
+IC2:blockMiningPipe, ic2.blockMiningPipe.name
+IC2:blockMiningTip, ic2.blockMiningTip.name
+IC2:blockPersonal:0, ic2.blockPersonalChest
+IC2:blockPersonal:1, ic2.blockPersonalTrader
+IC2:blockPersonal:2, ic2.blockPersonalTraderEnergy
+IC2:blockITNT, ic2.blockITNT.name
+IC2:blockNuke, ic2.blockNuke.name
+IC2:blockDynamite, ic2.blockDynamite.name
+IC2:blockDynamiteRemote, ic2.blockDynamiteRemote.name
+IC2:blockCrop, ic2.blockCrop.name
+IC2:blockBarrel, ic2.blockBarrel.name
+IC2:fluidUuMatter, ic2.fluidUuMatter.name
+IC2:fluidConstructionFoam, ic2.fluidConstructionFoam.name
+IC2:fluidCoolant, ic2.fluidCoolant.name
+IC2:fluidHotCoolant, ic2.fluidHotCoolant.name
+IC2:fluidPahoehoeLava, ic2.fluidPahoehoeLava.name
+IC2:fluidBiomass, ic2.fluidBiomass.name
+IC2:fluidBiogas, ic2.fluidBiogas.name
+IC2:fluidDistilledWater, ic2.fluidDistilledWater.name
+IC2:fluidSuperheatedSteam, ic2.fluidSuperheatedSteam.name
+IC2:fluidSteam, ic2.fluidSteam.name
+IC2:fluidHotWater, ic2.fluidHotWater.name
 AdvancedMachines:advancedmachines.block:0, Rotary Macerator
 AdvancedMachines:advancedmachines.block:1, Singularity Compressor
 AdvancedMachines:advancedmachines.block:2, Centrifuge Extractor
@@ -391,6 +426,12 @@ AdvancedMachines:advancedmachines.arrayDevice:0, Array Solar Panel
 AdvancedMachines:advancedmachines.arrayDevice:1, Array Watermill
 AdvancedMachines:advancedmachines.arrayDevice:2, Array Windmill
 AdvancedMachines:advancedmachines.arrayController, Array Controller
+AdvancedSolarPanel:BlockMolecularTransformer, tile.null.name
+AdvancedSolarPanel:BlockAdvSolarPanel:0, Advanced Solar Panel
+AdvancedSolarPanel:BlockAdvSolarPanel:1, Hybrid Solar Panel
+AdvancedSolarPanel:BlockAdvSolarPanel:2, Ultimate Hybrid Solar Panel
+AdvancedSolarPanel:BlockAdvSolarPanel:3, Quantum Solar Panel
+AdvancedSolarPanel:BlockAdvSolarPanel:4, Quantum Generator
 appliedenergistics2:tile.OreQuartz, Certus Quartz Ore
 appliedenergistics2:tile.OreQuartzCharged, Charged Certus Quartz Ore
 appliedenergistics2:tile.BlockMatrixFrame, Matrix Frame
@@ -418,36 +459,6 @@ appliedenergistics2:tile.BlockSecurity, ME Security Terminal
 appliedenergistics2:tile.BlockQuantumRing, ME Quantum Ring
 appliedenergistics2:tile.BlockQuantumLinkChamber, ME Quantum Link Chamber
 appliedenergistics2:tile.BlockSpatialPylon, Spatial Pylon
-appliedenergistics2:tile.BlockSpatialIOPort, Spatial IO Port
-appliedenergistics2:tile.BlockCableBus, AE2 Cable and/or Bus
-appliedenergistics2:tile.BlockController, ME Controller
-appliedenergistics2:tile.BlockDrive, ME Drive
-appliedenergistics2:tile.BlockChest, ME Chest
-appliedenergistics2:tile.BlockInterface, ME Interface
-appliedenergistics2:tile.BlockCellWorkbench, Cell Workbench
-appliedenergistics2:tile.BlockIOPort, ME IO Port
-appliedenergistics2:tile.BlockCondenser, Matter Condenser
-appliedenergistics2:tile.BlockEnergyAcceptor, Energy Acceptor
-appliedenergistics2:tile.BlockVibrationChamber, Vibration Chamber
-appliedenergistics2:tile.BlockQuartzGrowthAccelerator, Crystal Growth Accelerator
-appliedenergistics2:tile.BlockEnergyCell, Energy Cell
-appliedenergistics2:tile.BlockDenseEnergyCell, Dense Energy Cell
-appliedenergistics2:tile.BlockCreativeEnergyCell, Creative Energy Cell
-appliedenergistics2:tile.BlockCraftingUnit:0, Crafting Unit
-appliedenergistics2:tile.BlockCraftingUnit:1, Crafting Co-Processing Unit
-appliedenergistics2:tile.BlockCraftingUnit:2, Quad Core Co-Processing Unit
-appliedenergistics2:tile.BlockCraftingUnit:3, 16 Core Co-Processing Unit
-appliedenergistics2:tile.BlockCraftingStorage:0, 1k Crafting Storage
-appliedenergistics2:tile.BlockCraftingStorage:1, 4k Crafting Storage
-appliedenergistics2:tile.BlockCraftingStorage:2, 16k Crafting Storage
-appliedenergistics2:tile.BlockCraftingStorage:3, 64k Crafting Storage
-appliedenergistics2:tile.BlockCraftingMonitor:0, Crafting Monitor
-appliedenergistics2:tile.BlockMolecularAssembler, Molecular Assembler
-appliedenergistics2:tile.BlockLightDetector, Light Detecting Fixture
-appliedenergistics2:tile.BlockPaint, tile.appliedenergistics2.BlockPaint.name
-appliedenergistics2:tile.SkyStoneStairBlock, Sky Stone Stairs
-appliedenergistics2:tile.SkyStoneBlockStairBlock, Sky Stone Block Stairs
-appliedenergistics2:tile.SkyStoneBrickStairBlock, Sky Stone Brick Stairs
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
 minecraft:iron_axe, Iron Axe
@@ -580,7 +591,7 @@ minecraft:beef, Raw Beef
 minecraft:cooked_beef, Steak
 minecraft:chicken, Raw Chicken
 minecraft:cooked_chicken, Cooked Chicken
-minecraft:rotten_flesh, Rotten Flesh
+minecraft:rotten_flesh, Zombie Brain
 minecraft:ender_pearl, Ender Pearl
 minecraft:blaze_rod, Blaze Rod
 minecraft:ghast_tear, Ghast Tear
@@ -713,7 +724,7 @@ minecraft:skull:2, Zombie Head
 minecraft:skull:3, Head
 minecraft:skull:4, Creeper Head
 minecraft:carrot_on_a_stick, Carrot on a Stick
-minecraft:nether_star, Nether Star
+minecraft:nether_star, Nether Cube
 minecraft:pumpkin_pie, Pumpkin Pie
 minecraft:fireworks, Firework Rocket
 minecraft:firework_charge, Firework Star
@@ -723,6 +734,42 @@ minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
 minecraft:tnt_minecart, TNT Cart
 minecraft:hopper_minecart, Hopper Cart
+appliedenergistics2:tile.BlockSpatialIOPort, Spatial IO Port
+appliedenergistics2:tile.BlockCableBus, AE2 Cable and/or Bus
+appliedenergistics2:tile.BlockController, ME Controller
+appliedenergistics2:tile.BlockDrive, ME Drive
+appliedenergistics2:tile.BlockChest, ME Chest
+appliedenergistics2:tile.BlockInterface, ME Interface
+appliedenergistics2:tile.BlockCellWorkbench, Cell Workbench
+appliedenergistics2:tile.BlockIOPort, ME IO Port
+minecraft:iron_horse_armor, Iron Horse Armor
+minecraft:golden_horse_armor, Gold Horse Armor
+minecraft:diamond_horse_armor, Diamond Horse Armor
+minecraft:lead, Lead
+minecraft:name_tag, Name Tag
+minecraft:command_block_minecart, Minecart with Command Block
+appliedenergistics2:tile.BlockCondenser, Matter Condenser
+appliedenergistics2:tile.BlockEnergyAcceptor, Energy Acceptor
+appliedenergistics2:tile.BlockVibrationChamber, Vibration Chamber
+appliedenergistics2:tile.BlockQuartzGrowthAccelerator, Crystal Growth Accelerator
+appliedenergistics2:tile.BlockEnergyCell, Energy Cell
+appliedenergistics2:tile.BlockDenseEnergyCell, Dense Energy Cell
+appliedenergistics2:tile.BlockCreativeEnergyCell, Creative Energy Cell
+appliedenergistics2:tile.BlockCraftingUnit:0, Crafting Unit
+appliedenergistics2:tile.BlockCraftingUnit:1, Crafting Co-Processing Unit
+appliedenergistics2:tile.BlockCraftingUnit:2, Quad Core Co-Processing Unit
+appliedenergistics2:tile.BlockCraftingUnit:3, 16 Core Co-Processing Unit
+appliedenergistics2:tile.BlockCraftingStorage:0, 1k Crafting Storage
+appliedenergistics2:tile.BlockCraftingStorage:1, 4k Crafting Storage
+appliedenergistics2:tile.BlockCraftingStorage:2, 16k Crafting Storage
+appliedenergistics2:tile.BlockCraftingStorage:3, 64k Crafting Storage
+appliedenergistics2:tile.BlockCraftingMonitor:0, Crafting Monitor
+appliedenergistics2:tile.BlockMolecularAssembler, Molecular Assembler
+appliedenergistics2:tile.BlockLightDetector, Light Detecting Fixture
+appliedenergistics2:tile.BlockPaint, tile.appliedenergistics2.BlockPaint.name
+appliedenergistics2:tile.SkyStoneStairBlock, Sky Stone Stairs
+appliedenergistics2:tile.SkyStoneBlockStairBlock, Sky Stone Block Stairs
+appliedenergistics2:tile.SkyStoneBrickStairBlock, Sky Stone Brick Stairs
 appliedenergistics2:tile.SkyStoneSmallBrickStairBlock, Sky Stone Small Brick Stairs
 appliedenergistics2:tile.FluixStairBlock, Fluix Stairs
 appliedenergistics2:tile.QuartzStairBlock, Certus Quartz Stairs
@@ -731,12 +778,6 @@ appliedenergistics2:tile.QuartzPillarStairBlock, Certus Quartz Pillar Stairs
 appliedenergistics2:tile.SkyStoneSlabBlock:0, Sky Stone Slabs
 appliedenergistics2:tile.SkyStoneSlabBlock.double:0, Sky Stone Slabs
 appliedenergistics2:tile.SkyStoneBlockSlabBlock:0, Sky Stone Block Slabs
-minecraft:iron_horse_armor, Iron Horse Armor
-minecraft:golden_horse_armor, Gold Horse Armor
-minecraft:diamond_horse_armor, Diamond Horse Armor
-minecraft:lead, Lead
-minecraft:name_tag, Name Tag
-minecraft:command_block_minecart, Minecart with Command Block
 appliedenergistics2:tile.SkyStoneBlockSlabBlock.double:0, Sky Stone Block Slabs
 appliedenergistics2:tile.SkyStoneBrickSlabBlock:0, Sky Stone Brick Slabs
 appliedenergistics2:tile.SkyStoneBrickSlabBlock.double:0, Sky Stone Brick Slabs
@@ -799,7 +840,7 @@ ThermalFoundation:FluidCoal, Liquifacted Coal
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quasar Entanglement Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Enrichment Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -1433,40 +1474,32 @@ TConstruct:MetalBlock:7, Block of Aluminum Brass
 TConstruct:MetalBlock:8, Block of Alumite
 TConstruct:MetalBlock:9, Block of Steel
 TConstruct:MetalBlock:10, Block of Solid Ender
-TConstruct:ToolStationBlock:0, Tool Station
-TConstruct:ToolStationBlock:1, Part Builder
-TConstruct:ToolStationBlock:2, Part Builder
-TConstruct:ToolStationBlock:3, Part Builder
-TConstruct:ToolStationBlock:4, Part Builder
-TConstruct:ToolStationBlock:5, Pattern Chest
-TConstruct:ToolStationBlock:10, Stencil Table
-TConstruct:ToolStationBlock:11, Stencil Table
-TConstruct:ToolStationBlock:12, Stencil Table
-TConstruct:ToolStationBlock:13, Stencil Table
-TConstruct:ToolForgeBlock:0, Tool Forge
-TConstruct:ToolForgeBlock:1, Tool Forge
-TConstruct:ToolForgeBlock:2, Tool Forge
-TConstruct:ToolForgeBlock:3, Tool Forge
-TConstruct:ToolForgeBlock:4, Tool Forge
-TConstruct:ToolForgeBlock:5, Tool Forge
-TConstruct:ToolForgeBlock:6, Tool Forge
-TConstruct:ToolForgeBlock:7, Tool Forge
-TConstruct:ToolForgeBlock:8, Tool Forge
-TConstruct:ToolForgeBlock:9, Tool Forge
-TConstruct:ToolForgeBlock:10, Tool Forge
-TConstruct:ToolForgeBlock:11, Tool Forge
-TConstruct:ToolForgeBlock:12, Tool Forge
-TConstruct:ToolForgeBlock:13, Tool Forge
+TConstruct:ToolBenchBlock:0, Tool Bench
+TConstruct:ToolBenchBlock:1, Part Builder
+TConstruct:ToolBenchBlock:2, Part Builder
+TConstruct:ToolBenchBlock:3, Part Builder
+TConstruct:ToolBenchBlock:4, Part Builder
+TConstruct:ToolBenchBlock:5, Pattern Chest
+TConstruct:ToolBenchBlock:10, Stencil Table
+TConstruct:ToolBenchBlock:11, Stencil Table
+TConstruct:ToolBenchBlock:12, Stencil Table
+TConstruct:ToolBenchBlock:13, Stencil Table
+TConstruct:ToolBenchBlock:14, Molding Table
 TConstruct:CraftingStation, Crafting Station
 TConstruct:CraftingSlab:0, Crafting Station
-TConstruct:CraftingSlab:1, Tool Station
+TConstruct:CraftingSlab:1, Tool Bench
 TConstruct:CraftingSlab:2, Part Builder
 TConstruct:CraftingSlab:3, Stencil Table
 TConstruct:CraftingSlab:4, Pattern Chest
-TConstruct:CraftingSlab:5, Tool Forge
+TConstruct:CraftingSlab:5, Tool Station
+TConstruct:CraftingSlab:6, Tool Forge
 TConstruct:FurnaceSlab, Slab Furnace
 TConstruct:HeldItemBlock, Frying Pan
 TConstruct:BattleSignBlock, tile.Battlesign.name
+TConstruct:ToolStationBlock:0, Tool Station
+TConstruct:ToolStationBlock:1, Tool Station
+TConstruct:ToolStationBlock:2, Tool Station
+TConstruct:ToolForgeBlock:0, Tool Forge
 TConstruct:CraftedSoil:0, Slimy Mud
 TConstruct:CraftedSoil:1, Grout
 TConstruct:CraftedSoil:2, Slimy Mud
@@ -1489,7 +1522,9 @@ TConstruct:fluid.molten.obsidian, Molten Obsidian
 TConstruct:fluid.molten.steel, Molten Steel
 TConstruct:fluid.molten.glass, Molten Glass
 TConstruct:molten.stone, Seared Stone
+TConstruct:molten.netherrack, Seared Netherrack
 TConstruct:molten.emerald, Liquified Emerald
+TConstruct:molten.quartz, Liquified Quartz
 TConstruct:fluid.molten.nickel, Molten Nickel
 TConstruct:fluid.molten.lead, Molten Lead
 TConstruct:fluid.molten.silver, Molten Silver
@@ -1555,6 +1590,7 @@ TConstruct:SearedBlockNether:0, Casting Table
 TConstruct:SearedBlockNether:1, Seared Faucet
 TConstruct:SearedBlockNether:2, Casting Basin
 TConstruct:CastingChannel:0, Casting Channel
+TConstruct:CastingChannel:1, Casting Channel
 TConstruct:SpeedBlock:0, Rough Brownstone
 TConstruct:SpeedBlock:1, Brownstone Road
 TConstruct:SpeedBlock:2, Brownstone
@@ -7495,6 +7531,18 @@ harvestcraft:pamapricotSapling, Apricot Sapling
 harvestcraft:pamAvocado, Avocado
 harvestcraft:pamavocadoSapling, Avocado Sapling
 harvestcraft:pamBanana, Banana
+minecraft:record_13, Music Disc
+minecraft:record_cat, Music Disc
+minecraft:record_blocks, Music Disc
+minecraft:record_chirp, Music Disc
+minecraft:record_far, Music Disc
+minecraft:record_mall, Music Disc
+minecraft:record_mellohi, Music Disc
+minecraft:record_stal, Music Disc
+minecraft:record_strad, Music Disc
+minecraft:record_ward, Music Disc
+minecraft:record_11, Music Disc
+minecraft:record_wait, Music Disc
 harvestcraft:pambananaSapling, Banana Sapling
 harvestcraft:pamCashew, Cashew
 harvestcraft:pamcashewSapling, Cashew Sapling
@@ -7522,18 +7570,6 @@ harvestcraft:pamLime, Lime
 harvestcraft:pamlimeSapling, Lime Sapling
 harvestcraft:pamMaple, Maple Wood
 harvestcraft:pammapleSapling, Maple Sapling
-minecraft:record_13, Music Disc
-minecraft:record_cat, Music Disc
-minecraft:record_blocks, Music Disc
-minecraft:record_chirp, Music Disc
-minecraft:record_far, Music Disc
-minecraft:record_mall, Music Disc
-minecraft:record_mellohi, Music Disc
-minecraft:record_stal, Music Disc
-minecraft:record_strad, Music Disc
-minecraft:record_ward, Music Disc
-minecraft:record_11, Music Disc
-minecraft:record_wait, Music Disc
 harvestcraft:pamMango, Mango
 harvestcraft:pammangoSapling, Mango Sapling
 harvestcraft:pamNutmeg, Nutmeg
@@ -8120,7 +8156,12 @@ minechem:fluid.element.Mt.name, Meitnerium
 minechem:fluid.element.Ds.name, Darmstadtium
 minechem:fluid.element.Rg.name, Roentgenium
 minechem:fluid.element.Cn.name, Copernicium
-minechem:fluid.element.Uut.name, Ununtrium
+minechem:fluid.element.Nh.name, fluid.element.Nh.name
+minechem:fluid.element.Fl.name, fluid.element.Fl.name
+minechem:fluid.element.Mc.name, fluid.element.Mc.name
+minechem:fluid.element.Lv.name, fluid.element.Lv.name
+minechem:fluid.element.Ts.name, fluid.element.Ts.name
+minechem:fluid.element.Og.name, fluid.element.Og.name
 minechem:fluid.molecule.cellulose.name, Cellulose
 minechem:fluid.molecule.carbonDioxide.name, Carbon Dioxide
 minechem:fluid.molecule.nitrogenDioxide.name, Nitrogen Dioxide
@@ -9004,8 +9045,8 @@ OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
 OpenPeripheral:selector, Item Selector
-OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:ticketmachine, Ticket Machine
+OpenPeripheral:peripheralproxy, Peripheral Proxy
 fodc:oreConvTable, Ore Conversion Table
 fodc:oreAutoconverter, Automatic Ore Converter
 desertcraft:Desert Plants:0, Brown Armed Cactus
@@ -9298,6 +9339,7 @@ Tubestuff:storage:6, Blue Alloy Block
 Tubestuff:storage:7, Red Alloy Block
 Tubestuff:storage:8, Brass Block
 Tubestuff:storage:9, Charcoal Block
+Uncomplication:blockMachine:0, Mass Fabricator
 ForgeRelocation:relocation.blockmovingrow:0, tile.relocation.blockmovingrow|0.name
 MCFrames:mcframes.motor:0, Debug Frame Motor
 MCFrames:mcframes.frame, Frame
@@ -9332,304 +9374,342 @@ AdvancedRepulsionSystems:upgrades:7, Forcefield camouflage upgrade
 AdvancedRepulsionSystems:upgrades:9, Forcefield inhibitor upgrade
 AdvancedRepulsionSystems:field, tile.null.name
 Aroma1997Core:wrench, Aromic Hammer
-IC2:item.itemNightvisionGoggles, Nightvision Goggles
-IC2:item.itemCellAir, Compressed Air Cell
-IC2:item.itemArmorHazmatLeggings, Hazmat Suit Leggings
-IC2:item.itemArmorHazmatChestplate, Hazmat Suit
-IC2:item.itemArmorHazmatHelmet, Scuba Helmet
-IC2:item.reactorCondensatorLap, LZH-Condensator
-IC2:item.itemPartDCP, Dense Copper Plate
-IC2:item.reactorCondensator, RSH-Condensator
-IC2:item.reactorReflectorThick, Thick Neutron Reflector
-IC2:item.reactorReflector, Neutron Reflector
-IC2:item.reactorHeatpack, Heating Cell
-IC2:item.reactorVentDiamond, Advanced Heat Vent
-IC2:item.reactorVentSpread, Component Heat Vent
-IC2:item.reactorVentGold, Overclocked Heat Vent
-IC2:item.reactorVentCore, Reactor Heat Vent
-IC2:item.reactorVent, Heat Vent
-IC2:item.reactorHeatSwitchDiamond, Advanced Heat Exchanger
-IC2:item.reactorHeatSwitchSpread, Component Heat Exchanger
-IC2:item.reactorHeatSwitchCore, Reactor Heat Exchanger
-IC2:item.reactorPlatingExplosive, Containment Reactor Plating
-IC2:item.reactorPlatingHeat, Heat-Capacity Reactor Plating
-IC2:item.reactorCoolantSix, 60k Coolant Cell
-IC2:item.reactorCoolantTriple, 30k Coolant Cell
-IC2:item.reactorUraniumQuad, Quad Uranium Cell
-IC2:item.reactorUraniumDual, Dual Uranium Cell
-IC2:item.itemCoolant, Coolant
-IC2:item.itemDebug, Debug Item
-IC2:item.itemWeedEx, Weed-EX
-IC2:item.itemGrinPowder, Grin Powder
-IC2:item.beer, item.beer.name
-IC2:item.itemBarrel, Barrel
-IC2:item.itemHops, Hops
-IC2:item.coffee, item.coffee.name
-IC2:item.itemMugEmpty, Stone Mug
-IC2:item.itemCoffeePowder, Coffee Powder
-IC2:item.itemCoffeeBeans, Coffee Beans
-IC2:item.itemTerraWart, Terra Wart
-IC2:item.itemStaticBoots, Static Boots
-IC2:item.itemSolarHelmet, Solar Helmet
-IC2:item.itemToolbox, Tool Box
-IC2:item.itemTFBPMushroom, TFBP - Mushroom
-IC2:item.itemToolHoe, Electric Hoe
-IC2:item.itemCellHydrant, Hydration Cell
-IC2:item.itemFertilizer, Fertilizer
-IC2:item.itemCropanalyzer, Cropnalyzer
-IC2:item.itemTreetapElectric, Electric Treetap
-IC2:item.ic2upgrades:0, Overclocker Upgrade
-IC2:item.ic2upgrades:1, Transformer Upgrade
-IC2:item.ic2upgrades:2, Energy Storage Upgrade
-IC2:item.ic2upgrades:3, Redstone Sensitivity Upgrade
-IC2:item.ic2upgrades:4, Redstone Inverter Upgrade
-IC2:item.ic2upgrades:5, Basic Import Upgrade
-IC2:item.ic2upgrades:6, Import Upgrade
-IC2:item.ic2upgrades:7, Basic Export Upgrade
-IC2:item.ic2upgrades:8, Export Upgrade
-IC2:item.ic2upgrades:9, Muffler Upgrade
-IC2:item.ic2upgrades:10, Mute Upgrade
-IC2:item.ic2upgrades:11, Exp Collector Upgrade
-IC2:item.ic2upgrades:12, Efficency Upgrade
-IC2:item.ic2upgrades:13, Energy Storage Multiplier Upgrade
-IC2:item.ic2upgrades:14, Loudness Upgrade
-IC2:item.ic2upgrades:3000, Creative Upgrade
-IC2:item.itemCropSeed, item.itemCropSeed.name
-IC2:item.itemArmorLappack, Lappack
-IC2:item.itemOreIridium, Iridium Ore
-IC2:item.itemArmorCFPack, CF Backpack
-IC2:item.itemDustSilver, Silver Dust
-IC2:item.itemFoamSprayer, CF Sprayer
-IC2:item.itemPartPellet, CF Pellet
-IC2:item.itemDustClay, Clay Dust
-IC2:item.itemFreq, Frequency Transmitter
-IC2:item.itemPartIndustrialDiamond, Industrial Diamond
-IC2:item.itemPartCoalChunk, Coal Chunk
-IC2:item.itemPartCoalBlock, Compressed Coal Ball
-IC2:item.itemPartCoalBall, Coal Ball
-IC2:item.itemScrapbox, Scrap Box
-IC2:item.itemToolWrenchElectric, Electric Wrench
-IC2:item.itemTFBPFlatification, TFBP - Flatification
-IC2:item.itemTFBPDesertification, TFBP - Desertification
-IC2:item.itemTFBPChilling, TFBP - Chilling
-IC2:item.itemTFBPIrrigation, TFBP - Irrigation
-IC2:item.itemTFBPCultivation, TFBP - Cultivation
-IC2:item.itemTFBP, TFBP - Empty
-IC2:item.itemPartIridium, Iridium Plate
-IC2:item.itemNanoSaber, Nano Saber
-IC2:item.itemNanoSaberActive, Nano Saber
-IC2:item.itemPartCarbonPlate, Carbon Plate
-IC2:item.itemPartCarbonMesh, Raw Carbon Mesh
-IC2:item.itemPartCarbonFibre, Raw Carbon Fibre
-IC2:item.itemToolCutter, Insulation Cutter
-IC2:item.itemToolPainterWhite, White Painter
-IC2:item.itemToolPainterOrange, Orange Painter
-IC2:item.itemToolPainterMagenta, Magenta Painter
-IC2:item.itemToolPainterCloud, Light Blue Painter
-IC2:item.itemToolPainterYellow, Yellow Painter
-IC2:item.itemToolPainterLime, Lime Painter
-IC2:item.itemToolPainterPink, Pink Painter
-IC2:item.itemToolPainterDarkGrey, item.itemToolPainterDarkGrey.name
-IC2:item.itemToolPainterLightGrey, Light Grey Painter
-IC2:item.itemToolPainterCyan, Cyan Painter
-IC2:item.itemToolPainterPurple, Purple Painter
-IC2:item.itemToolPainterBlue, Blue Painter
-IC2:item.itemToolPainterBrown, Brown Painter
-IC2:item.itemToolPainterGreen, Green Painter
-IC2:item.itemToolPainterRed, Red Painter
-IC2:item.itemToolPainterBlack, Black Painter
-IC2:item.itemToolPainter, Painter
-IC2:item.itemArmorQuantumBoots, QuantumSuit Boots
-IC2:item.itemArmorQuantumLegs, QuantumSuit Leggings
-IC2:item.itemArmorQuantumChestplate, QuantumSuit Bodyarmor
-IC2:item.itemArmorQuantumHelmet, QuantumSuit Helmet
-IC2:item.itemArmorNanoBoots, NanoSuit Boots
-IC2:item.itemArmorNanoLegs, NanoSuit Leggings
-IC2:item.itemArmorNanoChestplate, NanoSuit Bodyarmor
-IC2:item.itemArmorNanoHelmet, NanoSuit Helmet
-IC2:item.itemArmorBatpack, BatPack
-IC2:item.itemCellWaterElectro, Electrolyzed Water Cell
-IC2:item.itemToolMeter, EU-Reader
-IC2:item.itemToolWrench, Wrench
-IC2:item.ic2cable:0, Copper Cable
-IC2:item.ic2cable:1, Uninsulated Copper Cable
-IC2:item.ic2cable:2, Gold Cable
-IC2:item.ic2cable:3, Insulated Gold Cable
-IC2:item.ic2cable:4, 2xIns. Gold Cable
-IC2:item.ic2cable:5, HV Cable
-IC2:item.ic2cable:6, Insulated HV Cable
-IC2:item.ic2cable:7, 2xIns. HV Cable
-IC2:item.ic2cable:8, 4xIns. HV Cable
-IC2:item.ic2cable:9, Glass Fibre Cable
-IC2:item.ic2cable:10, Ultra-Low-Current Cable
-IC2:item.ic2cable:11, EU-Detector Cable
-IC2:item.ic2cable:12, EU-Splitter Cable
-IC2:item.ic2cable:13, Bronze Cable
-IC2:item.ic2cable:14, Insulated Bronze Cable
-IC2:item.ic2cable:15, 2xIns. Bronze Cable
-IC2:item.itemDoorAlloy, Reinforced Door
-IC2:item.itemCoin, Industrial Credit
-IC2:item.itemPartAlloy, Advanced Alloy
-IC2:item.itemMatter, UU-Matter
-IC2:item.itemScrap, Scrap
-IC2:item.itemPartCircuitAdv, Advanced Circuit
-IC2:item.itemPartCircuit, Electronic Circuit
-IC2:item.itemArmorBronzeBoots, Bronze Boots
-IC2:item.itemArmorBronzeLegs, Bronze Leggings
-IC2:item.itemArmorBronzeChestplate, Bronze Chestplate
-IC2:item.itemArmorBronzeHelmet, Bronze Helmet
-IC2:item.itemToolBronzeHoe, Bronze Hoe
-IC2:item.itemToolBronzeSpade, Bronze Shovel
-IC2:item.itemToolBronzeSword, Bronze Sword
-IC2:item.itemToolBronzeAxe, Bronze Axe
-IC2:item.itemToolBronzePickaxe, Bronze Pickaxe
-IC2:item.itemCellUranEmpty, Near-depleted Uranium Cell
-IC2:item.itemCellUranEnriched, Re-Enriched Uranium Cell
-IC2:item.reactorIsotopeCell, Depleted Isotope Cell
-IC2:item.reactorHeatSwitch, Heat Exchanger
-IC2:item.reactorPlating, Reactor Plating
-IC2:item.reactorCoolantSimple, 10k Coolant Cell
-IC2:item.reactorUraniumSimple, Uranium Cell
-IC2:item.itemToolMiningLaser, Mining Laser
-IC2:item.itemArmorJetpackElectric, Electric Jetpack
-IC2:item.itemArmorJetpack, Jetpack
-IC2:item.itemArmorRubBoots, Rubber Boots
-IC2:item.itemTreetap, Treetap
-IC2:item.itemRemote, Dynamite-O-Mote
-IC2:item.itemDynamiteSticky, Sticky Dynamite
-IC2:item.itemDynamite, Dynamite
-IC2:item.itemRubber, Rubber
-IC2:item.itemHarz, Sticky Resin
-IC2:item.itemCellWater, Water Cell
-IC2:item.itemScannerAdv, OV Scanner
-IC2:item.itemScanner, OD Scanner
-IC2:item.itemTinCanFilled:0, (Filled) Tin Can
-IC2:item.itemTinCan, Tin Can
-IC2:item.itemFuelPlantCmpr, Compressed Plants
-IC2:item.itemFuelPlantBall, Plantball
-IC2:item.itemFuelCoalCmpr, H. Coal
-IC2:item.itemFuelCoalDust, Hydrated Coal Dust
-IC2:item.itemCellBioRef, Biofuel Cell
-IC2:item.itemCellCoalRef, Coalfuel Cell
-IC2:item.itemCellBio, Bio Cell
-IC2:item.itemCellCoal, H. Coal Cell
-IC2:item.itemFuelCanEmpty, (Empty) Fuel Can
-IC2:item.itemFuelCan, Filled Fuel Can
-IC2:item.itemToolChainsaw, Chainsaw
-IC2:item.itemToolDDrill, Diamond Drill
-IC2:item.itemToolDrill, Mining Drill
-IC2:item.itemCellLava, Lava Cell
-IC2:item.itemCellEmpty, Empty Cell
-IC2:item.itemBatSU, Single-Use Battery
-IC2:item.itemBatRE, RE-Battery
-IC2:item.itemBatLamaCrystal, Lapotron Crystal
-IC2:item.itemBatCrystal, Energy Crystal
-IC2:item.itemBatRECharged, RE-Battery Charged
-IC2:item.itemOreUran, Uranium Ore
-IC2:item.itemIngotUran, Refined Uranium Ingot
-IC2:item.itemIngotAlloy, Mixed Metal Ingot
-IC2:item.itemIngotBronze, Bronze Ingot
-IC2:item.itemIngotTin, Tin Ingot
-IC2:item.itemIngotCopper, Copper Ingot
-IC2:item.itemIngotAdvIron, Refined Iron Ingot
-IC2:item.itemDustIronSmall, Small Pile of Iron Dust
-IC2:item.itemDustBronze, Bronze Dust
-IC2:item.itemDustTin, Tin Dust
-IC2:item.itemDustCopper, Copper Dust
-IC2:item.itemDustGold, Gold Dust
-IC2:item.itemDustIron, Iron Dust
-IC2:item.itemDustCoal, Coal Dust
-IC2:noUsage:0, item.null.name
-IC2:item.itemIngotSilver, Silver Ingot
-IC2:item.itemAdvancedSolarHelmet, Advanced Solar Helmet
-IC2:item.itemArmorJetpackNuclear, Nuclear Jetpack
-IC2:item.itemScrapMetal, Scrap Metal
-IC2:item.scrapMetalChunk, Scrap Metal Chunk
-IC2:item.scrapMetalBlade, Scrap Metal Blade
-IC2:item.fluid.steam, Steam
-IC2:item.reactorSteamVent, Steam Vent
-IC2:item.reactorSteamVentCore, Reactor Steam Vent
-IC2:item.reactorSteamVentGold, Overclocked Steam Vent
-IC2:item.reactorSteamVentDiamond, Advanced Steam Vent
-IC2:item.itemMetaScanners:0, Ranged OD Scanner
-IC2:item.itemMetaScanners:0, Ranged OD Scanner
-IC2:item.itemMetaScanners:1, Ranged OV Scanner
-IC2:item.itemMetaScanners:1, Ranged OV Scanner
-IC2:item.itemMetaScanners:2, Big Ranged OD Scanner
-IC2:item.itemMetaScanners:2, Big Ranged OD Scanner
-IC2:item.itemMetaScanners:3, Big Ranged OV Scanner
-IC2:item.itemMetaScanners:3, Big Ranged OV Scanner
-IC2:item.itemMetaScanners:4, Low OVD Scanner
-IC2:item.itemMetaScanners:4, Low OVD Scanner
-IC2:item.itemMetaScanners:5, Medium OVD Scanner
-IC2:item.itemMetaScanners:5, Medium OVD Scanner
-IC2:item.itemMetaScanners:6, High OVD Scanner
-IC2:item.itemMetaScanners:6, High OVD Scanner
-IC2:item.itemMetaScanners:7, Adjustable OVD Scanner
-IC2:item.itemMetaScanners:7, Adjustable OVD Scanner
-IC2:item.itemObsidianDust, Obsidian Dust
-IC2:item.itemRawObsidianBlade, Raw Obsidian Blade
-IC2:item.itemObsidianBlade, Obsidian Blade
-IC2:item.itemTeaLeaf, Tea Leaf
-IC2:item.itemColdTea, Cold Tea
-IC2:item.itemBlackTea, Black Tea
-IC2:item.itemTea, Tea
-IC2:item.itemIceTea, Ice Tea
-IC2:item.itemArmorAlloyChestplate, Composite Vest
-IC2:item.itemArmorAlloyBoots, Composite Boots
-IC2:item.itemArmorAlloyLeggings, Composite Pants
-IC2:item.itemArmorAlloyHelmet, Composite Helmet
-IC2:item.itemTerraformerBiomeBlueprint, TFBP Biome - Emtpy
-IC2:item.itemBiomeTFBP, item.itemBiomeTFBP.name
-IC2:item.itemFlour, Flour
-IC2:item.itemSpecialFertilizer, Overgrowth Fertilizer
-IC2:item.itemArmorCombinedJetpack, Compacted Jetpack
-IC2:item.itemArmorNuclearCombindedJetpack, Compacted Nuclear Jetpack
-IC2:item.itemObscurator, Obscurator
-IC2:item.itemChargePadUpgrade:0, Crystalizor Upgrade Kit
-IC2:item.itemChargePadUpgrade:1, MFS Unit Upgrade
-IC2:item.itemChargePadUpgrade:2, Lapotronic Upgrade Kit
-IC2:item.itemChargePadUpgrade:3, Fission Upgrade Kit
-IC2:item.itemChargePadUpgrade:4, Damage Conversion Module
-IC2:item.itemChargePadUpgrade:5, Drain Conversion Module
-IC2:item.itemChargePadUpgrade:6, Proximity Booster Module
-IC2:item.itemChargePadUpgrade:7, Wide-Band Booster Module
-IC2:item.itemChargePadUpgrade:8, Armour Priority Module
-IC2:item.itemChargePadUpgrade:9, Basic Field Expansion Module
-IC2:item.itemChargePadUpgrade:10, Field Expansion Module
-IC2:item.itemChargePadUpgrade:11, Advanced Field Expansion Module
-IC2:item.itemQuantumArmorJetpack, QuantumSuit BodyJetplate
-IC2:item.itemEnrichedUraniumCells, item.itemEnrichedUraniumCells.name
-IC2:item.itemUpgradeContainer, Upgrade Container
-IC2:item.itemDepletedEnrichedUraniumCells:0, Depleted Redstone Isotope Cell
-IC2:item.itemDepletedEnrichedUraniumCells:1, Depleted Blaze Isotope Cell
-IC2:item.itemDepletedEnrichedUraniumCells:2, Depleted EnderPearl Isotope Cell
-IC2:item.itemDepletedEnrichedUraniumCells:3, Depleted NetherStar Isotope Cell
-IC2:item.itemDepletedEnrichedUraniumCells:4, Depleted Charcoal Isotope Cell
-IC2:item.itemEnrichedUranStuff:0, Redstone Enriched Uranium Ingot
-IC2:item.itemEnrichedUranStuff:100, Near-depleted Redstone Uranium Cell
-IC2:item.itemEnrichedUranStuff:200, Re-Enriched Redstone Uranium Cell
-IC2:item.itemEnrichedUranStuff:1, Blaze Enriched Uranium Ingot
-IC2:item.itemEnrichedUranStuff:101, Near-depleted Blaze Uranium Cell
-IC2:item.itemEnrichedUranStuff:201, Re-Enriched Blaze Uranium Cell
-IC2:item.itemEnrichedUranStuff:2, EnderPearl Enriched Uranium Ingot
-IC2:item.itemEnrichedUranStuff:102, Near-depleted EnderPearl Uranium Cell
-IC2:item.itemEnrichedUranStuff:202, Re-Enriched EnderPearl Uranium Cell
-IC2:item.itemEnrichedUranStuff:3, NetherStar Enriched Uranium Ingot
-IC2:item.itemEnrichedUranStuff:103, Near-depleted NetherStar Uranium Cell
-IC2:item.itemEnrichedUranStuff:203, Re-Enriched NetherStar Uranium Cell
-IC2:item.itemEnrichedUranStuff:4, Charcoal Enriched Uranium Ingot
-IC2:item.itemEnrichedUranStuff:104, Near-depleted Charcoal Uranium Cell
-IC2:item.itemEnrichedUranStuff:204, Re-Enriched Charcoal Uranium Cell
-IC2:item.itemElectricVent:0, Electric Heat Vent
-IC2:item.itemElectricVent:1, Electric Reactor Heat Vent
-IC2:item.itemElectricVent:2, Electric Overclocked Heat Vent
-IC2:item.itemElectricVent:3, Electric Advanced Heat Vent
-IC2:item.itemIC2Boats:0, Carbon Boat
-IC2:item.itemIC2Boats:1, Rubber Boat
-IC2:item.itemIC2Boats:2, Broken Rubber Boat
-IC2:item.itemIC2Boats:3, Electric Boat
+IC2:itemHarz, ic2.itemHarz.name
+IC2:itemRubber, ic2.itemRubber.name
+IC2:itemFluidCell, ic2.itemFluidCell.name
+IC2:itemupgradekit:0, ic2.itemMFSUupgradekit
+IC2:itemRecipePart:0, ic2.itemPartCoil
+IC2:itemRecipePart:1, ic2.itemPartEleMotor
+IC2:itemRecipePart:2, ic2.itempowerunit
+IC2:itemRecipePart:3, ic2.itempowerunitsmall
+IC2:itemRecipePart:4, ic2.itemrawcrystalmemory
+IC2:itemRecipePart:5, ic2.itemheatconductor
+IC2:itemRecipePart:6, ic2.itemcopperboiler
+IC2:itemRecipePart:7, ic2.itemwoodrotorblade
+IC2:itemRecipePart:8, ic2.itemironrotorblade
+IC2:itemRecipePart:9, ic2.itemcarbonrotorblade
+IC2:itemRecipePart:10, ic2.itemsteelrotorblade
+IC2:itemRecipePart:11, ic2.itemironshaft
+IC2:itemRecipePart:12, ic2.itemsteelshaft
+IC2:itemCasing:0, ic2.itemCasingCopper
+IC2:itemCasing:1, ic2.itemCasingTin
+IC2:itemCasing:2, ic2.itemCasingBronze
+IC2:itemCasing:3, ic2.itemCasingGold
+IC2:itemCasing:4, ic2.itemCasingIron
+IC2:itemCasing:5, ic2.itemCasingAdvIron
+IC2:itemCasing:6, ic2.itemCasingLead
+IC2:itemCrushedOre:0, ic2.itemCrushedIronOre
+IC2:itemCrushedOre:1, ic2.itemCrushedCopperOre
+IC2:itemCrushedOre:2, ic2.itemCrushedGoldOre
+IC2:itemCrushedOre:3, ic2.itemCrushedTinOre
+IC2:itemCrushedOre:4, ic2.itemCrushedUranOre
+IC2:itemCrushedOre:5, ic2.itemCrushedSilverOre
+IC2:itemCrushedOre:6, ic2.itemCrushedLeadOre
+IC2:itemPurifiedCrushedOre:0, ic2.itemPurifiedCrushedIronOre
+IC2:itemPurifiedCrushedOre:1, ic2.itemPurifiedCrushedCopperOre
+IC2:itemPurifiedCrushedOre:2, ic2.itemPurifiedCrushedGoldOre
+IC2:itemPurifiedCrushedOre:3, ic2.itemPurifiedCrushedTinOre
+IC2:itemPurifiedCrushedOre:4, ic2.itemPurifiedCrushedUranOre
+IC2:itemPurifiedCrushedOre:5, ic2.itemPurifiedCrushedSilverOre
+IC2:itemPurifiedCrushedOre:6, ic2.itemPurifiedCrushedLeadOre
+IC2:itemPlates:0, ic2.itemPlateCopper
+IC2:itemPlates:1, ic2.itemPlateTin
+IC2:itemPlates:2, ic2.itemPlateBronze
+IC2:itemPlates:3, ic2.itemPlateGold
+IC2:itemPlates:4, ic2.itemPlateIron
+IC2:itemPlates:5, ic2.itemPlateAdvIron
+IC2:itemPlates:6, ic2.itemPlateLead
+IC2:itemPlates:7, ic2.itemPlateObsidian
+IC2:itemPlates:8, ic2.itemPlateLapi
+IC2:itemDensePlates:0, ic2.itemDensePlateCopper
+IC2:itemDensePlates:1, ic2.itemDensePlateTin
+IC2:itemDensePlates:2, ic2.itemDensePlateBronze
+IC2:itemDensePlates:3, ic2.itemDensePlateGold
+IC2:itemDensePlates:4, ic2.itemDensePlateIron
+IC2:itemDensePlates:5, ic2.itemDensePlateAdvIron
+IC2:itemDensePlates:6, ic2.itemDensePlateLead
+IC2:itemDensePlates:7, ic2.itemDensePlateObsidian
+IC2:itemDensePlates:8, ic2.itemDensePlateLapi
+IC2:itemTurningBlanks:349525, ic2.itemTurningBlanksIRON
+IC2:itemTurningBlanksWood:209715, ic2.itemTurningBlanksWOOD
+IC2:itemDustSmall:0, ic2.itemDustIronSmall
+IC2:itemDustSmall:1, ic2.itemDustCopperSmall
+IC2:itemDustSmall:2, ic2.itemDustGoldSmall
+IC2:itemDustSmall:3, ic2.itemDustTinSmall
+IC2:itemDustSmall:4, ic2.itemDustSilverSmall
+IC2:itemDustSmall:5, ic2.itemDustLeadSmall
+IC2:itemDustSmall:6, ic2.itemDustSulfurSmall
+IC2:itemDustSmall:7, ic2.itemDustLithiumSmall
+IC2:itemDustSmall:8, ic2.itemDustBronzeSmall
+IC2:itemDustSmall:9, ic2.itemDustLapiSmall
+IC2:itemDustSmall:10, ic2.itemDustObsidianSmall
+IC2:itemDust:0, ic2.itemDustBronze
+IC2:itemDust:1, ic2.itemDustClay
+IC2:itemDust:2, ic2.itemDustCoal
+IC2:itemDust:3, ic2.itemDustCopper
+IC2:itemDust:4, ic2.itemDustGold
+IC2:itemDust:5, ic2.itemDustIron
+IC2:itemDust:6, ic2.itemDustSilver
+IC2:itemDust:7, ic2.itemDustTin
+IC2:itemDust:8, ic2.itemFuelCoalDust
+IC2:itemDust:9, ic2.itemDustStone
+IC2:itemDust:10, ic2.itemDustLead
+IC2:itemDust:11, ic2.itemDustObsidian
+IC2:itemDust:12, ic2.itemDustLapi
+IC2:itemDust:13, ic2.itemDustSulfur
+IC2:itemDust:14, ic2.itemDustLithium
+IC2:itemDust2:0, ic2.itemDustsilicondioxide
+IC2:itemDust2:1, ic2.itemDustdiamond
+IC2:itemDust2:2, ic2.itemDustenergium
+IC2:itemDust2:3, ic2.itemAshes
+IC2:itemIngot:0, ic2.itemIngotCopper
+IC2:itemIngot:1, ic2.itemIngotTin
+IC2:itemIngot:2, ic2.itemIngotBronze
+IC2:itemIngot:3, ic2.itemIngotAdvIron
+IC2:itemIngot:4, ic2.itemIngotAlloy
+IC2:itemIngot:5, ic2.itemIngotLead
+IC2:itemIngot:6, ic2.itemIngotSilver
+IC2:reactorLithiumCell, ic2.reactorLithiumCell.name
+IC2:itemTritiumCell, ic2.itemTritiumCell.name
+IC2:itemUran, ic2.itemUran.name
+IC2:itemMOX, ic2.itemMOX.name
+IC2:itemPlutonium, ic2.itemPlutonium.name
+IC2:itemPlutoniumSmall, ic2.itemPlutoniumSmall.name
+IC2:itemUran235, ic2.itemUran235.name
+IC2:itemUran235small, ic2.itemUran235small.name
+IC2:itemUran238, ic2.itemUran238.name
+IC2:itemFuelRod, ic2.itemFuelRod.name
+IC2:itemRTGPellet, ic2.itemRTGPellet.name
+IC2:itemPartCircuit, ic2.itemPartCircuit.name
+IC2:itemPartCircuitAdv, ic2.itemPartCircuitAdv.name
+IC2:itemPartAlloy, ic2.itemPartAlloy.name
+IC2:itemPartCarbonFibre, ic2.itemPartCarbonFibre.name
+IC2:itemPartCarbonMesh, ic2.itemPartCarbonMesh.name
+IC2:itemPartCarbonPlate, ic2.itemPartCarbonPlate.name
+IC2:itemOreIridium, ic2.itemOreIridium.name
+IC2:itemPartIridium, ic2.itemPartIridium.name
+IC2:itemShardIridium, ic2.itemShardIridium.name
+IC2:itemTreetap, ic2.itemTreetap.name
+IC2:itemToolBronzePickaxe, ic2.itemToolBronzePickaxe.name
+IC2:itemToolBronzeAxe, ic2.itemToolBronzeAxe.name
+IC2:itemToolBronzeSword, ic2.itemToolBronzeSword.name
+IC2:itemToolBronzeSpade, ic2.itemToolBronzeSpade.name
+IC2:itemToolBronzeHoe, ic2.itemToolBronzeHoe.name
+IC2:itemToolWrench, ic2.itemToolWrench.name
+IC2:itemToolCutter, ic2.itemToolCutter.name
+IC2:itemFoamSprayer, ic2.itemFoamSprayer.name
+IC2:itemToolbox, ic2.itemToolbox.name
+IC2:itemContainmentbox, ic2.itemContainmentbox.name
+IC2:itemToolForgeHammer, ic2.itemToolForgeHammer.name
+IC2:itemLathingTool, ic2.itemLathingTool.name
+IC2:itemcrystalmemory, ic2.itemcrystalmemory.name
+IC2:itemToolDrill, ic2.itemToolDrill.name
+IC2:itemToolDDrill, ic2.itemToolDDrill.name
+IC2:itemToolIridiumDrill, ic2.itemToolIridiumDrill.name
+IC2:itemToolChainsaw, ic2.itemToolChainsaw.name
+IC2:itemToolWrenchElectric, ic2.itemToolWrenchElectric.name
+IC2:itemTreetapElectric, ic2.itemTreetapElectric.name
+IC2:itemToolMiningLaser, ic2.itemToolMiningLaser.name
+IC2:itemToolMEter, ic2.itemToolMEter.name
+IC2:itemScanner, ic2.itemScanner.name
+IC2:itemScannerAdv, ic2.itemScannerAdv.name
+IC2:obscurator, ic2.obscurator.name
+IC2:itemFreq, ic2.itemFreq.name
+IC2:itemNanoSaber, ic2.itemNanoSaber.name
+IC2:plasmaLauncher, ic2.plasmaLauncher.name
+IC2:windmeter, ic2.windmeter.name
+IC2:itemArmorHazmatHelmet, ic2.itemArmorHazmatHelmet.name
+IC2:itemArmorHazmatChestplate, ic2.itemArmorHazmatChestplate.name
+IC2:itemArmorHazmatLeggings, ic2.itemArmorHazmatLeggings.name
+IC2:itemArmorRubBoots, ic2.itemArmorRubBoots.name
+IC2:itemArmorBronzeHelmet, ic2.itemArmorBronzeHelmet.name
+IC2:itemArmorBronzeChestplate, ic2.itemArmorBronzeChestplate.name
+IC2:itemArmorBronzeLegs, ic2.itemArmorBronzeLegs.name
+IC2:itemArmorBronzeBoots, ic2.itemArmorBronzeBoots.name
+IC2:itemArmorAlloyChestplate, ic2.itemArmorAlloyChestplate.name
+IC2:itemArmorNanoHelmet, ic2.itemArmorNanoHelmet.name
+IC2:itemArmorNanoChestplate, ic2.itemArmorNanoChestplate.name
+IC2:itemArmorNanoLegs, ic2.itemArmorNanoLegs.name
+IC2:itemArmorNanoBoots, ic2.itemArmorNanoBoots.name
+IC2:itemArmorQuantumHelmet, ic2.itemArmorQuantumHelmet.name
+IC2:itemArmorQuantumChestplate, ic2.itemArmorQuantumChestplate.name
+IC2:itemArmorQuantumLegs, ic2.itemArmorQuantumLegs.name
+IC2:itemArmorQuantumBoots, ic2.itemArmorQuantumBoots.name
+IC2:itemArmorJetpack, ic2.itemArmorJetpack.name
+IC2:itemArmorJetpackElectric, ic2.itemArmorJetpackElectric.name
+IC2:itemArmorBatpack, ic2.itemArmorBatpack.name
+IC2:itemArmorAdvBatpack, ic2.itemArmorAdvBatpack.name
+IC2:itemArmorEnergypack, ic2.itemArmorEnergypack.name
+IC2:itemArmorCFPack, ic2.itemArmorCFPack.name
+IC2:itemSolarHelmet, ic2.itemSolarHelmet.name
+IC2:itemStaticBoots, ic2.itemStaticBoots.name
+IC2:itemNightvisionGoggles, ic2.itemNightvisionGoggles.name
+IC2:itemBatREDischarged, ic2.itemBatREDischarged.name
+IC2:itemBatRE, ic2.itemBatRE.name
+IC2:itemAdvBat, ic2.itemAdvBat.name
+IC2:itemBatCrystal, ic2.itemBatCrystal.name
+IC2:itemBatLamaCrystal, ic2.itemBatLamaCrystal.name
+IC2:itemBatSU, ic2.itemBatSU.name
+IC2:itemBatChargeRE, ic2.itemBatChargeRE.name
+IC2:itemBatChargeAdv, ic2.itemBatChargeAdv.name
+IC2:itemBatChargeCrystal, ic2.itemBatChargeCrystal.name
+IC2:itemBatChargeLamaCrystal, ic2.itemBatChargeLamaCrystal.name
+IC2:itemCable:0, ic2.itemCable
+IC2:itemCable:1, ic2.itemCableO
+IC2:itemCable:2, ic2.itemGoldCable
+IC2:itemCable:3, ic2.itemGoldCableI
+IC2:itemCable:5, ic2.itemIronCable
+IC2:itemCable:6, ic2.itemIronCableI
+IC2:itemCable:9, ic2.itemGlassCable
+IC2:itemCable:10, ic2.itemTinCable
+IC2:itemCable:11, ic2.itemDetectorCable
+IC2:itemCable:12, ic2.itemSplitterCable
+IC2:itemCable:13, ic2.itemTinCableI
+IC2:itemCellEmpty:0, ic2.itemCellEmpty
+IC2:itemCellEmpty:1, ic2.itemCellWater
+IC2:itemCellEmpty:2, ic2.itemCellLava
+IC2:itemCellEmpty:3, ic2.itemCellUuMatter
+IC2:itemCellEmpty:4, ic2.itemCellCF
+IC2:itemCellEmpty:5, ic2.itemCellAir
+IC2:itemCellEmpty:6, ic2.itemCellBiomass
+IC2:itemCellEmpty:7, ic2.itemCellBiogas
+IC2:itemCellEmpty:8, ic2.itemCellWaterElectro
+IC2:itemCellEmpty:9, ic2.itemCellCoolant
+IC2:itemCellEmpty:10, ic2.itemCellHotCoolant
+IC2:itemCellEmpty:11, ic2.itemCellPahoehoelava
+IC2:itemCellEmpty:12, ic2.itemCellDistilledWater
+IC2:itemCellEmpty:13, ic2.itemCellSuperheatedSteam
+IC2:itemCellEmpty:14, ic2.itemCellSteam
+IC2:itemTinCan, ic2.itemTinCan.name
+IC2:itemTinCanFilled, ic2.itemTinCanFilled.name
+IC2:reactorMOXSimple, ic2.reactorMOXSimple.name
+IC2:reactorMOXDual, ic2.reactorMOXDual.name
+IC2:reactorMOXQuad, ic2.reactorMOXQuad.name
+IC2:reactorUraniumSimple, ic2.reactorUraniumSimple.name
+IC2:reactorUraniumDual, ic2.reactorUraniumDual.name
+IC2:reactorUraniumQuad, ic2.reactorUraniumQuad.name
+IC2:reactorMOXSimpledepleted, ic2.reactorMOXSimpledepleted.name
+IC2:reactorMOXDualdepleted, ic2.reactorMOXDualdepleted.name
+IC2:reactorMOXQuaddepleted, ic2.reactorMOXQuaddepleted.name
+IC2:reactorUraniumSimpledepleted, ic2.reactorUraniumSimpledepleted.name
+IC2:reactorUraniumDualdepleted, ic2.reactorUraniumDualdepleted.name
+IC2:reactorUraniumQuaddepleted, ic2.reactorUraniumQuaddepleted.name
+IC2:reactorCoolantSimple, ic2.reactorCoolantSimple.name
+IC2:reactorCoolantTriple, ic2.reactorCoolantTriple.name
+IC2:reactorCoolantSix, ic2.reactorCoolantSix.name
+IC2:reactorPlating, ic2.reactorPlating.name
+IC2:reactorPlatingHeat, ic2.reactorPlatingHeat.name
+IC2:reactorPlatingExplosive, ic2.reactorPlatingExplosive.name
+IC2:reactorHeatSwitch, ic2.reactorHeatSwitch.name
+IC2:reactorHeatSwitchCore, ic2.reactorHeatSwitchCore.name
+IC2:reactorHeatSwitchSpread, ic2.reactorHeatSwitchSpread.name
+IC2:reactorHeatSwitchDiamond, ic2.reactorHeatSwitchDiamond.name
+IC2:reactorVent, ic2.reactorVent.name
+IC2:reactorVentCore, ic2.reactorVentCore.name
+IC2:reactorVentGold, ic2.reactorVentGold.name
+IC2:reactorVentSpread, ic2.reactorVentSpread.name
+IC2:reactorVentDiamond, ic2.reactorVentDiamond.name
+IC2:reactorReflector, ic2.reactorReflector.name
+IC2:reactorReflectorThick, ic2.reactorReflectorThick.name
+IC2:reactorCondensator, ic2.reactorCondensator.name
+IC2:reactorCondensatorLap, ic2.reactorCondensatorLap.name
+IC2:itemTFBP, ic2.itemTFBP.name
+IC2:itemTFBPCultivation, ic2.itemTFBPCultivation.name
+IC2:itemTFBPIrrigation, ic2.itemTFBPIrrigation.name
+IC2:itemTFBPChilling, ic2.itemTFBPChilling.name
+IC2:itemTFBPDesertification, ic2.itemTFBPDesertification.name
+IC2:itemTFBPFlatification, ic2.itemTFBPFlatification.name
+IC2:itemTFBPMushroom, ic2.itemTFBPMushroom.name
+IC2:itemPartCoalBall, ic2.itemPartCoalBall.name
+IC2:itemPartCoalBlock, ic2.itemPartCoalBlock.name
+IC2:itemPartCoalChunk, ic2.itemPartCoalChunk.name
+IC2:itemPartIndustrialDiamond, ic2.itemPartIndustrialDiamond.name
+IC2:itemSlag, ic2.itemSlag.name
+IC2:itemScrap, ic2.itemScrap.name
+IC2:itemScrapbox, ic2.itemScrapbox.name
+IC2:itemFuelPlantBall, ic2.itemFuelPlantBall.name
+IC2:itemBiochaff, ic2.itemBiochaff.name
+IC2:itemToolPainter, ic2.itemToolPainter.name
+IC2:itemToolPainterBlack, ic2.itemToolPainterBlack.name
+IC2:itemToolPainterRed, ic2.itemToolPainterRed.name
+IC2:itemToolPainterGreen, ic2.itemToolPainterGreen.name
+IC2:itemToolPainterBrown, ic2.itemToolPainterBrown.name
+IC2:itemToolPainterBlue, ic2.itemToolPainterBlue.name
+IC2:itemToolPainterPurple, ic2.itemToolPainterPurple.name
+IC2:itemToolPainterCyan, ic2.itemToolPainterCyan.name
+IC2:itemToolPainterLightGrey, ic2.itemToolPainterLightGrey.name
+IC2:itemToolPainterDarkGrey, ic2.itemToolPainterDarkGrey.name
+IC2:itemToolPainterPink, ic2.itemToolPainterPink.name
+IC2:itemToolPainterLime, ic2.itemToolPainterLime.name
+IC2:itemToolPainterYellow, ic2.itemToolPainterYellow.name
+IC2:itemToolPainterCloud, ic2.itemToolPainterCloud.name
+IC2:itemToolPainterMagenta, ic2.itemToolPainterMagenta.name
+IC2:itemToolPainterOrange, ic2.itemToolPainterOrange.name
+IC2:itemToolPainterWhite, ic2.itemToolPainterWhite.name
+IC2:itemDynamite, ic2.itemDynamite.name
+IC2:itemDynamiteSticky, ic2.itemDynamiteSticky.name
+IC2:itemRemote, ic2.itemRemote.name
+IC2:upgradeModule:0, ic2.overclockerUpgrade
+IC2:upgradeModule:1, ic2.transformerUpgrade
+IC2:upgradeModule:2, ic2.energyStorageUpgrade
+IC2:upgradeModule:3, ic2.ejectorUpgrade
+IC2:upgradeModule:4, ic2.fluidEjectorUpgrade
+IC2:upgradeModule:5, ic2.redstoneinvUpgrade
+IC2:upgradeModule:6, ic2.pullingUpgrade
+IC2:itemCoin, ic2.itemCoin.name
+IC2:itemDoorAlloy, ic2.itemDoorAlloy.name
+IC2:itemPartCFPowder, ic2.itemPartCFPowder.name
+IC2:itemGrinPowder, ic2.itemGrinPowder.name
+IC2:itemDebug, ic2.itemDebug.name
+IC2:itemBoat:0, ic2.boatCarbon
+IC2:itemBoat:1, ic2.boatRubber
+IC2:itemBoat:2, ic2.boatRubberBroken
+IC2:itemBoat:3, ic2.boatElectric
+IC2:itemWeedingTrowel, ic2.itemWeedingTrowel.name
+IC2:itemWeed, ic2.itemWeed.name
+IC2:itemCropSeed, ic2.itemCropSeed.name
+IC2:itemCropnalyzer, ic2.itemCropnalyzer.name
+IC2:itemFertilizer, ic2.itemFertilizer.name
+IC2:itemCellHydrant, ic2.itemCellHydrant.name
+IC2:itemToolHoe, ic2.itemToolHoe.name
+IC2:itemTerraWart, ic2.itemTerraWart.name
+IC2:itemWeedEx, ic2.itemWeedEx.name
+IC2:itemMugEmpty, ic2.itemMugEmpty.name
+IC2:itemCofeeBeans, ic2.itemCofeeBeans.name
+IC2:itemCofeePowder, ic2.itemCofeePowder.name
+IC2:itemMugCoffee:0, ic2.itemMugCoffee_0
+IC2:itemMugCoffee:1, ic2.itemMugCoffee_1
+IC2:itemMugCoffee:2, ic2.itemMugCoffee_2
+IC2:itemHops, ic2.itemHops.name
+IC2:itemBarrel, ic2.itemBarrel.name
+IC2:itemMugBooze, ic2.itemMugBooze.name
+IC2:itemwoodrotor, ic2.itemwoodrotor.name
+IC2:itemironrotor, ic2.itemironrotor.name
+IC2:itemsteelrotor, ic2.itemsteelrotor.name
+IC2:itemwcarbonrotor, ic2.itemwcarbonrotor.name
+IC2:itemSteamTurbine, ic2.itemSteamTurbine.name
+IC2:itemSteamTurbineBlade, ic2.itemSteamTurbineBlade.name
+IC2:itemIronBlockCuttingBlade, ic2.itemIronBlockCuttingBlade.name
+IC2:itemAdvIronBlockCuttingBlade, ic2.itemAdvIronBlockCuttingBlade.name
+IC2:itemDiamondBlockCuttingBlade, ic2.itemDiamondBlockCuttingBlade.name
 AdvancedMachines:advancedmachines.sharpPlate, Sharpened Iron Plate
+AdvancedSolarPanel:advanced_solar_helmet, Advanced Solar Helmet
+AdvancedSolarPanel:hybrid_solar_helmet, Hybrid Solar Helmet
+AdvancedSolarPanel:ultimate_solar_helmet, Ultimate Solar Helmet
+AdvancedSolarPanel:asp_crafting_items:0, Sunnarium
+AdvancedSolarPanel:asp_crafting_items:1, Sunnarium Alloy
+AdvancedSolarPanel:asp_crafting_items:2, Irradiant Uranium
+AdvancedSolarPanel:asp_crafting_items:3, Enriched Sunnarium
+AdvancedSolarPanel:asp_crafting_items:4, Enriched Sunnarium Alloy
+AdvancedSolarPanel:asp_crafting_items:5, Irradiant Glass Pane
+AdvancedSolarPanel:asp_crafting_items:6, Iridium-Iron Plate
+AdvancedSolarPanel:asp_crafting_items:7, Reinforced Iridium-Iron Plate
+AdvancedSolarPanel:asp_crafting_items:8, Irradiant Reinforced Plate
+AdvancedSolarPanel:asp_crafting_items:9, Sunnarium Piece
+AdvancedSolarPanel:asp_crafting_items:10, Iridium Ingot
+AdvancedSolarPanel:asp_crafting_items:11, Uranium Ingot
+AdvancedSolarPanel:asp_crafting_items:12, MT Core
+AdvancedSolarPanel:asp_crafting_items:13, Quantum Core
 appliedenergistics2:item.ToolCertusQuartzAxe, Certus Quartz Axe
 appliedenergistics2:item.ToolCertusQuartzHoe, Certus Quartz Hoe
 appliedenergistics2:item.ToolCertusQuartzSpade, Certus Quartz Shovel
@@ -9733,6 +9813,7 @@ appliedenergistics2:item.ItemMultiMaterial:39, ME Storage Housing
 appliedenergistics2:item.ItemMultiMaterial:24, Engineering Processor
 appliedenergistics2:item.ItemMultiMaterial:14, Inscriber Engineering Press
 appliedenergistics2:item.ItemMultiMaterial:17, Printed Engineering Circuit
+appliedenergistics2:item.ItemMultiMaterial:4, Flour
 appliedenergistics2:item.ItemMultiMaterial:7, Fluix Crystal
 appliedenergistics2:item.ItemMultiMaterial:8, Fluix Dust
 appliedenergistics2:item.ItemMultiMaterial:9, Fluix Pearl
@@ -10495,6 +10576,7 @@ TConstruct:titleIcon:1, Spawn King Slime
 TConstruct:blankPattern:0, Blank Pattern
 TConstruct:blankPattern:1, Blank Cast
 TConstruct:blankPattern:2, Blank Cast
+TConstruct:blankPattern:3, Blank Template
 TConstruct:materials:0, Paper Stack
 TConstruct:materials:1, Slime Crystal
 TConstruct:materials:2, Seared Brick
@@ -10562,6 +10644,32 @@ TConstruct:woodPattern:22, Full Guard Pattern
 TConstruct:woodPattern:23, Bowstring Pattern
 TConstruct:woodPattern:24, Fletching Pattern
 TConstruct:woodPattern:25, Arrowhead Pattern
+TConstruct:clayPattern:0, Ingot Template
+TConstruct:clayPattern:1, Tool Rod Template
+TConstruct:clayPattern:2, Pickaxe Head Template
+TConstruct:clayPattern:3, Shovel Head Template
+TConstruct:clayPattern:4, Axe Head Template
+TConstruct:clayPattern:5, Sword Blade Template
+TConstruct:clayPattern:6, Wide Guard Template
+TConstruct:clayPattern:7, Hand Guard Template
+TConstruct:clayPattern:8, Crossbar Template
+TConstruct:clayPattern:9, Tool Binding Template
+TConstruct:clayPattern:10, Pan Template
+TConstruct:clayPattern:11, Wide Board Template
+TConstruct:clayPattern:12, Knife Blade Template
+TConstruct:clayPattern:13, Chisel Head Template
+TConstruct:clayPattern:14, Tough Rod Template
+TConstruct:clayPattern:15, Tough Binding Template
+TConstruct:clayPattern:16, Large Plate Template
+TConstruct:clayPattern:17, Broadaxe Head Template
+TConstruct:clayPattern:18, Scythe Head Template
+TConstruct:clayPattern:19, Excavator Head Template
+TConstruct:clayPattern:20, Large Blade Template
+TConstruct:clayPattern:21, Hammer Head Template
+TConstruct:clayPattern:22, Full Guard Template
+TConstruct:clayPattern:25, Arrowhead Template
+TConstruct:clayPattern:26, Gem Template
+TConstruct:clayPattern:27, Nugget Template
 TConstruct:manualBook:0, Materials and You: Volume 1
 TConstruct:manualBook:1, Materials and You: Volume 2
 TConstruct:manualBook:2, Mighty Smelting
@@ -11024,6 +11132,7 @@ TConstruct:buckets:27, Molten Lumium Bucket
 TConstruct:buckets:28, Molten Signalum Bucket
 TConstruct:buckets:29, Molten Mana Infused Metal Bucket
 TConstruct:buckets:30, Molten Enderium Bucket
+TConstruct:buckets:31, Molten Nether Quartz Bucket
 TConstruct:metalPattern:0, Ingot Cast
 TConstruct:metalPattern:1, Tool Rod Cast
 TConstruct:metalPattern:2, Pickaxe Head Cast
@@ -11050,6 +11159,32 @@ TConstruct:metalPattern:22, Full Guard Cast
 TConstruct:metalPattern:25, Arrowhead Cast
 TConstruct:metalPattern:26, Gem Cast
 TConstruct:metalPattern:27, Nugget Cast
+TConstruct:ceramicPattern:0, Ingot Mold
+TConstruct:ceramicPattern:1, Tool Rod Mold
+TConstruct:ceramicPattern:2, Pickaxe Head Mold
+TConstruct:ceramicPattern:3, Shovel Head Mold
+TConstruct:ceramicPattern:4, Axe Head Mold
+TConstruct:ceramicPattern:5, Sword Blade Mold
+TConstruct:ceramicPattern:6, Wide Guard Mold
+TConstruct:ceramicPattern:7, Hand Guard Mold
+TConstruct:ceramicPattern:8, Crossbar Mold
+TConstruct:ceramicPattern:9, Tool Binding Mold
+TConstruct:ceramicPattern:10, Pan Mold
+TConstruct:ceramicPattern:11, Wide Board Mold
+TConstruct:ceramicPattern:12, Knife Blade Mold
+TConstruct:ceramicPattern:13, Chisel Head Mold
+TConstruct:ceramicPattern:14, Tough Rod Mold
+TConstruct:ceramicPattern:15, Tough Binding Mold
+TConstruct:ceramicPattern:16, Large Plate Mold
+TConstruct:ceramicPattern:17, Broadaxe Head Mold
+TConstruct:ceramicPattern:18, Scythe Head Mold
+TConstruct:ceramicPattern:19, Excavator Head Mold
+TConstruct:ceramicPattern:20, Large Blade Mold
+TConstruct:ceramicPattern:21, Hammer Head Mold
+TConstruct:ceramicPattern:22, Full Guard Mold
+TConstruct:ceramicPattern:25, Arrowhead Mold
+TConstruct:ceramicPattern:26, Gem Mold
+TConstruct:ceramicPattern:27, Nugget Mold
 TConstruct:diamondApple:0, Jeweled Apple
 TConstruct:jerky:0, Beef Jerky
 TConstruct:jerky:1, Chicken Jerky
@@ -11275,11 +11410,19 @@ TConstruct:Cast:0, Shuriken Cast
 TConstruct:Cast:1, Crossbow Limb Cast
 TConstruct:Cast:2, Crossbow Body Cast
 TConstruct:Cast:3, Bow Limb Cast
+TConstruct:Template:0, Shuriken Template
+TConstruct:Template:1, Crossbow Limb Template
+TConstruct:Template:2, Crossbow Body Template
+TConstruct:Template:3, Bow Limb Template
+TConstruct:Mold:0, Shuriken Mold
+TConstruct:Mold:1, Crossbow Limb Mold
+TConstruct:Mold:2, Crossbow Body Mold
+TConstruct:Mold:3, Bow Limb Mold
 TConstruct:GlassArrows, item.tconstruct.glassArrows.name
 TConstruct:Boneana, Broadsword
+TConstruct:gearCast, Gear Cast
 TConstruct:slimesling, Slimesling
 TConstruct:slime_boots, Slime Boots
-TConstruct:gearCast, Gear Cast
 GalacticraftCore:item.bucketOil, Oil Bucket
 GalacticraftCore:item.bucketFuel, Fuel Bucket
 GalacticraftCore:item.spaceship:0, Tier 1 Rocket
@@ -12123,7 +12266,6 @@ Forestry:cratedDates, item.cratedDates.name
 Forestry:cratedResin, item.cratedResin.name
 Forestry:cratedRubber, item.cratedRubber.name
 Forestry:cratedScrap, item.cratedScrap.name
-Forestry:cratedUUM, item.cratedUUM.name
 Forestry:cratedSilver, item.cratedSilver.name
 Forestry:cratedBrass, item.cratedBrass.name
 Forestry:cratedNaturaBerryBlight, item.cratedNaturaBerryBlight.name
@@ -12728,6 +12870,8 @@ AWWayofTime:weakBloodOrb, Weak Blood Orb
 AWWayofTime:apprenticeBloodOrb, Apprentice Blood Orb
 AWWayofTime:magicianBloodOrb, Magician's Blood Orb
 AWWayofTime:energyBlaster, Energy Blaster
+AWWayofTime:energyBlasterSecondTier, Energy Blaster II
+AWWayofTime:energyBlasterThirdTier, Energy Blaster III
 AWWayofTime:energySword, Bound Blade
 AWWayofTime:lavaCrystal, Lava Crystal
 AWWayofTime:waterSigil, Water Sigil
@@ -12806,6 +12950,8 @@ AWWayofTime:sigilOfMagnetism, Sigil of Magnetism
 AWWayofTime:itemKeyOfDiablo:0, Key of Binding
 AWWayofTime:itemKeyOfDiablo:0, Key of Binding
 AWWayofTime:energyBazooka, Energy Bazooka
+AWWayofTime:energyBazookaSecondTier, Energy Bazooka II
+AWWayofTime:energyBazookaThirdTier, Energy Bazooka III
 AWWayofTime:itemBloodLightSigil, Sigil of the Blood Lamp
 AWWayofTime:itemComplexSpellCrystal, Complex Spell Crystal
 AWWayofTime:sigilOfSupression, Sigil of Supression
@@ -12983,6 +13129,8 @@ Botania:lens:18, Mana Lens: Warp
 Botania:lens:19, Mana Lens: Redirective
 Botania:lens:20, Mana Lens: Celebratory
 Botania:lens:21, Mana Lens: Flare
+Botania:lens:22, Mana Lens: Messenger
+Botania:lens:23, Mana Lens: Tripwire
 Botania:rune:0, Rune of Water
 Botania:rune:1, Rune of Fire
 Botania:rune:2, Rune of Earth
@@ -13390,7 +13538,7 @@ Railcraft:cart.cargo:0, Cargo Cart
 Railcraft:upgrade.lapotron, item.railcraft.upgrade.lapotron.name
 Railcraft:cart.energy.batbox:0, Batbox Cart
 Railcraft:cart.energy.mfe:0, MFE Cart
-Railcraft:cart.energy.mfsu:0, MFSU Cart
+Railcraft:cart.energy.cesu:0, CESU Cart
 Railcraft:dust:0, Obsidian Dust
 Railcraft:dust:1, Sulfur
 Railcraft:dust:2, Saltpeter
@@ -13853,33 +14001,33 @@ DefenseTech:poisonPowder, Poison Powder
 DefenseTech:antidote, Antidote
 DefenseTech:signalDisrupter, Signal Disrupter
 DefenseTech:tracker, Tracker
-DefenseTech:missile:11, Breaching Missile
-DefenseTech:missile:15, Nuclear Missile
-DefenseTech:missile:23, Missile Module
 DefenseTech:missile:25, Anti-Ballistic Missile
 DefenseTech:missile:26, Cluster Missile
 DefenseTech:missile:7, Attractive Missile
-DefenseTech:missile:21, Antimatter Missile
-DefenseTech:missile:4, Chemical Missile
-DefenseTech:missile:16, EMP Missile
-DefenseTech:missile:0, Conventional Missile
-DefenseTech:missile:6, Repulsive Missile
-DefenseTech:missile:18, Endothermic Missile
-DefenseTech:missile:5, Anvil Missile
+DefenseTech:missile:22, Red Matter Missile
 DefenseTech:missile:12, Rejuvenation Missile
 DefenseTech:missile:2, Incendiary Missile
-DefenseTech:missile:17, Exothermic Missile
-DefenseTech:missile:19, Anti-Gravitational Missile
-DefenseTech:missile:3, Debilitation Missile
-DefenseTech:missile:22, Red Matter Missile
-DefenseTech:missile:10, Sonic Missile
-DefenseTech:missile:24, Homing Missile
-DefenseTech:missile:20, Hypersonic Missile
-DefenseTech:missile:9, Contagious Missile
-DefenseTech:missile:8, Fragmentation Missile
+DefenseTech:missile:5, Anvil Missile
 DefenseTech:missile:1, Shrapnel Missile
+DefenseTech:missile:4, Chemical Missile
+DefenseTech:missile:24, Homing Missile
+DefenseTech:missile:19, Anti-Gravitational Missile
+DefenseTech:missile:10, Sonic Missile
+DefenseTech:missile:9, Contagious Missile
+DefenseTech:missile:21, Antimatter Missile
+DefenseTech:missile:6, Repulsive Missile
+DefenseTech:missile:17, Exothermic Missile
+DefenseTech:missile:11, Breaching Missile
+DefenseTech:missile:8, Fragmentation Missile
 DefenseTech:missile:27, Nuclear Cluster Missile
+DefenseTech:missile:16, EMP Missile
+DefenseTech:missile:15, Nuclear Missile
+DefenseTech:missile:0, Conventional Missile
 DefenseTech:missile:13, Thermobaric Missile
+DefenseTech:missile:23, Missile Module
+DefenseTech:missile:18, Endothermic Missile
+DefenseTech:missile:20, Hypersonic Missile
+DefenseTech:missile:3, Debilitation Missile
 DefenseTech:defuser, Defuser
 DefenseTech:radarGun, Radar Gun
 DefenseTech:remoteDetonator, Remote Detonator
@@ -18253,7 +18401,12 @@ minechem:minechemElement:109, Meitnerium
 minechem:minechemElement:110, Darmstadtium
 minechem:minechemElement:111, Roentgenium
 minechem:minechemElement:112, Copernicium
-minechem:minechemElement:113, Ununtrium
+minechem:minechemElement:113, Nihonium
+minechem:minechemElement:114, Flerovium
+minechem:minechemElement:115, Moscovium
+minechem:minechemElement:116, Livermorium
+minechem:minechemElement:117, Tennessine
+minechem:minechemElement:118, Oganesson
 minechem:minechemMolecule:0, Cellulose
 minechem:minechemMolecule:1, Water
 minechem:minechemMolecule:2, Carbon Dioxide
@@ -18547,7 +18700,12 @@ minechem:minechemBucket.element.element.mt, Chemical Bucket
 minechem:minechemBucket.element.element.ds, Chemical Bucket
 minechem:minechemBucket.element.element.rg, Chemical Bucket
 minechem:minechemBucket.element.element.cn, Chemical Bucket
-minechem:minechemBucket.element.element.uut, Chemical Bucket
+minechem:minechemBucket.element.element.nh, Chemical Bucket
+minechem:minechemBucket.element.element.fl, Chemical Bucket
+minechem:minechemBucket.element.element.mc, Chemical Bucket
+minechem:minechemBucket.element.element.lv, Chemical Bucket
+minechem:minechemBucket.element.element.ts, Chemical Bucket
+minechem:minechemBucket.element.element.og, Chemical Bucket
 minechem:minechemBucket.molecule.molecule.cellulose, Chemical Bucket
 minechem:minechemBucket.molecule.molecule.carbondioxide, Chemical Bucket
 minechem:minechemBucket.molecule.molecule.nitrogendioxide, Chemical Bucket
@@ -19874,8 +20032,11 @@ ThermalDynamics:cover:0, Acacia Wood Cover
 ThermalDynamics:cover:0, Dark Oak Wood Cover
 ThermalDynamics:cover:0, Acacia Wood Stairs Cover
 ThermalDynamics:cover:0, Dark Oak Wood Stairs Cover
-ThermalDynamics:cover:0, Iron Scaffold Cover
-ThermalDynamics:cover:0, Scaffold Cover
+ThermalDynamics:cover:0, ic2.blockOreCopper Cover
+ThermalDynamics:cover:0, ic2.blockOreTin Cover
+ThermalDynamics:cover:0, ic2.blockOreUran Cover
+ThermalDynamics:cover:0, ic2.blockOreLead Cover
+ThermalDynamics:cover:0, ic2.blockRubWood Cover
 ThermalDynamics:cover:0, Hay Bale Cover
 ThermalDynamics:cover:0, Carpet Cover
 ThermalDynamics:cover:0, Orange Carpet Cover
@@ -19902,26 +20063,40 @@ ThermalDynamics:cover:0, Double Tallgrass Cover
 ThermalDynamics:cover:0, Large Fern Cover
 ThermalDynamics:cover:0, Rose Bush Cover
 ThermalDynamics:cover:0, Peony Cover
-ThermalDynamics:cover:0, tile.blockWall.name Cover
-ThermalDynamics:cover:0, Construction Foam Cover
-ThermalDynamics:cover:0, Copper Block Cover
-ThermalDynamics:cover:0, Tin Block Cover
-ThermalDynamics:cover:0, Bronze Block Cover
-ThermalDynamics:cover:0, Uranium Block Cover
-ThermalDynamics:cover:0, Mining Pipe Cover
+ThermalDynamics:cover:0, ic2.blockRubLeaves Cover
+ThermalDynamics:cover:0, ic2.blockRubSapling Cover
+ThermalDynamics:cover:0, ic2.blockHarz Cover
+ThermalDynamics:cover:0, ic2.blockRubber Cover
+ThermalDynamics:cover:0, ic2.blockFenceIron Cover
+ThermalDynamics:cover:0, ic2.blockAlloy Cover
+ThermalDynamics:cover:0, ic2.blockBasalt Cover
+ThermalDynamics:cover:0, ic2.blockAlloyGlass Cover
 ThermalDynamics:cover:0, tile.blockDoorAlloy.name Cover
-ThermalDynamics:cover:0, Reinforced Glass Cover
-ThermalDynamics:cover:0, Reinforced Stone Cover
-ThermalDynamics:cover:0, Iron Fence Cover
-ThermalDynamics:cover:0, Rubber Sheet Cover
-ThermalDynamics:cover:0, tile.blockDynamiteRemote.name Cover
-ThermalDynamics:cover:0, tile.blockDynamite.name Cover
-ThermalDynamics:cover:0, Nuke Cover
-ThermalDynamics:cover:0, Industrial TNT Cover
-ThermalDynamics:cover:0, Resin Sheet Cover
-ThermalDynamics:cover:0, Rubber Tree Sapling Cover
-ThermalDynamics:cover:0, Leaves Cover
-ThermalDynamics:cover:0, Rubber Wood Cover
+ThermalDynamics:cover:0, ic2.blockReinforcedFoam Cover
+ThermalDynamics:cover:0, ic2.blockFoam Cover
+ThermalDynamics:cover:0, ic2.blockScaffold Cover
+ThermalDynamics:cover:0, ic2.blockIronScaffold Cover
+ThermalDynamics:cover:0, ic2.blockMetalCopper Cover
+ThermalDynamics:cover:0, ic2.blockMetalTin Cover
+ThermalDynamics:cover:0, ic2.blockMetalBronze Cover
+ThermalDynamics:cover:0, ic2.blockMetalUranium Cover
+ThermalDynamics:cover:0, ic2.blockMetalLead Cover
+ThermalDynamics:cover:0, ic2.blockMetalAdvIron Cover
+ThermalDynamics:cover:0, ic2.blockMiningPipe Cover
+ThermalDynamics:cover:0, ic2.blockITNT Cover
+ThermalDynamics:cover:0, ic2.blockDynamite Cover
+ThermalDynamics:cover:0, ic2.blockDynamiteRemote Cover
+ThermalDynamics:cover:0, ic2.fluidUuMatter Cover
+ThermalDynamics:cover:0, ic2.fluidConstructionFoam Cover
+ThermalDynamics:cover:0, ic2.fluidCoolant Cover
+ThermalDynamics:cover:0, ic2.fluidHotCoolant Cover
+ThermalDynamics:cover:0, ic2.fluidPahoehoeLava Cover
+ThermalDynamics:cover:0, ic2.fluidBiomass Cover
+ThermalDynamics:cover:0, ic2.fluidBiogas Cover
+ThermalDynamics:cover:0, ic2.fluidDistilledWater Cover
+ThermalDynamics:cover:0, ic2.fluidSuperheatedSteam Cover
+ThermalDynamics:cover:0, ic2.fluidSteam Cover
+ThermalDynamics:cover:0, ic2.fluidHotWater Cover
 ThermalDynamics:cover:0, Array Cable Cover
 ThermalDynamics:cover:0, Array Solar Panel Cover
 ThermalDynamics:cover:0, Array Watermill Cover
@@ -20522,7 +20697,9 @@ ThermalDynamics:cover:0, Molten Obsidian Cover
 ThermalDynamics:cover:0, Molten Steel Cover
 ThermalDynamics:cover:0, Molten Glass Cover
 ThermalDynamics:cover:0, Seared Stone Cover
+ThermalDynamics:cover:0, Seared Netherrack Cover
 ThermalDynamics:cover:0, Liquified Emerald Cover
+ThermalDynamics:cover:0, Liquified Quartz Cover
 ThermalDynamics:cover:0, Molten Nickel Cover
 ThermalDynamics:cover:0, Molten Lead Cover
 ThermalDynamics:cover:0, Molten Silver Cover
@@ -25308,6 +25485,7 @@ thorfusion:blu_chest, Bluinfused obsidian chestplate
 thorfusion:blu_leggings, Bluinfused obsidian leggings
 thorfusion:blu_boots, Bluinfused obsidian boots
 Tubestuff:uselessItem, Retriever Jammer
+Uncomplication:matter, UU Matter
 ForgeMicroblock:sawStone, Stone Saw
 ForgeMicroblock:sawIron, Iron Saw
 ForgeMicroblock:sawDiamond, Diamond Saw
