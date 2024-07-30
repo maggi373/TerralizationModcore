@@ -247,7 +247,7 @@
       "weight": 60,
       "item": {
         "ore": null,
-        "comment": "Raw Fish",
+        "comment": "Raw Cod",
         "mod_id": "minecraft",
         "name": "fish",
         "amount": 1,
