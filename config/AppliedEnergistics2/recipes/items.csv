@@ -4,10 +4,10 @@ minecraft:grass, Grass Block
 minecraft:dirt:0, Dirt
 minecraft:dirt:2, Podzol
 minecraft:cobblestone, Cobblestone
-minecraft:planks:0, Oak Wood Planks
-minecraft:planks:1, Spruce Wood Planks
-minecraft:planks:2, Birch Wood Planks
-minecraft:planks:3, Jungle Wood Planks
+minecraft:planks:0, Oak Planks
+minecraft:planks:1, Spruce Planks
+minecraft:planks:2, Birch Planks
+minecraft:planks:3, Jungle Planks
 minecraft:planks:4, Acacia Planks
 minecraft:planks:5, Dark Oak Planks
 minecraft:sapling:0, Oak Sapling
@@ -27,25 +27,25 @@ minecraft:gravel, Gravel
 minecraft:gold_ore, Gold Ore
 minecraft:iron_ore, Iron Ore
 minecraft:coal_ore, Coal Ore
-minecraft:log:0, Oak Wood
-minecraft:log:1, Spruce Wood
-minecraft:log:2, Birch Wood
-minecraft:log:3, Jungle Wood
+minecraft:log:0, Oak Log
+minecraft:log:1, Spruce Log
+minecraft:log:2, Birch Log
+minecraft:log:3, Jungle Log
 minecraft:leaves:0, Oak Leaves
 minecraft:leaves:1, Spruce Leaves
 minecraft:leaves:2, Birch Leaves
 minecraft:leaves:3, Jungle Leaves
-minecraft:sponge, Sponge
+minecraft:sponge, Inert Sponge
 minecraft:glass, Glass
 minecraft:lapis_ore, Lapis Lazuli Ore
 minecraft:lapis_block, Lapis Lazuli Block
 minecraft:dispenser, Dispenser
 minecraft:sandstone:0, Sandstone
 minecraft:sandstone:1, Chiseled Sandstone
-minecraft:sandstone:2, Smooth Sandstone
+minecraft:sandstone:2, Cut Sandstone
 minecraft:noteblock, Note Block
-minecraft:golden_rail, Powered Rail
-minecraft:detector_rail, Detector Rail
+minecraft:golden_rail, Booster Track
+minecraft:detector_rail, Detector Track
 minecraft:sticky_piston, Sticky Piston
 minecraft:web, Cobweb
 minecraft:tallgrass:1, Grass
@@ -82,7 +82,7 @@ minecraft:brown_mushroom, Mushroom
 minecraft:red_mushroom, Mushroom
 minecraft:gold_block, Block of Gold
 minecraft:iron_block, Block of Iron
-minecraft:stone_slab:0, Stone Slab
+minecraft:stone_slab:0, Smooth Stone Slab
 minecraft:stone_slab:1, Sandstone Slab
 minecraft:stone_slab:3, Cobblestone Slab
 minecraft:stone_slab:4, Bricks Slab
@@ -92,12 +92,12 @@ minecraft:stone_slab:7, Quartz Slab
 minecraft:brick_block, Bricks
 minecraft:tnt, TNT
 minecraft:bookshelf, Bookshelf
-minecraft:mossy_cobblestone, Moss Stone
+minecraft:mossy_cobblestone, Mossy Cobblestone
 minecraft:obsidian, Obsidian
 minecraft:torch, Torch
 minecraft:fire, Fire
-minecraft:mob_spawner:0, Monster Spawner
-minecraft:oak_stairs, Oak Wood Stairs
+minecraft:mob_spawner:0, Spawner
+minecraft:oak_stairs, Oak Stairs
 minecraft:chest, Chest
 minecraft:diamond_ore, Diamond Ore
 minecraft:diamond_block, Block of Diamond
@@ -106,7 +106,7 @@ minecraft:farmland, Farmland
 minecraft:furnace, Furnace
 minecraft:lit_furnace, Furnace
 minecraft:ladder, Ladder
-minecraft:rail, Rail
+minecraft:rail, Track
 minecraft:stone_stairs, Stone Stairs
 minecraft:lever, Lever
 minecraft:stone_pressure_plate, Pressure Plate
@@ -120,7 +120,7 @@ minecraft:snow, Snow
 minecraft:cactus, Cactus
 minecraft:clay, Clay
 minecraft:jukebox, Jukebox
-minecraft:fence, Fence
+minecraft:fence, Oak Fence
 minecraft:pumpkin, Pumpkin
 minecraft:netherrack, Netherrack
 minecraft:soul_sand, Soul Sand
@@ -143,10 +143,10 @@ minecraft:stained_glass:12, Brown Stained Glass
 minecraft:stained_glass:13, Green Stained Glass
 minecraft:stained_glass:14, Red Stained Glass
 minecraft:stained_glass:15, Black Stained Glass
-minecraft:trapdoor, Trapdoor
-minecraft:monster_egg:0, Stone Monster Egg
-minecraft:monster_egg:1, Cobblestone Monster Egg
-minecraft:monster_egg:2, Stone Brick Monster Egg
+minecraft:trapdoor, Oak Trapdoor
+minecraft:monster_egg:0, Infested Stone
+minecraft:monster_egg:1, Infested Cobblestone
+minecraft:monster_egg:2, Infested Stone Bricks
 minecraft:monster_egg:3, Infested Mossy Stone Bricks
 minecraft:monster_egg:4, Infested Cracked Stone Bricks
 minecraft:monster_egg:5, Infested Chiseled Stone Bricks
@@ -160,12 +160,12 @@ minecraft:iron_bars, Iron Bars
 minecraft:glass_pane, Glass Pane
 minecraft:melon_block, Melon
 minecraft:vine, Vines
-minecraft:fence_gate, Fence Gate
+minecraft:fence_gate, Oak Fence Gate
 minecraft:brick_stairs, Brick Stairs
 minecraft:stone_brick_stairs, Stone Brick Stairs
 minecraft:mycelium, Mycelium
 minecraft:waterlily, Lily Pad
-minecraft:nether_brick, Nether Brick
+minecraft:nether_brick, Nether Bricks
 minecraft:nether_brick_fence, Nether Brick Fence
 minecraft:nether_brick_stairs, Nether Brick Stairs
 minecraft:enchanting_table, Enchantment Table
@@ -174,10 +174,10 @@ minecraft:end_portal_frame, End Portal
 minecraft:end_stone, End Stone
 minecraft:dragon_egg, Dragon Egg
 minecraft:redstone_lamp, Redstone Lamp
-minecraft:wooden_slab:0, Oak Wood Slab
-minecraft:wooden_slab:1, Spruce Wood Slab
-minecraft:wooden_slab:2, Birch Wood Slab
-minecraft:wooden_slab:3, Jungle Wood Slab
+minecraft:wooden_slab:0, Oak Slab
+minecraft:wooden_slab:1, Spruce Slab
+minecraft:wooden_slab:2, Birch Slab
+minecraft:wooden_slab:3, Jungle Slab
 minecraft:wooden_slab:4, Acacia Slab
 minecraft:wooden_slab:5, Dark Oak Slab
 minecraft:cocoa, Cocoa
@@ -186,9 +186,9 @@ minecraft:emerald_ore, Emerald Ore
 minecraft:ender_chest, Ender Chest
 minecraft:tripwire_hook, Tripwire Hook
 minecraft:emerald_block, Block of Emerald
-minecraft:spruce_stairs, Spruce Wood Stairs
-minecraft:birch_stairs, Birch Wood Stairs
-minecraft:jungle_stairs, Jungle Wood Stairs
+minecraft:spruce_stairs, Spruce Stairs
+minecraft:birch_stairs, Birch Stairs
+minecraft:jungle_stairs, Jungle Stairs
 minecraft:command_block, Command Block
 minecraft:beacon, Beacon
 minecraft:cobblestone_wall:0, Cobblestone Wall
@@ -202,32 +202,32 @@ minecraft:anvil:2, Very Damaged Anvil
 minecraft:trapped_chest, Trapped Chest
 minecraft:light_weighted_pressure_plate, Weighted Pressure Plate (Light)
 minecraft:heavy_weighted_pressure_plate, Weighted Pressure Plate (Heavy)
-minecraft:daylight_detector, Daylight Sensor
+minecraft:daylight_detector, Daylight Detector
 minecraft:redstone_block, Block of Redstone
 minecraft:quartz_ore, Nether Quartz Ore
 minecraft:hopper, Hopper
 minecraft:quartz_block:0, Block of Quartz
 minecraft:quartz_block:1, Chiseled Quartz Block
-minecraft:quartz_block:2, Pillar Quartz Block
+minecraft:quartz_block:2, Quartz Pillar
 minecraft:quartz_stairs, Quartz Stairs
-minecraft:activator_rail, Activator Rail
+minecraft:activator_rail, Activator Track
 minecraft:dropper, Dropper
-minecraft:stained_hardened_clay:0, White Stained Clay
-minecraft:stained_hardened_clay:1, Orange Stained Clay
-minecraft:stained_hardened_clay:2, Magenta Stained Clay
-minecraft:stained_hardened_clay:3, Light Blue Stained Clay
-minecraft:stained_hardened_clay:4, Yellow Stained Clay
-minecraft:stained_hardened_clay:5, Lime Stained Clay
-minecraft:stained_hardened_clay:6, Pink Stained Clay
-minecraft:stained_hardened_clay:7, Gray Stained Clay
-minecraft:stained_hardened_clay:8, Light Gray Stained Clay
-minecraft:stained_hardened_clay:9, Cyan Stained Clay
-minecraft:stained_hardened_clay:10, Purple Stained Clay
-minecraft:stained_hardened_clay:11, Blue Stained Clay
-minecraft:stained_hardened_clay:12, Brown Stained Clay
-minecraft:stained_hardened_clay:13, Green Stained Clay
-minecraft:stained_hardened_clay:14, Red Stained Clay
-minecraft:stained_hardened_clay:15, Black Stained Clay
+minecraft:stained_hardened_clay:0, White Terracotta
+minecraft:stained_hardened_clay:1, Orange Terracotta
+minecraft:stained_hardened_clay:2, Magenta Terracotta
+minecraft:stained_hardened_clay:3, Light Blue Terracotta
+minecraft:stained_hardened_clay:4, Yellow Terracotta
+minecraft:stained_hardened_clay:5, Lime Terracotta
+minecraft:stained_hardened_clay:6, Pink Terracotta
+minecraft:stained_hardened_clay:7, Gray Terracotta
+minecraft:stained_hardened_clay:8, Light Gray Terracotta
+minecraft:stained_hardened_clay:9, Cyan Terracotta
+minecraft:stained_hardened_clay:10, Purple Terracotta
+minecraft:stained_hardened_clay:11, Blue Terracotta
+minecraft:stained_hardened_clay:12, Brown Terracotta
+minecraft:stained_hardened_clay:13, Green Terracotta
+minecraft:stained_hardened_clay:14, Red Terracotta
+minecraft:stained_hardened_clay:15, Black Terracotta
 minecraft:stained_glass_pane:0, White Stained Glass Pane
 minecraft:stained_glass_pane:1, Orange Stained Glass Pane
 minecraft:stained_glass_pane:2, Magenta Stained Glass Pane
@@ -272,7 +272,7 @@ minecraft:carpet:12, Brown Carpet
 minecraft:carpet:13, Green Carpet
 minecraft:carpet:14, Red Carpet
 minecraft:carpet:15, Black Carpet
-minecraft:hardened_clay, Hardened Clay
+minecraft:hardened_clay, Terracotta
 minecraft:coal_block, Block of Coal
 minecraft:packed_ice, Packed Ice
 minecraft:double_plant:0, Sunflower
@@ -499,7 +499,7 @@ minecraft:stone_hoe, Stone Hoe
 minecraft:iron_hoe, Iron Hoe
 minecraft:diamond_hoe, Diamond Hoe
 minecraft:golden_hoe, Golden Hoe
-minecraft:wheat_seeds, Seeds
+minecraft:wheat_seeds, Wheat Seeds
 minecraft:wheat, Wheat
 minecraft:bread, Bread
 minecraft:leather_helmet, Leather Cap
@@ -528,15 +528,15 @@ minecraft:cooked_porkchop, Cooked Porkchop
 minecraft:painting, Painting
 minecraft:golden_apple:0, Golden Apple
 minecraft:golden_apple:1, Golden Apple
-minecraft:sign, Sign
-minecraft:wooden_door, Wooden Door
+minecraft:sign, Oak Sign
+minecraft:wooden_door, Oak Door
 minecraft:bucket, Bucket
 minecraft:water_bucket, Water Bucket
 minecraft:lava_bucket, Lava Bucket
 minecraft:minecart, Minecart
 minecraft:saddle, Saddle
 minecraft:iron_door, Iron Door
-minecraft:redstone, Redstone
+minecraft:redstone, Redstone Dust
 minecraft:snowball, Snowball
 minecraft:boat, Boat
 minecraft:leather, Leather
@@ -547,8 +547,8 @@ minecraft:reeds, Sugar Canes
 minecraft:paper, Paper
 minecraft:book, Book
 minecraft:slime_ball, Slimeball
-minecraft:chest_minecart, Minecart with Chest
-minecraft:furnace_minecart, Minecart with Furnace
+minecraft:chest_minecart, Chest Cart
+minecraft:furnace_minecart, Furnace Cart
 minecraft:egg, Egg
 minecraft:compass, Compass
 minecraft:fishing_rod, Fishing Rod
@@ -579,19 +579,19 @@ minecraft:dye:15, Bone Meal
 minecraft:bone, Bone
 minecraft:sugar, Sugar
 minecraft:cake, Cake
-minecraft:bed, Bed
+minecraft:bed, Red Bed
 minecraft:repeater, Redstone Repeater
 minecraft:cookie, Cookie
 minecraft:filled_map:0, Map
 minecraft:shears, Shears
-minecraft:melon, Melon
+minecraft:melon, Melon Slice
 minecraft:pumpkin_seeds, Pumpkin Seeds
 minecraft:melon_seeds, Melon Seeds
 minecraft:beef, Raw Beef
 minecraft:cooked_beef, Steak
 minecraft:chicken, Raw Chicken
 minecraft:cooked_chicken, Cooked Chicken
-minecraft:rotten_flesh, Zombie Brain
+minecraft:rotten_flesh, Rotten Flesh
 minecraft:ender_pearl, Ender Pearl
 minecraft:blaze_rod, Blaze Rod
 minecraft:ghast_tear, Ghast Tear
@@ -756,7 +756,7 @@ minecraft:skull:2, Zombie Head
 minecraft:skull:3, Head
 minecraft:skull:4, Creeper Head
 minecraft:carrot_on_a_stick, Carrot on a Stick
-minecraft:nether_star, Nether Cube
+minecraft:nether_star, Nether Star
 minecraft:pumpkin_pie, Pumpkin Pie
 minecraft:fireworks, Firework Rocket
 minecraft:firework_charge, Firework Star
@@ -764,8 +764,8 @@ minecraft:enchanted_book, Enchanted Book
 minecraft:comparator, Redstone Comparator
 minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
-minecraft:tnt_minecart, Minecart with TNT
-minecraft:hopper_minecart, Minecart with Hopper
+minecraft:tnt_minecart, TNT Cart
+minecraft:hopper_minecart, Hopper Cart
 appliedenergistics2:tile.BlockSpatialIOPort, Spatial IO Port
 appliedenergistics2:tile.BlockCableBus, AE2 Cable and/or Bus
 appliedenergistics2:tile.BlockController, ME Controller
@@ -882,7 +882,7 @@ ThermalFoundation:FluidCoal, Liquifacted Coal
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Doohicky)
+ExtraUtilities:endConstructor:0, QED (Quark/Electron Director)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -936,22 +936,22 @@ ExtraUtilities:colorStoneBrick:12, Colored Stone Bricks (Brown Frequency)
 ExtraUtilities:colorStoneBrick:13, Colored Stone Bricks (Green Frequency)
 ExtraUtilities:colorStoneBrick:14, Colored Stone Bricks (Red Frequency)
 ExtraUtilities:colorStoneBrick:15, Colored Stone Bricks (Black Frequency)
-ExtraUtilities:colorWoodPlanks:0, Colored Oak Wood Planks (White Frequency)
-ExtraUtilities:colorWoodPlanks:1, Colored Oak Wood Planks (Orange Frequency)
-ExtraUtilities:colorWoodPlanks:2, Colored Oak Wood Planks (Magenta Frequency)
-ExtraUtilities:colorWoodPlanks:3, Colored Oak Wood Planks (Light Blue Frequency)
-ExtraUtilities:colorWoodPlanks:4, Colored Oak Wood Planks (Yellow Frequency)
-ExtraUtilities:colorWoodPlanks:5, Colored Oak Wood Planks (Lime Frequency)
-ExtraUtilities:colorWoodPlanks:6, Colored Oak Wood Planks (Pink Frequency)
-ExtraUtilities:colorWoodPlanks:7, Colored Oak Wood Planks (Gray Frequency)
-ExtraUtilities:colorWoodPlanks:8, Colored Oak Wood Planks (Light Gray Frequency)
-ExtraUtilities:colorWoodPlanks:9, Colored Oak Wood Planks (Cyan Frequency)
-ExtraUtilities:colorWoodPlanks:10, Colored Oak Wood Planks (Purple Frequency)
-ExtraUtilities:colorWoodPlanks:11, Colored Oak Wood Planks (Blue Frequency)
-ExtraUtilities:colorWoodPlanks:12, Colored Oak Wood Planks (Brown Frequency)
-ExtraUtilities:colorWoodPlanks:13, Colored Oak Wood Planks (Green Frequency)
-ExtraUtilities:colorWoodPlanks:14, Colored Oak Wood Planks (Red Frequency)
-ExtraUtilities:colorWoodPlanks:15, Colored Oak Wood Planks (Black Frequency)
+ExtraUtilities:colorWoodPlanks:0, Colored Oak Planks (White Frequency)
+ExtraUtilities:colorWoodPlanks:1, Colored Oak Planks (Orange Frequency)
+ExtraUtilities:colorWoodPlanks:2, Colored Oak Planks (Magenta Frequency)
+ExtraUtilities:colorWoodPlanks:3, Colored Oak Planks (Light Blue Frequency)
+ExtraUtilities:colorWoodPlanks:4, Colored Oak Planks (Yellow Frequency)
+ExtraUtilities:colorWoodPlanks:5, Colored Oak Planks (Lime Frequency)
+ExtraUtilities:colorWoodPlanks:6, Colored Oak Planks (Pink Frequency)
+ExtraUtilities:colorWoodPlanks:7, Colored Oak Planks (Gray Frequency)
+ExtraUtilities:colorWoodPlanks:8, Colored Oak Planks (Light Gray Frequency)
+ExtraUtilities:colorWoodPlanks:9, Colored Oak Planks (Cyan Frequency)
+ExtraUtilities:colorWoodPlanks:10, Colored Oak Planks (Purple Frequency)
+ExtraUtilities:colorWoodPlanks:11, Colored Oak Planks (Blue Frequency)
+ExtraUtilities:colorWoodPlanks:12, Colored Oak Planks (Brown Frequency)
+ExtraUtilities:colorWoodPlanks:13, Colored Oak Planks (Green Frequency)
+ExtraUtilities:colorWoodPlanks:14, Colored Oak Planks (Red Frequency)
+ExtraUtilities:colorWoodPlanks:15, Colored Oak Planks (Black Frequency)
 ExtraUtilities:color_lightgem:0, Colored Glowstone (White Frequency)
 ExtraUtilities:color_lightgem:1, Colored Glowstone (Orange Frequency)
 ExtraUtilities:color_lightgem:2, Colored Glowstone (Magenta Frequency)
@@ -2577,12 +2577,12 @@ BiblioWoodsEBXL:BiblioWoodPaintingT4:7, Redwood Painting Frame
 BiblioWoodsEBXL:BiblioWoodPaintingT4:8, Sakura Painting Frame
 HardcoreEnderExpansion:enhanced_tnt, TNT
 HardcoreEnderExpansion:end_powder_ore, End Powder Ore
-HardcoreEnderExpansion:void_chest, Void Chest
+HardcoreEnderExpansion:void_chest, Void Saving Chest
 HardcoreEnderExpansion:end_stone_terrain:0, Infested End Stone
 HardcoreEnderExpansion:end_stone_terrain:1, Burned End Stone
 HardcoreEnderExpansion:end_stone_terrain:2, Enchanted End Stone
 HardcoreEnderExpansion:laboratory_stairs, Laboratory Stairs
-HardcoreEnderExpansion:death_flower_pot, tile.flowerPot.name
+HardcoreEnderExpansion:death_flower_pot, Flower Pot
 HardcoreEnderExpansion:obsidian_stairs, Obsidian Stairs
 HardcoreEnderExpansion:stardust_ore, Stardust Ore
 HardcoreEnderExpansion:death_flower:0, Death Flower
@@ -2604,7 +2604,7 @@ HardcoreEnderExpansion:dungeon_puzzle:5, Dungeon Puzzle (Distributor - Spread - 
 HardcoreEnderExpansion:dungeon_puzzle:6, Dungeon Puzzle (Distributor - Square - Unlit)
 HardcoreEnderExpansion:dungeon_puzzle:7, Dungeon Puzzle (Distributor - Square - Lit)
 HardcoreEnderExpansion:laboratory_floor, Laboratory Floor
-HardcoreEnderExpansion:custom_spawner, Monster Spawner
+HardcoreEnderExpansion:custom_spawner, Spawner
 HardcoreEnderExpansion:cinder, Cinder
 HardcoreEnderExpansion:spooky_leaves, Spooky Leaves
 HardcoreEnderExpansion:igneous_rock_ore, Igneous Rock Ore
@@ -2641,7 +2641,7 @@ HardcoreEnderExpansion:ravaged_brick:5, Ravaged Brick
 HardcoreEnderExpansion:sphalerite:0, Sphalerite
 HardcoreEnderExpansion:sphalerite:1, Sphalerite with Stardust
 HardcoreEnderExpansion:ravaged_brick_fence, Ravaged Brick Fence
-HardcoreEnderExpansion:biome_core, tile.biomeIslandCore.name
+HardcoreEnderExpansion:biome_core, Biome Island Core
 HardcoreEnderExpansion:essence_altar:0, Basic Essence Altar
 HardcoreEnderExpansion:essence_altar:1, Dragon Essence Altar
 HardcoreEnderExpansion:essence_altar:2, Fiery Essence Altar
@@ -2673,13 +2673,13 @@ HardcoreEnderExpansion:energy_extraction_table, Extraction Table
 HardcoreEnderExpansion:laboratory_glass, Laboratory Glass
 HardcoreEnderExpansion:spooky_log, Spooky Log
 HardcoreEnderExpansion:energy_cluster, Energy Cluster
-HardcoreEnderExpansion:enhanced_brewing_stand_block, tile.brewingStand.name
+HardcoreEnderExpansion:enhanced_brewing_stand_block, Enhanced Brewing Stand
 HardcoreEnderExpansion:ender_goo, Ender Goo
-HardcoreEnderExpansion:temple_end_portal, tile.templeEndPortal.name
+HardcoreEnderExpansion:temple_end_portal, End Portal
 HardcoreEnderExpansion:ravaged_brick_smooth, Smooth Ravaged Brick
 HardcoreEnderExpansion:ravaged_brick_stairs, Ravaged Brick Stairs
 HardcoreEnderExpansion:accumulation_table, Accumulation Table
-HardcoreEnderExpansion:laser_beam, tile.laserBeam.name
+HardcoreEnderExpansion:laser_beam, Laser Beam
 HardcoreEnderExpansion:instability_orb_ore, Instability Orb Ore
 Natura:soil.tainted, Tainted Soil
 Natura:heatsand, Heat Sand
@@ -4049,9 +4049,9 @@ Botany:stained, tile.stained.name
 Botany:ceramicPattern, tile.ceramicPattern.name
 Botany:ceramicBrick, tile.ceramicBrick.name
 ExtraTrees:planks, tile.planks.name
-ExtraTrees:fence, Fence
+ExtraTrees:fence, Oak Fence
 ExtraTrees:multifence, tile.multifence.name
-ExtraTrees:log, Wood
+ExtraTrees:log, Log
 ExtraTrees:gate, tile.null.name
 ExtraTrees:slab:0, Fir Wood Slab
 ExtraTrees:slab:1, Cedar Wood Slab
@@ -5180,7 +5180,7 @@ Railcraft:brick.sandy:2, Sandy Block
 Railcraft:brick.sandy:3, Ornate Sandy Stone
 Railcraft:brick.sandy:4, Etched Sandy Stone
 Railcraft:brick.sandy:5, Sandy Cobblestone
-Railcraft:brick.nether:0, Nether Brick
+Railcraft:brick.nether:0, Nether Bricks
 Railcraft:brick.nether:1, Fitted Nether Stone
 Railcraft:brick.nether:2, Nether Block
 Railcraft:brick.nether:3, Ornate Nether Stone
@@ -8866,7 +8866,7 @@ flansmod:gunBox.british, British Weapons Box
 flansmod:gunBox.german, German Weapons Box
 flansmod:gunBox.japanese, Japanese Weapons Box
 flansmod:gunBox.russian, Russian Weapons Box
-FlatSigns:blockFlatSign, Sign
+FlatSigns:blockFlatSign, Oak Sign
 ForgeRelocation:relocation.blockmovingrow:0, tile.relocation.blockmovingrow|0.name
 MCFrames:mcframes.motor:0, Debug Frame Motor
 MCFrames:mcframes.frame, Frame
@@ -9060,10 +9060,6 @@ Growthcraft|Rice:grc.riceSakeFluid.3, Sake
 Growthcraft|Rice:grc.riceSakeFluid.4, Divine Sake
 Growthcraft|Rice:grc.riceSakeFluid.5, Sake
 Growthcraft|Rice:grc.riceSakeFluid.6, Sake
-immersivesnow:BlockSlipperySnow:0, Slippery Snow
-immersivesnow:BlockSlipperySnowBlock, Slippery Snow
-immersivesnow:BlockQuickSnow:0, Quicksnow
-immersivesnow:BlockQuickSnowBlock, Quicksnow
 immersivecavegen:GlowLily, Glowing Waterlily
 immersivecavegen:GlowLilyBlue, Glowing Waterlily
 immersivecavegen:CeilingVine, Ceiling Vines
@@ -10159,12 +10155,12 @@ OpenBlocks:sky:1, Sky Block
 OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
+OpenPeripheral:ticketmachine, Ticket Machine
 OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
 OpenPeripheral:selector, Item Selector
-OpenPeripheral:ticketmachine, Ticket Machine
 fodc:oreConvTable, Ore Conversion Table
 fodc:oreAutoconverter, Automatic Ore Converter
 desertcraft:Desert Plants:0, Brown Armed Cactus
@@ -10961,6 +10957,16 @@ WarpDrive:blockHull1_slab_magenta:0, Magenta Stained Basic Hull Slab
 WarpDrive:blockHull1_slab_magenta:2, Magenta Stained Basic Hull Slab
 WarpDrive:blockHull1_slab_magenta:6, Magenta Stained Basic Hull Slab
 WarpDrive:blockHull1_slab_magenta:8, Magenta Stained Basic Hull Slab
+WarpDrive:blockHull1_stairs_lightBlue:0, Light Blue Stained Basic Hull Stairs
+WarpDrive:blockHull1_slab_lightBlue:0, Light Blue Stained Basic Hull Slab
+WarpDrive:blockHull1_slab_lightBlue:2, Light Blue Stained Basic Hull Slab
+WarpDrive:blockHull1_slab_lightBlue:6, Light Blue Stained Basic Hull Slab
+WarpDrive:blockHull1_slab_lightBlue:8, Light Blue Stained Basic Hull Slab
+WarpDrive:blockHull1_stairs_yellow:0, Yellow Stained Basic Hull Stairs
+WarpDrive:blockHull1_slab_yellow:0, Yellow Stained Basic Hull Slab
+WarpDrive:blockHull1_slab_yellow:2, Yellow Stained Basic Hull Slab
+WarpDrive:blockHull1_slab_yellow:6, Yellow Stained Basic Hull Slab
+WarpDrive:blockHull1_slab_yellow:8, Yellow Stained Basic Hull Slab
 Aroma1997Core:wrench, Aromic Hammer
 IC2:itemHarz, ic2.itemHarz.name
 IC2:itemRubber, ic2.itemRubber.name
@@ -16080,33 +16086,33 @@ DefenseTech:poisonPowder, Poison Powder
 DefenseTech:antidote, Antidote
 DefenseTech:signalDisrupter, Signal Disrupter
 DefenseTech:tracker, Tracker
-DefenseTech:missile:0, Conventional Missile
-DefenseTech:missile:4, Chemical Missile
-DefenseTech:missile:11, Breaching Missile
-DefenseTech:missile:16, EMP Missile
-DefenseTech:missile:21, Antimatter Missile
-DefenseTech:missile:5, Anvil Missile
-DefenseTech:missile:2, Incendiary Missile
-DefenseTech:missile:3, Debilitation Missile
-DefenseTech:missile:27, Nuclear Cluster Missile
-DefenseTech:missile:20, Hypersonic Missile
 DefenseTech:missile:13, Thermobaric Missile
-DefenseTech:missile:25, Anti-Ballistic Missile
-DefenseTech:missile:10, Sonic Missile
-DefenseTech:missile:1, Shrapnel Missile
-DefenseTech:missile:22, Red Matter Missile
-DefenseTech:missile:23, Missile Module
 DefenseTech:missile:18, Endothermic Missile
-DefenseTech:missile:6, Repulsive Missile
-DefenseTech:missile:26, Cluster Missile
-DefenseTech:missile:19, Anti-Gravitational Missile
-DefenseTech:missile:17, Exothermic Missile
-DefenseTech:missile:8, Fragmentation Missile
-DefenseTech:missile:24, Homing Missile
-DefenseTech:missile:9, Contagious Missile
+DefenseTech:missile:21, Antimatter Missile
+DefenseTech:missile:10, Sonic Missile
+DefenseTech:missile:11, Breaching Missile
+DefenseTech:missile:5, Anvil Missile
+DefenseTech:missile:23, Missile Module
+DefenseTech:missile:25, Anti-Ballistic Missile
+DefenseTech:missile:16, EMP Missile
 DefenseTech:missile:15, Nuclear Missile
-DefenseTech:missile:12, Rejuvenation Missile
+DefenseTech:missile:1, Shrapnel Missile
+DefenseTech:missile:4, Chemical Missile
+DefenseTech:missile:19, Anti-Gravitational Missile
+DefenseTech:missile:27, Nuclear Cluster Missile
+DefenseTech:missile:0, Conventional Missile
+DefenseTech:missile:22, Red Matter Missile
+DefenseTech:missile:26, Cluster Missile
+DefenseTech:missile:24, Homing Missile
 DefenseTech:missile:7, Attractive Missile
+DefenseTech:missile:20, Hypersonic Missile
+DefenseTech:missile:12, Rejuvenation Missile
+DefenseTech:missile:3, Debilitation Missile
+DefenseTech:missile:2, Incendiary Missile
+DefenseTech:missile:17, Exothermic Missile
+DefenseTech:missile:9, Contagious Missile
+DefenseTech:missile:6, Repulsive Missile
+DefenseTech:missile:8, Fragmentation Missile
 DefenseTech:defuser, Defuser
 DefenseTech:radarGun, Radar Gun
 DefenseTech:remoteDetonator, Remote Detonator
@@ -22295,7 +22301,7 @@ xreliquary:void_tear:0, Void Tear
 xreliquary:void_tear_empty, Empty Void Tear
 xreliquary:witch_hat, {{!colors.yellow}}Witch Hat
 xreliquary:witherless_rose, Witherless Rose
-xreliquary:potion, Potion
+xreliquary:potion, Condensed Potion
 rftools:shapeCardItem:0, Shape Card
 rftools:shapeCardItem:1, Shape Card (Void)
 rftools:shapeCardItem:2, Shape Card (Quarry)
@@ -22444,10 +22450,10 @@ ThermalDynamics:cover:0, Grass Block Cover
 ThermalDynamics:cover:0, Dirt Cover
 ThermalDynamics:cover:0, Podzol Cover
 ThermalDynamics:cover:0, Cobblestone Cover
-ThermalDynamics:cover:0, Oak Wood Planks Cover
-ThermalDynamics:cover:0, Spruce Wood Planks Cover
-ThermalDynamics:cover:0, Birch Wood Planks Cover
-ThermalDynamics:cover:0, Jungle Wood Planks Cover
+ThermalDynamics:cover:0, Oak Planks Cover
+ThermalDynamics:cover:0, Spruce Planks Cover
+ThermalDynamics:cover:0, Birch Planks Cover
+ThermalDynamics:cover:0, Jungle Planks Cover
 ThermalDynamics:cover:0, Acacia Planks Cover
 ThermalDynamics:cover:0, Dark Oak Planks Cover
 ThermalDynamics:cover:0, Oak Sapling Cover
@@ -22467,23 +22473,23 @@ ThermalDynamics:cover:0, Gravel Cover
 ThermalDynamics:cover:0, Gold Ore Cover
 ThermalDynamics:cover:0, Iron Ore Cover
 ThermalDynamics:cover:0, Coal Ore Cover
-ThermalDynamics:cover:0, Oak Wood Cover
-ThermalDynamics:cover:0, Spruce Wood Cover
-ThermalDynamics:cover:0, Birch Wood Cover
-ThermalDynamics:cover:0, Jungle Wood Cover
+ThermalDynamics:cover:0, Oak Log Cover
+ThermalDynamics:cover:0, Spruce Log Cover
+ThermalDynamics:cover:0, Birch Log Cover
+ThermalDynamics:cover:0, Jungle Log Cover
 ThermalDynamics:cover:0, Oak Leaves Cover
 ThermalDynamics:cover:0, Oak Leaves Cover
 ThermalDynamics:cover:0, Oak Leaves Cover
 ThermalDynamics:cover:0, Oak Leaves Cover
-ThermalDynamics:cover:0, Sponge Cover
+ThermalDynamics:cover:0, Inert Sponge Cover
 ThermalDynamics:cover:0, Glass Cover
 ThermalDynamics:cover:0, Lapis Lazuli Ore Cover
 ThermalDynamics:cover:0, Lapis Lazuli Block Cover
 ThermalDynamics:cover:0, Sandstone Cover
 ThermalDynamics:cover:0, Chiseled Sandstone Cover
-ThermalDynamics:cover:0, Smooth Sandstone Cover
-ThermalDynamics:cover:0, Powered Rail Cover
-ThermalDynamics:cover:0, Detector Rail Cover
+ThermalDynamics:cover:0, Cut Sandstone Cover
+ThermalDynamics:cover:0, Booster Track Cover
+ThermalDynamics:cover:0, Detector Track Cover
 ThermalDynamics:cover:0, Sticky Piston Cover
 ThermalDynamics:cover:0, Cobweb Cover
 ThermalDynamics:cover:0, Grass Cover
@@ -22520,7 +22526,7 @@ ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Mushroom Cover
 ThermalDynamics:cover:0, Block of Gold Cover
 ThermalDynamics:cover:0, Block of Iron Cover
-ThermalDynamics:cover:0, Stone Slab Cover
+ThermalDynamics:cover:0, Smooth Stone Slab Cover
 ThermalDynamics:cover:0, Sandstone Slab Cover
 ThermalDynamics:cover:0, Cobblestone Slab Cover
 ThermalDynamics:cover:0, Bricks Slab Cover
@@ -22530,17 +22536,17 @@ ThermalDynamics:cover:0, Quartz Slab Cover
 ThermalDynamics:cover:0, Bricks Cover
 ThermalDynamics:cover:0, TNT Cover
 ThermalDynamics:cover:0, Bookshelf Cover
-ThermalDynamics:cover:0, Moss Stone Cover
+ThermalDynamics:cover:0, Mossy Cobblestone Cover
 ThermalDynamics:cover:0, Obsidian Cover
 ThermalDynamics:cover:0, Torch Cover
 ThermalDynamics:cover:0, Fire Cover
-ThermalDynamics:cover:0, Oak Wood Stairs Cover
+ThermalDynamics:cover:0, Oak Stairs Cover
 ThermalDynamics:cover:0, Diamond Ore Cover
 ThermalDynamics:cover:0, Block of Diamond Cover
 ThermalDynamics:cover:0, Crafting Table Cover
 ThermalDynamics:cover:0, Farmland Cover
 ThermalDynamics:cover:0, Ladder Cover
-ThermalDynamics:cover:0, Rail Cover
+ThermalDynamics:cover:0, Track Cover
 ThermalDynamics:cover:0, Stone Stairs Cover
 ThermalDynamics:cover:0, Lever Cover
 ThermalDynamics:cover:0, Pressure Plate Cover
@@ -22553,7 +22559,7 @@ ThermalDynamics:cover:0, Ice Cover
 ThermalDynamics:cover:0, Snow Cover
 ThermalDynamics:cover:0, Cactus Cover
 ThermalDynamics:cover:0, Clay Cover
-ThermalDynamics:cover:0, Fence Cover
+ThermalDynamics:cover:0, Oak Fence Cover
 ThermalDynamics:cover:0, Pumpkin Cover
 ThermalDynamics:cover:0, Netherrack Cover
 ThermalDynamics:cover:0, Soul Sand Cover
@@ -22576,10 +22582,10 @@ ThermalDynamics:cover:0, Brown Stained Glass Cover
 ThermalDynamics:cover:0, Green Stained Glass Cover
 ThermalDynamics:cover:0, Red Stained Glass Cover
 ThermalDynamics:cover:0, Black Stained Glass Cover
-ThermalDynamics:cover:0, Trapdoor Cover
-ThermalDynamics:cover:0, Stone Monster Egg Cover
-ThermalDynamics:cover:0, Cobblestone Monster Egg Cover
-ThermalDynamics:cover:0, Stone Brick Monster Egg Cover
+ThermalDynamics:cover:0, Oak Trapdoor Cover
+ThermalDynamics:cover:0, Infested Stone Cover
+ThermalDynamics:cover:0, Infested Cobblestone Cover
+ThermalDynamics:cover:0, Infested Stone Bricks Cover
 ThermalDynamics:cover:0, Infested Mossy Stone Bricks Cover
 ThermalDynamics:cover:0, Infested Cracked Stone Bricks Cover
 ThermalDynamics:cover:0, Infested Chiseled Stone Bricks Cover
@@ -22593,22 +22599,22 @@ ThermalDynamics:cover:0, Iron Bars Cover
 ThermalDynamics:cover:0, Glass Pane Cover
 ThermalDynamics:cover:0, Melon Cover
 ThermalDynamics:cover:0, Vines Cover
-ThermalDynamics:cover:0, Fence Gate Cover
+ThermalDynamics:cover:0, Oak Fence Gate Cover
 ThermalDynamics:cover:0, Brick Stairs Cover
 ThermalDynamics:cover:0, Stone Brick Stairs Cover
 ThermalDynamics:cover:0, Mycelium Cover
 ThermalDynamics:cover:0, Lily Pad Cover
-ThermalDynamics:cover:0, Nether Brick Cover
+ThermalDynamics:cover:0, Nether Bricks Cover
 ThermalDynamics:cover:0, Nether Brick Fence Cover
 ThermalDynamics:cover:0, Nether Brick Stairs Cover
 ThermalDynamics:cover:0, End Portal Cover
 ThermalDynamics:cover:0, End Stone Cover
 ThermalDynamics:cover:0, Dragon Egg Cover
 ThermalDynamics:cover:0, Redstone Lamp Cover
-ThermalDynamics:cover:0, Oak Wood Slab Cover
-ThermalDynamics:cover:0, Spruce Wood Slab Cover
-ThermalDynamics:cover:0, Birch Wood Slab Cover
-ThermalDynamics:cover:0, Jungle Wood Slab Cover
+ThermalDynamics:cover:0, Oak Slab Cover
+ThermalDynamics:cover:0, Spruce Slab Cover
+ThermalDynamics:cover:0, Birch Slab Cover
+ThermalDynamics:cover:0, Jungle Slab Cover
 ThermalDynamics:cover:0, Acacia Slab Cover
 ThermalDynamics:cover:0, Dark Oak Slab Cover
 ThermalDynamics:cover:0, Cocoa Cover
@@ -22616,9 +22622,9 @@ ThermalDynamics:cover:0, Sandstone Stairs Cover
 ThermalDynamics:cover:0, Emerald Ore Cover
 ThermalDynamics:cover:0, Tripwire Hook Cover
 ThermalDynamics:cover:0, Block of Emerald Cover
-ThermalDynamics:cover:0, Spruce Wood Stairs Cover
-ThermalDynamics:cover:0, Birch Wood Stairs Cover
-ThermalDynamics:cover:0, Jungle Wood Stairs Cover
+ThermalDynamics:cover:0, Spruce Stairs Cover
+ThermalDynamics:cover:0, Birch Stairs Cover
+ThermalDynamics:cover:0, Jungle Stairs Cover
 ThermalDynamics:cover:0, Cobblestone Wall Cover
 ThermalDynamics:cover:0, Mossy Cobblestone Wall Cover
 ThermalDynamics:cover:0, Carrots Cover
@@ -22633,25 +22639,25 @@ ThermalDynamics:cover:0, Block of Redstone Cover
 ThermalDynamics:cover:0, Nether Quartz Ore Cover
 ThermalDynamics:cover:0, Block of Quartz Cover
 ThermalDynamics:cover:0, Chiseled Quartz Block Cover
-ThermalDynamics:cover:0, Pillar Quartz Block Cover
+ThermalDynamics:cover:0, Quartz Pillar Cover
 ThermalDynamics:cover:0, Quartz Stairs Cover
-ThermalDynamics:cover:0, Activator Rail Cover
-ThermalDynamics:cover:0, White Stained Clay Cover
-ThermalDynamics:cover:0, Orange Stained Clay Cover
-ThermalDynamics:cover:0, Magenta Stained Clay Cover
-ThermalDynamics:cover:0, Light Blue Stained Clay Cover
-ThermalDynamics:cover:0, Yellow Stained Clay Cover
-ThermalDynamics:cover:0, Lime Stained Clay Cover
-ThermalDynamics:cover:0, Pink Stained Clay Cover
-ThermalDynamics:cover:0, Gray Stained Clay Cover
-ThermalDynamics:cover:0, Light Gray Stained Clay Cover
-ThermalDynamics:cover:0, Cyan Stained Clay Cover
-ThermalDynamics:cover:0, Purple Stained Clay Cover
-ThermalDynamics:cover:0, Blue Stained Clay Cover
-ThermalDynamics:cover:0, Brown Stained Clay Cover
-ThermalDynamics:cover:0, Green Stained Clay Cover
-ThermalDynamics:cover:0, Red Stained Clay Cover
-ThermalDynamics:cover:0, Black Stained Clay Cover
+ThermalDynamics:cover:0, Activator Track Cover
+ThermalDynamics:cover:0, White Terracotta Cover
+ThermalDynamics:cover:0, Orange Terracotta Cover
+ThermalDynamics:cover:0, Magenta Terracotta Cover
+ThermalDynamics:cover:0, Light Blue Terracotta Cover
+ThermalDynamics:cover:0, Yellow Terracotta Cover
+ThermalDynamics:cover:0, Lime Terracotta Cover
+ThermalDynamics:cover:0, Pink Terracotta Cover
+ThermalDynamics:cover:0, Gray Terracotta Cover
+ThermalDynamics:cover:0, Light Gray Terracotta Cover
+ThermalDynamics:cover:0, Cyan Terracotta Cover
+ThermalDynamics:cover:0, Purple Terracotta Cover
+ThermalDynamics:cover:0, Blue Terracotta Cover
+ThermalDynamics:cover:0, Brown Terracotta Cover
+ThermalDynamics:cover:0, Green Terracotta Cover
+ThermalDynamics:cover:0, Red Terracotta Cover
+ThermalDynamics:cover:0, Black Terracotta Cover
 ThermalDynamics:cover:0, White Stained Glass Pane Cover
 ThermalDynamics:cover:0, Orange Stained Glass Pane Cover
 ThermalDynamics:cover:0, Magenta Stained Glass Pane Cover
@@ -22696,7 +22702,7 @@ ThermalDynamics:cover:0, Brown Carpet Cover
 ThermalDynamics:cover:0, Green Carpet Cover
 ThermalDynamics:cover:0, Red Carpet Cover
 ThermalDynamics:cover:0, Black Carpet Cover
-ThermalDynamics:cover:0, Hardened Clay Cover
+ThermalDynamics:cover:0, Terracotta Cover
 ThermalDynamics:cover:0, Block of Coal Cover
 ThermalDynamics:cover:0, Packed Ice Cover
 ThermalDynamics:cover:0, Sunflower Cover
@@ -22865,22 +22871,22 @@ ThermalDynamics:cover:0, Colored Stone Bricks (Brown Frequency) Cover
 ThermalDynamics:cover:0, Colored Stone Bricks (Green Frequency) Cover
 ThermalDynamics:cover:0, Colored Stone Bricks (Red Frequency) Cover
 ThermalDynamics:cover:0, Colored Stone Bricks (Black Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (White Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Orange Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Magenta Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Light Blue Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Yellow Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Lime Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Pink Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Gray Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Light Gray Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Cyan Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Purple Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Blue Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Brown Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Green Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Red Frequency) Cover
-ThermalDynamics:cover:0, Colored Oak Wood Planks (Black Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (White Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Orange Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Magenta Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Light Blue Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Yellow Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Lime Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Pink Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Gray Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Light Gray Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Cyan Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Purple Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Blue Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Brown Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Green Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Red Frequency) Cover
+ThermalDynamics:cover:0, Colored Oak Planks (Black Frequency) Cover
 ThermalDynamics:cover:0, Colored Glowstone (White Frequency) Cover
 ThermalDynamics:cover:0, Colored Glowstone (Orange Frequency) Cover
 ThermalDynamics:cover:0, Colored Glowstone (Magenta Frequency) Cover
@@ -23830,7 +23836,7 @@ ThermalDynamics:cover:0, Ravaged Brick Cover
 ThermalDynamics:cover:0, Sphalerite Cover
 ThermalDynamics:cover:0, Sphalerite with Stardust Cover
 ThermalDynamics:cover:0, Ravaged Brick Fence Cover
-ThermalDynamics:cover:0, tile.biomeIslandCore.name Cover
+ThermalDynamics:cover:0, Biome Island Core Cover
 ThermalDynamics:cover:0, Smooth Glowing Obsidian Cover
 ThermalDynamics:cover:0, Chiseled Glowing Obsidian Cover
 ThermalDynamics:cover:0, Glowing Obsidian Pillar Cover
@@ -24162,7 +24168,7 @@ ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
 ThermalDynamics:cover:0, Flowerbed Cover
-ThermalDynamics:cover:0, Fence Gate Cover
+ThermalDynamics:cover:0, Oak Fence Gate Cover
 ThermalDynamics:cover:0, Ectoplasm Cover
 ThermalDynamics:cover:0, Water Hive Cover
 ThermalDynamics:cover:0, Rock Hive Cover
@@ -24913,7 +24919,7 @@ ThermalDynamics:cover:0, Sandy Block Cover
 ThermalDynamics:cover:0, Ornate Sandy Stone Cover
 ThermalDynamics:cover:0, Etched Sandy Stone Cover
 ThermalDynamics:cover:0, Sandy Cobblestone Cover
-ThermalDynamics:cover:0, Nether Brick Cover
+ThermalDynamics:cover:0, Nether Bricks Cover
 ThermalDynamics:cover:0, Fitted Nether Stone Cover
 ThermalDynamics:cover:0, Nether Block Cover
 ThermalDynamics:cover:0, Ornate Nether Stone Cover
@@ -27907,10 +27913,6 @@ ThermalDynamics:cover:0, Sake Cover
 ThermalDynamics:cover:0, Divine Sake Cover
 ThermalDynamics:cover:0, Sake Cover
 ThermalDynamics:cover:0, Sake Cover
-ThermalDynamics:cover:0, Slippery Snow Cover
-ThermalDynamics:cover:0, Slippery Snow Cover
-ThermalDynamics:cover:0, Quicksnow Cover
-ThermalDynamics:cover:0, Quicksnow Cover
 ThermalDynamics:cover:0, Glowing Waterlily Cover
 ThermalDynamics:cover:0, Glowing Waterlily Cover
 ThermalDynamics:cover:0, Ceiling Vines Cover
@@ -29476,16 +29478,6 @@ WarpDrive:itemForceFieldUpgrade:15, Speed upgrade
 WarpDrive:itemForceFieldUpgrade:16, Stabilization upgrade
 WarpDrive:itemForceFieldUpgrade:17, Thickness upgrade
 WarpDrive:itemForceFieldUpgrade:18, Translation upgrade
-WarpDrive:blockHull1_stairs_lightBlue:0, Light Blue Stained Basic Hull Stairs
-WarpDrive:blockHull1_slab_lightBlue:0, Light Blue Stained Basic Hull Slab
-WarpDrive:blockHull1_slab_lightBlue:2, Light Blue Stained Basic Hull Slab
-WarpDrive:blockHull1_slab_lightBlue:6, Light Blue Stained Basic Hull Slab
-WarpDrive:blockHull1_slab_lightBlue:8, Light Blue Stained Basic Hull Slab
-WarpDrive:blockHull1_stairs_yellow:0, Yellow Stained Basic Hull Stairs
-WarpDrive:blockHull1_slab_yellow:0, Yellow Stained Basic Hull Slab
-WarpDrive:blockHull1_slab_yellow:2, Yellow Stained Basic Hull Slab
-WarpDrive:blockHull1_slab_yellow:6, Yellow Stained Basic Hull Slab
-WarpDrive:blockHull1_slab_yellow:8, Yellow Stained Basic Hull Slab
 WarpDrive:blockHull1_stairs_lime:0, Lime Stained Basic Hull Stairs
 WarpDrive:blockHull1_slab_lime:0, Lime Stained Basic Hull Slab
 WarpDrive:blockHull1_slab_lime:2, Lime Stained Basic Hull Slab
