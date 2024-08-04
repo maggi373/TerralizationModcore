@@ -2,16 +2,16 @@
   "_schemaVersion": 6,
   "_lastMCVersionId": 5,
   "generalSettings": {
-    "detectATLauncherInstance": true,
-    "detectCurseManifest": true,
-    "detectMultiMCManifest": true,
-    "detectMCUpdaterInstance": true,
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
     "detectTechnicPack": true,
-    "detectModrinthPack": true,
+    "detectModrinthPack": false,
     "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
-    "clientId": "450485984333660181",
+    "clientId": "826150667147411556",
     "defaultIcon": "grass",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
@@ -179,7 +179,7 @@
       "default": "https://via.placeholder.com/256.png"
     },
     "dynamicVariables": {
-      "default": "Example Text",
+      "default": "Terralization",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",
@@ -188,7 +188,7 @@
       "player_info_out": "As {player.name}",
       "player_info_health": "Health: {player.health.current}/{player.health.max}",
       "world_info": "On {world.name}",
-      "pack": "{pack.name}"
+      "pack": "Terralization"
     }
   }
 }
