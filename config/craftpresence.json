@@ -12,7 +12,7 @@
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "826150667147411556",
-    "defaultIcon": "grass",
+    "defaultIcon": "main",
     "enableJoinRequests": false,
     "partyPrivacyLevel": 1,
     "preferredClientLevel": 3,
@@ -20,7 +20,7 @@
     "autoRegister": false
   },
   "biomeSettings": {
-    "fallbackBiomeIcon": "unknown",
+    "fallbackBiomeIcon": "main",
     "biomeData": {
       "default": {
         "textOverride": "Playing in {biome.name}"
@@ -28,7 +28,7 @@
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "unknown",
+    "fallbackDimensionIcon": "main",
     "dimensionData": {
       "default": {
         "textOverride": "In the {dimension.name}"
@@ -36,7 +36,7 @@
     }
   },
   "serverSettings": {
-    "fallbackServerIcon": "default",
+    "fallbackServerIcon": "main",
     "fallbackServerName": "Minecraft Server",
     "fallbackServerMotd": "A Minecraft Server",
     "serverData": {
@@ -72,7 +72,7 @@
     "refreshRate": 2,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
-      "fallbackGuiIcon": "unknown",
+      "fallbackGuiIcon": "main",
       "guiData": {
         "default": {
           "textOverride": "In {screen.name}"
@@ -83,7 +83,7 @@
       "default": "Holding {item.message.holding}"
     },
     "entitySettings": {
-      "fallbackEntityIcon": "unknown",
+      "fallbackEntityIcon": "main",
       "targetData": {
         "default": {
           "textOverride": "Targeting {entity.target.name}"
