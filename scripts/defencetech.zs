@@ -1,6 +1,6 @@
 //Defencetech
 var Antimatter = <NuclearCraft:antimatter>;
-var Nuke = <NuclearCraft:antimatterBomb>;
+var Nuke = <NuclearCraft:nuke>;
 var AntimatterBomb = <DefenseTech:explosives:21>; 
 var MissileModule = <DefenseTech:missile:23>;
 var NuclearMissile = <DefenseTech:missile:15>;
