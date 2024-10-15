@@ -1,9 +1,9 @@
 *.*
-!/.github/
-!/config/
-!/resourcepacks/Main Theme Textures/
-!/resources/
-!/scripts/
+!/.github/*
+!/config/*
+!/resourcepacks/Main Theme Textures/*
+!/resources/*
+!/scripts/*
 !.gitignore
 !betterfps.txt
 !CHANGELOG.md
@@ -17,16 +17,9 @@
 !Rules.pdf
 !servers.dat
 !*.zs
-/bin/
-/resourcepacks/
+/bin/*
+/resourcepacks/*
+!*.png
 !*.cfg
-!/mods
-!/Flan
-!/libraries
-/bin
-/resourcepacks
-!server-icon.png
-!thermos.yml
-!thermos.jar
-!MODStoREMOVE.md
-!*.jar
+!*.json
+!*.disabled

@@ -142,7 +142,7 @@
       "weight": 10,
       "item": {
         "ore": null,
-        "comment": "Rotten Flesh",
+        "comment": "Zombie Brain",
         "mod_id": "minecraft",
         "name": "rotten_flesh",
         "amount": 1,
@@ -247,7 +247,7 @@
       "weight": 60,
       "item": {
         "ore": null,
-        "comment": "Raw Fish",
+        "comment": "Raw Cod",
         "mod_id": "minecraft",
         "name": "fish",
         "amount": 1,
