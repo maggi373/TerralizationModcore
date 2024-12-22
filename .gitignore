@@ -23,3 +23,13 @@
 !*.cfg
 !*.json
 !*.disabled
+!.disabled
+!.cfg
+!/mods
+!/Flan
+!/libraries
+!server-icon.png
+!thermos.yml
+!thermos.jar
+!MODStoREMOVE.md
+!*.jar gitignore
