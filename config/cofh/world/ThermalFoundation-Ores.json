@@ -14,7 +14,7 @@
             }
         ],
         "clusterSize": 9,
-        "numClusters": 9,
+        "numClusters": 7,
         "meanHeight": 45,
         "maxVariance": 16,
         "retrogen": "true",
@@ -43,7 +43,7 @@
             }
         ],
         "clusterSize": 7,
-        "numClusters": 8,
+        "numClusters": 6,
         "minHeight": 20,
         "maxHeight": 55,
         "retrogen": "true",
