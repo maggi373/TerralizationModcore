@@ -97,7 +97,7 @@
         ],
         "material": "minecraft:stone",
         "clusterSize": 14,
-        "numClusters": 8,
+        "numClusters": 6,
         "meanHeight": 150,
         "maxVariance": 60,
         "retrogen": "true",

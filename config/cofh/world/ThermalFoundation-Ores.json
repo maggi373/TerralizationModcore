@@ -5,16 +5,16 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata":0,
-                "weight": 30
+                "weight": 25
             },
             {
                 "name": "consolidatedores:OreBlock",
                 "metadata": 0,
-                "weight": 70
+                "weight": 75
             }
         ],
         "clusterSize": 16,
-        "numClusters": 6,
+        "numClusters": 4,
         "meanHeight": 45,
         "maxVariance": 16,
         "retrogen": "true",
@@ -34,16 +34,16 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata":1,
-                "weight": 20
+                "weight": 15
             },
             {
                 "name": "consolidatedores:OreBlock",
                 "metadata": 4,
-                "weight": 80
+                "weight": 85
             }
         ],
         "clusterSize": 14,
-        "numClusters": 5,
+        "numClusters": 4,
         "minHeight": 20,
         "maxHeight": 55,
         "retrogen": "true",
@@ -61,8 +61,9 @@
         "template": "uniform",
         "block": [
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":20},
-            {"name": "consolidatedores:OreBlock", "metadata": 4, "weight":60},
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
+            {"name": "consolidatedores:OreBlock", "metadata": 3, "weight":50},
+            {"name": "consolidatedores:OreBlock", "metadata": 6, "weight":20},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":10}
         ],
         "clusterSize": 9,
         "numClusters": 3,
@@ -81,9 +82,10 @@
     "lead": {
         "template": "normal",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 30},
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10},
-            {"name": "consolidatedores:OreBlock", "metadata": 3, "weight": 60}
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 10},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 30},
+            {"name": "consolidatedores:OreBlock", "metadata": 6, "weight":5},
+            {"name": "consolidatedores:OreBlock", "metadata": 3, "weight": 55}
         ],
         "clusterSize": 11,
         "numClusters": 4,
@@ -153,7 +155,7 @@
             }
         ],
         "clusterSize": 12,
-        "numClusters": 9,
+        "numClusters": 7,
         "minHeight":  80,
         "maxHeight": 200,
         "retrogen": "true",
