@@ -57,7 +57,7 @@
             }
         ],
         "clusterSize": 25,
-        "numClusters": 3,
+        "numClusters": 5,
         "chunkChance": 2,
         "minHeight": 88,
         "veinHeight": 45,
