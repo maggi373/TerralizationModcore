@@ -39,7 +39,7 @@
         "template": "uniform",
         "block": {"name": "NuclearCraft:blockOre", "metadata": 6},
         "material":"minecraft:stone",
-        "clusterSize": 2,
+        "clusterSize": 3,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 25,
@@ -48,7 +48,7 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
-            0
+            -1
         ]
     },
     "Lithium": {
