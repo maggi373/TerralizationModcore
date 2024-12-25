@@ -2,7 +2,8 @@
     "Uranium": {
         "template": "uniform",
         "block": [
-            {"name": "NuclearCraft:blockOre", "metadata": 4, "weight": 85},
+            {"name": "NuclearCraft:blockOre", "metadata": 4, "weight": 65},
+            {"name": "consolidatedores:OreBlock", "metadata": 3, "weight":20},
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 15}
         ],
         "material":"minecraft:stone",
