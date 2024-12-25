@@ -56,10 +56,10 @@
                 "weight": 35
             }
         ],
-        "clusterSize": 20,
+        "clusterSize": 25,
         "numClusters": 3,
         "chunkChance": 2,
-        "minHeight": 100,
+        "minHeight": 88,
         "veinHeight": 45,
         "veinDiameter": 45,
         "verticalDensity": 20,
