@@ -83,10 +83,21 @@
     },
     "ironhigh": {
         "template": "normal",
-        "block": "iron_ore",
+        "block": [
+            {
+                "name": "iron_ore",
+                "metadata":0,
+                "weight": 30
+            },
+            {
+                "name": "consolidatedores:OreBlock",
+                "metadata": 2,
+                "weight": 70
+            }
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 11,
+        "clusterSize": 14,
+        "numClusters": 8,
         "meanHeight": 150,
         "maxVariance": 60,
         "retrogen": "true",
@@ -103,16 +114,16 @@
             {
                 "name": "gold_ore",
                 "metadata":0,
-                "weight": 60
+                "weight": 30
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 8,
-                "weight": 40
+                "name": "consolidatedores:OreBlock",
+                "metadata": 1,
+                "weight": 70
             }
         ],
         "material": "minecraft:stone",
-        "clusterSize": 5,
+        "clusterSize": 7,
         "numClusters": 2,
         "meanHeight": 25,
         "maxVariance": 5,

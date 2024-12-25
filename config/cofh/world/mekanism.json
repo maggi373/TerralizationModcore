@@ -1,10 +1,21 @@
 {
     "osmium": {
         "template": "uniform",
-        "block": "Mekanism:OreBlock",
+        "block": [
+            {
+                "name": "Mekanism:OreBlock",
+                "metadata":0,
+                "weight": 30
+            },
+            {
+                "name": "consolidatedores:OreBlock",
+                "metadata": 5,
+                "weight": 70
+            }
+        ],
         "material": "minecraft:stone",
-        "clusterSize": 7,
-        "numClusters": 8,
+        "clusterSize": 14,
+        "numClusters": 6,
         "minHeight": 13,
         "maxHeight": 34,
         "retrogen": "true",

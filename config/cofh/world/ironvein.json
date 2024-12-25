@@ -13,8 +13,8 @@
                 "weight": 55
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 7,
+                "name": "consolidatedores:OreBlock",
+                "metadata": 3,
                 "weight": 35
             }
         ],
@@ -51,8 +51,8 @@
                 "weight": 55
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 7,
+                "name": "consolidatedores:OreBlock",
+                "metadata": 3,
                 "weight": 35
             }
         ],

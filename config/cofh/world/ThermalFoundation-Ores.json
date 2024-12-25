@@ -5,16 +5,16 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata":0,
-                "weight": 70
+                "weight": 30
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 9,
-                "weight": 30
+                "name": "consolidatedores:OreBlock",
+                "metadata": 0,
+                "weight": 70
             }
         ],
-        "clusterSize": 9,
-        "numClusters": 7,
+        "clusterSize": 16,
+        "numClusters": 6,
         "meanHeight": 45,
         "maxVariance": 16,
         "retrogen": "true",
@@ -34,16 +34,16 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata":1,
-                "weight": 80
+                "weight": 20
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 10,
-                "weight": 20
+                "name": "consolidatedores:OreBlock",
+                "metadata": 4,
+                "weight": 80
             }
         ],
-        "clusterSize": 7,
-        "numClusters": 6,
+        "clusterSize": 14,
+        "numClusters": 5,
         "minHeight": 20,
         "maxHeight": 55,
         "retrogen": "true",
@@ -60,11 +60,12 @@
     "silver": {
         "template": "uniform",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":20},
+            {"name": "consolidatedores:OreBlock", "metadata": 4, "weight":60},
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
         ],
-        "clusterSize": 6,
-        "numClusters": 4,
+        "clusterSize": 9,
+        "numClusters": 3,
         "minHeight": 5,
         "maxHeight": 30,
         "retrogen": "true",
@@ -80,12 +81,12 @@
     "lead": {
         "template": "normal",
         "block": [
-            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 60},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 30},
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10},
-            {"name": "Railcraft:ore", "metadata": 11, "weight": 30}
+            {"name": "consolidatedores:OreBlock", "metadata": 3, "weight": 60}
         ],
-        "clusterSize": 9,
-        "numClusters": 5,
+        "clusterSize": 11,
+        "numClusters": 4,
         "meanHeight": 30,
         "maxVariance": 12,
         "retrogen": "true",
@@ -143,16 +144,16 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata":0,
-                "weight": 70
+                "weight": 30
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 9,
-                "weight": 30
+                "name": "consolidatedores:OreBlock",
+                "metadata": 0,
+                "weight": 70
             }
         ],
-        "clusterSize": 9,
-        "numClusters": 11,
+        "clusterSize": 12,
+        "numClusters": 9,
         "minHeight":  80,
         "maxHeight": 200,
         "retrogen": "true",
