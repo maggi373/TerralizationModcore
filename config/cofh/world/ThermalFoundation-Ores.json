@@ -143,7 +143,7 @@
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
         "clusterSize": 7,
-        "numClusters": 2,
+        "numClusters": 3,
         "minHeight": 90,
         "maxHeight": 120,
         "retrogen": "true",
@@ -193,7 +193,7 @@
             }
         ],
         "clusterSize": 12,
-        "numClusters": 9,
+        "numClusters": 8,
         "minHeight":  70,
         "maxHeight": 250,
         "retrogen": "true",
@@ -221,7 +221,7 @@
             }
         ],
         "clusterSize": 12,
-        "numClusters": 5,
+        "numClusters": 4,
         "minHeight":  70,
         "maxHeight": 250,
         "retrogen": "true",
