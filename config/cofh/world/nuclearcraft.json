@@ -7,7 +7,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 15}
         ],
         "material":"minecraft:stone",
-        "clusterSize": 7,
+        "clusterSize": 8,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 36,

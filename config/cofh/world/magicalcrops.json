@@ -3,7 +3,7 @@
         "template": "uniform",
         "block": {"name": "magicalcrops:magicalcrops_MinicioOre"},
         "material": "minecraft:stone",
-        "clusterSize": 2,
+        "clusterSize": 3,
         "numClusters": 1,
         "minHeight": 0,
         "maxHeight": 42,
