@@ -140,7 +140,7 @@
         "block": "redstone_ore",
         "material": "minecraft:stone",
         "clusterSize": 7,
-        "numClusters": 8,
+        "numClusters": 7,
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
