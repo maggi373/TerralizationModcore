@@ -24,7 +24,7 @@
         ],
         "clusterSize": 20,
         "numClusters": 1,
-        "chunkChance": 8,
+        "chunkChance": 7,
         "minHeight": 48,
         "veinHeight": 25,
         "veinDiameter": 25,
