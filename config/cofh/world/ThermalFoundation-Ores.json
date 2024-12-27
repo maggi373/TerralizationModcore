@@ -67,7 +67,7 @@
         ],
         "clusterSize": 9,
         "numClusters": 3,
-        "minHeight": 5,
+        "minHeight": 4,
         "maxHeight": 30,
         "retrogen": "true",
         "biomeRestriction": "none",
@@ -109,7 +109,7 @@
             {"name": "consolidatedores:OreBlock", "metadata": 3, "weight": 45}
         ],
         "clusterSize": 11,
-        "numClusters": 4,
+        "numClusters": 3,
         "meanHeight": 30,
         "maxVariance": 12,
         "retrogen": "true",
