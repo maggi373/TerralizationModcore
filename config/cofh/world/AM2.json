@@ -54,5 +54,19 @@
         "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [-1]
+    },
+    "wizardrycrystal": {
+        "template": "uniform",
+        "block": {"name": "wizardry:crystal_ore", "metadata": 2},
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [0]
     }
 }
