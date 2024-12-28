@@ -33,6 +33,22 @@
             0
         ]
     },
+    "Rubyhigh": {
+        "template": "uniform",
+        "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 0},
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 100,
+        "maxHeight": 150,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
     "Sapphire": {
         "template": "uniform",
         "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 1},
@@ -49,14 +65,46 @@
             0
         ]
     },
+    "Sapphirehigh": {
+        "template": "uniform",
+        "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 1},
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 100,
+        "maxHeight": 150,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
     "Peridot": {
         "template": "uniform",
         "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 2},
         "material": "minecraft:stone",
         "clusterSize": 5,
-        "numClusters": 1,
+        "numClusters": 2,
         "minHeight": 0,
         "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "Peridothigh": {
+        "template": "uniform",
+        "block": {"name": "ProjRed|Exploration:projectred.exploration.ore", "metadata": 2},
+        "material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 1,
+        "minHeight": 55,
+        "maxHeight": 75,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],

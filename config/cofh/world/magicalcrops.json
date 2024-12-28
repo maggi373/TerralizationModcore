@@ -1,0 +1,18 @@
+{
+    "Essence": {
+        "template": "uniform",
+        "block": {"name": "magicalcrops:magicalcrops_MinicioOre"},
+        "material": "minecraft:stone",
+        "clusterSize": 3,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 42,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}

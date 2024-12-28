@@ -10,22 +10,26 @@
             {
                 "name": "minecraft:iron_ore",
                 "metadata": 0,
-                "weight": 55
+                "weight": 30
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 7,
-                "weight": 35
+                "name": "consolidatedores:OreBlock",
+                "metadata": 2,
+                "weight": 30
+            },
+            {
+                "name": "chisel:andesite",
+                "weight": 30
             }
         ],
         "clusterSize": 20,
         "numClusters": 1,
-        "chunkChance": 5,
-        "minHeight": 32,
-        "veinHeight": 45,
-        "veinDiameter": 45,
+        "chunkChance": 7,
+        "minHeight": 48,
+        "veinHeight": 25,
+        "veinDiameter": 25,
         "verticalDensity": 20,
-        "horizontalDensity": 20,
+        "horizontalDensity": 30,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
@@ -48,22 +52,26 @@
             {
                 "name": "minecraft:iron_ore",
                 "metadata": 0,
-                "weight": 55
+                "weight": 30
             },
             {
-                "name": "Railcraft:ore",
-                "metadata": 7,
-                "weight": 35
+                "name": "consolidatedores:OreBlock",
+                "metadata": 2,
+                "weight": 30
+            },
+            {
+                "name": "chisel:andesite",
+                "weight": 30
             }
         ],
-        "clusterSize": 20,
-        "numClusters": 3,
+        "clusterSize": 45,
+        "numClusters": 2,
         "chunkChance": 2,
-        "minHeight": 100,
+        "minHeight": 90,
         "veinHeight": 45,
         "veinDiameter": 45,
-        "verticalDensity": 20,
-        "horizontalDensity": 20,
+        "verticalDensity": 28,
+        "horizontalDensity": 40,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [
